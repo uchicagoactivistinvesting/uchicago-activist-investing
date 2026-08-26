@@ -1,0 +1,443 @@
+:root {
+  --maroon: #77080e;
+  --maroon-dark: #5c060b;
+  --ink: #1c1c1c;
+  --body: #3c3c3c;
+  --muted: #6b6b6b;
+  --rule: #dddad5;
+  --rule-light: rgba(255, 255, 255, 0.24);
+  --paper: #faf9f7;
+  --paper-alt: #f1efeb;
+
+  --serif: "EB Garamond", "Iowan Old Style", Georgia, serif;
+  --sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+
+  --max: 1080px;
+  --max-narrow: 760px;
+
+  /* Spacing scale. Every gap on the page is one of these five steps.
+     sp-1  heading to its own body copy
+     sp-2  icon to heading, and small notes
+     sp-3  section heading to section content
+     sp-4  between sibling blocks, and across dividers
+     sp-5  vertical padding of a section */
+  --sp-1: 10px;
+  --sp-2: clamp(16px, 1.8vw, 22px);
+  --sp-3: clamp(22px, 2.6vw, 32px);
+  --sp-4: clamp(30px, 3.6vw, 44px);
+  --sp-5: clamp(64px, 8.5vw, 104px);
+
+  --gutter: clamp(22px, 4vw, 32px);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--body);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; display: block; }
+
+a { color: var(--maroon); }
+
+.wrap {
+  width: 100%;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.wrap.narrow { max-width: var(--max-narrow); }
+
+/* ---------- Hero ---------- */
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Symmetric while the hero stands alone. With the rest of the page
+     restored, the bottom needs to reserve room for the scroll cue again:
+     clamp(112px, 13.5vh, 130px), plus border-bottom: 1px solid var(--rule); */
+  padding: clamp(52px, 11vh, 132px) 0;
+  background: linear-gradient(180deg, var(--paper) 0%, var(--paper) 56%, var(--paper-alt) 100%);
+  overflow: hidden;
+}
+
+.hero-inner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(34px, 6vh, 72px);
+  text-align: center;
+}
+
+.hero-logo {
+  width: min(100%, clamp(260px, 46vw, 560px));
+  height: auto;
+  flex: none;
+}
+
+.coming-soon {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(12px, 3vw, 34px);
+  width: 100%;
+}
+
+/* Fading hairlines above and below the wordmark */
+.cs-mark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(9px, 1.2vh, 15px);
+}
+
+.cs-mark::before,
+.cs-mark::after {
+  content: "";
+  width: clamp(44px, 8vw, 84px);
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    rgba(119, 8, 14, 0),
+    rgba(119, 8, 14, 0.45),
+    rgba(119, 8, 14, 0)
+  );
+}
+
+.cs-text {
+  font-family: var(--serif);
+  font-size: clamp(1.15rem, 3.1vw, 1.9rem);
+  line-height: 1.2;
+  letter-spacing: 0.34em;
+  text-indent: 0.34em;
+  text-transform: uppercase;
+  color: var(--maroon);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.cs-rule {
+  position: relative;
+  height: 1px;
+  width: clamp(30px, 10vw, 104px);
+  flex: 0 1 auto;
+}
+
+.cs-rule::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 5px;
+  height: 5px;
+  background: var(--maroon);
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.cs-rule:first-child {
+  background: linear-gradient(to right, rgba(119, 8, 14, 0), rgba(119, 8, 14, 0.55));
+}
+
+.cs-rule:first-child::after { right: -2px; }
+
+.cs-rule:last-child {
+  background: linear-gradient(to left, rgba(119, 8, 14, 0), rgba(119, 8, 14, 0.55));
+}
+
+.cs-rule:last-child::after { left: -2px; }
+
+.hero-foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: none;
+}
+
+.lede {
+  /* Wide enough to hold the sentence on two lines from roughly 600px up,
+     balanced so neither line is left with a widow */
+  max-width: min(100%, 860px);
+  text-wrap: balance;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.12rem, 2.3vw, 1.5rem);
+  line-height: 1.56;
+  color: var(--ink);
+}
+
+.scroll-cue {
+  position: absolute;
+  left: 50%;
+  bottom: clamp(24px, 4.5vh, 44px);
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-indent: 0.16em;
+  text-transform: uppercase;
+  transition: color 0.15s ease;
+}
+
+.scroll-cue:hover { color: var(--maroon); }
+
+.scroll-cue svg { width: 17px; height: auto; }
+
+/* ---------- Buttons ---------- */
+
+.btn {
+  display: inline-block;
+  font-size: clamp(12px, 1.15vw, 13.5px);
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-indent: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 17px clamp(32px, 4.6vw, 46px);
+  border: 1px solid var(--maroon);
+  transition: background 0.18s ease, border-color 0.18s ease,
+              box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.btn-primary {
+  background: var(--maroon);
+  color: #fff;
+  margin-top: clamp(20px, 3.2vh, 34px);
+  /* Hairline inside the fill, so the edge reads as engraved rather than flat */
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.16);
+}
+
+.btn-primary:hover {
+  background: var(--maroon-dark);
+  border-color: var(--maroon-dark);
+  transform: translateY(-1px);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.22),
+              0 6px 18px rgba(119, 8, 14, 0.22);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.16);
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--maroon);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn { transition: background 0.18s ease, border-color 0.18s ease; }
+  .btn-primary:hover { transform: none; }
+}
+
+/* ---------- Sections ---------- */
+
+.section { padding: var(--sp-5) 0; }
+
+.section-alt {
+  background: var(--paper-alt);
+  border-top: 1px solid var(--rule);
+}
+
+h2 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(1.7rem, 3vw, 2.15rem);
+  line-height: 1.25;
+  color: var(--ink);
+  margin: 0 0 var(--sp-3);
+}
+
+h2.centered {
+  text-align: center;
+  margin-bottom: calc(var(--sp-3) * 1.35);
+}
+
+.section-copy { margin: 0; }
+
+/* ---------- What we do ---------- */
+
+.pillars {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.pillar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 clamp(10px, 1.7vw, 22px);
+}
+
+.pillar + .pillar { border-left: 1px solid var(--rule); }
+
+.pillar-icon {
+  width: clamp(46px, 5.4vw, 64px);
+  height: clamp(46px, 5.4vw, 64px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--sp-2);
+}
+
+/* Held to 92% so the supplied artwork matches the drawn icons,
+   which sit just inside their viewBox */
+.pillar-icon img {
+  max-width: 92%;
+  max-height: 92%;
+  width: auto;
+  height: auto;
+}
+
+.pillar-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: var(--maroon);
+  stroke-width: 1.65;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.pillar h3 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(1rem, 1.4vw, 1.18rem);
+  line-height: 1.3;
+  color: var(--ink);
+  margin: 0 0 var(--sp-1);
+  /* Reserve two lines so the descriptions stay aligned whether or not a
+     heading wraps at a given width */
+  min-height: 2.6em;
+}
+
+.pillar p {
+  margin: 0;
+  font-size: clamp(0.88rem, 1.05vw, 0.95rem);
+  line-height: 1.6;
+  color: var(--body);
+}
+
+/* ---------- Get involved ---------- */
+
+.section-dark {
+  background: var(--maroon);
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.section-dark h2 { color: #fff; }
+
+.join {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--sp-4);
+  margin: 0;
+  padding-bottom: var(--sp-4);
+  border-bottom: 1px solid var(--rule-light);
+}
+
+.join-item h3 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.24rem;
+  line-height: 1.3;
+  color: #fff;
+  margin: 0 0 var(--sp-1);
+}
+
+.join-item p {
+  margin: 0;
+  font-size: 0.96rem;
+  line-height: 1.66;
+}
+
+.contact-line {
+  margin: var(--sp-4) 0 0;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  line-height: 1.4;
+}
+
+.contact-line a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+  padding-bottom: 3px;
+}
+
+.contact-line a:hover { border-bottom-color: #fff; }
+
+.contact-note {
+  margin: var(--sp-2) 0 0;
+  font-size: 0.94rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-note a { color: #fff; }
+
+/* ---------- Footer ---------- */
+
+.site-footer { padding: var(--sp-3) 0; }
+
+.site-footer p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 900px) {
+  .pillars {
+    grid-template-columns: repeat(2, 1fr);
+    /* Rows have no divider between them, so they need more air than the
+       columns, which do */
+    row-gap: calc(var(--sp-4) * 1.4);
+  }
+  .pillar + .pillar { border-left: none; }
+  .pillar:nth-child(even) { border-left: 1px solid var(--rule); }
+}
+
+@media (max-width: 780px) {
+  .join { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 560px) {
+  .pillars { grid-template-columns: 1fr; row-gap: 0; }
+  .pillar:nth-child(even) { border-left: none; }
+  .pillar + .pillar {
+    border-top: 1px solid var(--rule);
+    margin-top: var(--sp-4);
+    padding-top: var(--sp-4);
+  }
+  /* Stacked, so the reserved second line is no longer holding an alignment */
+  .pillar h3 { min-height: 0; }
+}
+
+/* Restore with the scroll cue: on short or landscape screens the cue
+   crowds the hero content.
+@media (max-height: 620px) {
+  .hero { padding-bottom: clamp(48px, 9vh, 84px); }
+  .scroll-cue { display: none; }
+}
+*/
