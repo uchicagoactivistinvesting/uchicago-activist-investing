@@ -4,8 +4,38 @@
     {
       "name": "site",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "4173", "--directory", "site"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4173",
+        "--directory",
+        "site"
+      ],
       "port": 4173
+    },
+    {
+      "name": "site-alt",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4180",
+        "--directory",
+        "site"
+      ],
+      "port": 4180
+    },
+    {
+      "name": "site-preview",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4191",
+        "--directory",
+        "site"
+      ],
+      "port": 4191
     }
   ]
 }

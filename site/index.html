@@ -1,159 +1,197 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>UChicago Activist Investing</title>
-<meta name="description" content="A student organization at the University of Chicago dedicated to the study and practice of activist investing.">
-<link rel="icon" href="assets/logo-symbol.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UChicago Activist Investing</title>
+  <meta name="description" content="The world's first activist investing club, at the University of Chicago. We teach students to think, research, and act like activist investors.">
+  <link rel="canonical" href="https://www.uchicagoactivistinvesting.com/">
+  <meta property="og:title" content="UChicago Activist Investing">
+  <meta property="og:description" content="The world's first undergraduate activist investing club, at the University of Chicago.">
+  <meta property="og:image" content="https://www.uchicagoactivistinvesting.com/assets/og.jpg">
+  <meta property="og:url" content="https://www.uchicagoactivistinvesting.com/">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/icon-48.png" type="image/png" sizes="48x48">
+  <link rel="icon" href="assets/icon-96.png" type="image/png" sizes="96x96">
+  <link rel="icon" href="assets/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="assets/icon-180.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#5c0000">
+  <meta property="og:site_name" content="UChicago Activist Investing">
+  <meta name="twitter:card" content="summary_large_image">
+  <style>
+    @font-face { font-family: 'EB Garamond'; font-style: normal; font-weight: 400 800; font-display: swap; src: url('assets/fonts/eb-garamond-normal.woff2') format('woff2'); }
+    @font-face { font-family: 'EB Garamond'; font-style: italic; font-weight: 400 800; font-display: swap; src: url('assets/fonts/eb-garamond-italic.woff2') format('woff2'); }
+  </style>
+  <link rel="preload" href="assets/fonts/eb-garamond-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/eb-garamond-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/hero.jpg" as="image" imagesrcset="assets/hero-1200.jpg 1200w, assets/hero-1800.jpg 1800w, assets/hero-2400.jpg 2400w, assets/hero-3200.jpg 3200w" imagesizes="108vw">
+  <link rel="stylesheet" href="styles.css?v=40">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.uchicagoactivistinvesting.com/#website",
+        "url": "https://www.uchicagoactivistinvesting.com/",
+        "name": "UChicago Activist Investing",
+        "alternateName": ["University of Chicago Activist Investing Club", "UChicago Activist Investing Club"],
+        "publisher": { "@id": "https://www.uchicagoactivistinvesting.com/#organization" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.uchicagoactivistinvesting.com/#organization",
+        "name": "UChicago Activist Investing",
+        "url": "https://www.uchicagoactivistinvesting.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.uchicagoactivistinvesting.com/assets/logo-square.png",
+          "width": 512,
+          "height": 512
+        },
+        "email": "uchicagoactivistinvesting@gmail.com",
+        "sameAs": [
+          "https://www.linkedin.com/company/uchicago-activist-investing/",
+          "https://www.instagram.com/uchicagoactivistinvesting/"
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
+  <a class="skip" href="#main">Skip to Main Content</a>
 
-<main>
-
-  <section class="hero" id="top">
-    <div class="wrap hero-inner">
-      <img class="hero-logo" src="assets/logo-full.png" alt="The University of Chicago Activist Investing">
-
-      <p class="coming-soon">
-        <span class="cs-rule" aria-hidden="true"></span>
-        <span class="cs-mark"><span class="cs-text">Coming Soon</span></span>
-        <span class="cs-rule" aria-hidden="true"></span>
-      </p>
-
-      <div class="hero-foot">
-        <p class="lede">
-          The University of Chicago Activist Investing Club is the world's first undergraduate
-          club dedicated to helping students learn about the world of activist investing.
-        </p>
-        <a class="btn btn-primary" href="https://forms.gle/YkqmxmB8md327A6n8" target="_blank" rel="noopener">Interest Form</a>
-      </div>
+  <header class="header header--overlay">
+    <div class="header__inner">
+      <a class="header__logo brand" href="index.html" aria-label="UChicago Activist Investing home">
+        <img class="brand__mark brand__mark--dark" src="assets/logo-symbol.png" alt="" width="480" height="437">
+        <img class="brand__mark brand__mark--light" src="assets/logo-symbol-white.png" alt="" width="480" height="437">
+        <span class="brand__text"><span class="brand__uni">UChicago</span><span class="brand__name">Activist Investing Club</span></span>
+      </a>
+      <nav class="nav" aria-label="Site">
+        <a href="index.html">Home</a>
+        <a href="team.html">Team</a>
+        <a href="placements.html">Placements</a>
+        <a href="events.html">Events</a>
+        <a href="apply.html">Apply</a>
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSd7scVT1mrpAjkMAzSu8tgRPPc5qBR-0cmRhfG86xJkjW001g/viewform?usp=sharing&amp;ouid=108936570684424300500" target="_blank" rel="noopener">Interest Form</a>
+      </nav>
+      <div class="header__cta"><a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSd7scVT1mrpAjkMAzSu8tgRPPc5qBR-0cmRhfG86xJkjW001g/viewform?usp=sharing&amp;ouid=108936570684424300500" target="_blank" rel="noopener">Interest Form</a></div>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
-    <!-- Restore alongside the sections below.
-    <a class="scroll-cue" href="#about" aria-label="Scroll to learn more">
-      <span>Learn more</span>
-      <svg viewBox="0 0 24 14" aria-hidden="true" focusable="false">
-        <path d="M1 1l11 11L23 1" fill="none" stroke="currentColor" stroke-width="1.6"
-              stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    </a>
-    -->
-  </section>
+  </header>
 
-  <!-- ===================================================================
-       Built and ready, held back until the club launches. To bring the
-       full page back: delete this opening comment and its closing marker
-       at the end of the file, uncomment the scroll cue in the hero above,
-       and restore the two hero rules noted in styles.css.
-       =================================================================== -->
-  <!--
-  <section class="section" id="about">
-    <div class="wrap narrow">
-      <h2>Activist Investing</h2>
-      <p class="section-copy">
-        Activist investors buy meaningful stakes in public companies and then push for change:
-        a board seat, a divestiture, a different approach to capital allocation, a new chief
-        executive. The work sits where valuation, corporate governance, and persuasion meet,
-        and very little of it is taught in a classroom.
-      </p>
-    </div>
-  </section>
-
-  <section class="section section-alt">
-    <div class="wrap">
-      <h2 class="centered">What We Do</h2>
-      <div class="pillars">
-
-        <article class="pillar">
-          <span class="pillar-icon">
-            <img src="assets/icon-speakers.png" alt="Microphone at a lectern">
-          </span>
-          <h3>Guest Speakers</h3>
-          <p>Hear from professional investors and industry experts.</p>
-        </article>
-
-        <article class="pillar">
-          <span class="pillar-icon">
-            <svg viewBox="0 2 64 64" role="img" aria-label="Open book">
-              <path d="M32 17C26 12 16 11 2 12v39c14-1 24 0 30 5"/>
-              <path d="M32 17c6-5 16-6 30-5v39c-14-1-24 0-30 5"/>
-              <path d="M32 17v39"/>
-            </svg>
-          </span>
-          <h3>Education</h3>
-          <p>Learn about the strategies, tools, and history of activist investing.</p>
-        </article>
-
-        <article class="pillar">
-          <span class="pillar-icon">
-            <svg viewBox="0 0 64 64" role="img" aria-label="Magnifying glass over a bar chart">
-              <circle cx="26" cy="26" r="23"/>
-              <path d="M43 43l18 18"/>
-              <path d="M17 36v-8M26 36V21M35 36V15"/>
-            </svg>
-          </span>
-          <h3>Investment Research</h3>
-          <p>Create professional activist pitches and theses in small teams.</p>
-        </article>
-
-        <article class="pillar">
-          <span class="pillar-icon">
-            <svg viewBox="0 0 64 64" role="img" aria-label="Case file">
-              <path d="M13 3h28l11 12v46H13z"/>
-              <path d="M41 3v12h11"/>
-              <path d="M22 28h21M22 38h21M22 48h13"/>
-            </svg>
-          </span>
-          <h3>Case Studies</h3>
-          <p>Understand previous activist campaigns that have shaped the industry.</p>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-dark" id="contact">
-    <div class="wrap narrow">
-      <h2>Get involved</h2>
-
-      <div class="join">
-        <div class="join-item">
-          <h3>General member interest</h3>
-          <p>Open to students of all years interested in learning more and getting involved.</p>
-        </div>
-        <div class="join-item">
-          <h3>Founding board interest</h3>
-          <p>
-            We are also looking for a small group of students to help build and lead the club.
-            Second years and up.
-          </p>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <img class="hero__img" src="assets/hero.jpg" srcset="assets/hero-1200.jpg 1200w, assets/hero-1800.jpg 1800w, assets/hero-2400.jpg 2400w, assets/hero-3200.jpg 3200w" sizes="108vw" alt="" width="2400" height="1600" fetchpriority="high" decoding="async">
+      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="hero__veil" aria-hidden="true"></div>
+      <div class="hero__content container">
+        <p class="hero__eyebrow a-fade">The University of Chicago</p>
+        <h1 id="hero-title" class="hero__title a-reveal" style="--d:.15s">The World&rsquo;s First Activist Investing Club</h1>
+        <div class="hero__actions a-fade" style="--d:.45s">
+          <a class="btn btn--light" href="apply.html">Apply</a>
         </div>
       </div>
+    </section>
 
-      <p class="contact-line">
-        <a href="https://forms.gle/YkqmxmB8md327A6n8" target="_blank" rel="noopener">Fill out the interest form</a>
-      </p>
-      <p class="contact-note">
-        Reach out to <a href="mailto:uchicagoactivistinvesting@gmail.com">uchicagoactivistinvesting@gmail.com</a>
-        with any questions.
-      </p>
-    </div>
-  </section>
+    <section class="statement" aria-labelledby="statement-title">
+      <div class="container">
+        <h2 id="statement-title" class="statement__title a-reveal">We train undergraduates to think, research, and act like activist investors.</h2>
+        <p class="statement__sub a-fade" style="--d:.2s">Rigorous analysis, direct access to practitioners, and a community of students committed to the craft of shareholder engagement.</p>
+        <div class="statement__rule a-fade" style="--d:.3s" aria-hidden="true"></div>
+      </div>
+    </section>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>&copy; 2026 University of Chicago Activist Investing Club</p>
+    <section class="program" id="program" aria-labelledby="program-title">
+      <div class="container">
+        <div class="program__head">
+          <h2 id="program-title" class="h2 a-reveal">What we do:</h2>
+          <p class="program__intro a-fade">Our curriculum is built on four pillars that run each quarter, taking members from foundational concepts to a complete activist campaign.</p>
+        </div>
+        <ul class="program__grid">
+          <li class="track a-reveal">
+            <span class="track__num">01</span>
+            <span class="track__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 16h48v30H8z"/><path d="M8 24h48"/><path d="M14 33h14M14 39h20"/><path d="M40 33l4 4 8-8"/><path d="M24 54h16M32 46v8"/></svg>
+            </span>
+            <h3 class="track__title">Activist Investor Educational Sessions</h3>
+            <p class="track__text">A structured curriculum covering the activist playbook end to end: screening for undervalued companies, developing a differentiated view, assessing capital allocation and governance, and the mechanics of proxy contests and settlements.</p>
+          </li>
+          <li class="track a-reveal" style="--d:.08s">
+            <span class="track__num">02</span>
+            <span class="track__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="27" cy="27" r="17"/><path d="M39.5 39.5L54 54"/><path d="M17 31l6-6 5 4 8-9"/><path d="M33 20h3v3"/></svg>
+            </span>
+            <h3 class="track__title">Research: Activist Investor Pitch</h3>
+            <p class="track__text">Members work in small teams to develop a complete activist thesis on a public company, from valuation and operational diagnosis to a proposed plan for the board, presented to a panel of practitioners at the close of each quarter.</p>
+          </li>
+          <li class="track a-reveal" style="--d:.16s">
+            <span class="track__num">03</span>
+            <span class="track__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><rect x="24" y="8" width="16" height="28" rx="8"/><path d="M14 30c0 10 8 17 18 17s18-7 18-17"/><path d="M32 47v9M22 56h20"/></svg>
+            </span>
+            <h3 class="track__title">Activist Investor Talks</h3>
+            <p class="track__text">A speaker series featuring the principals, advisors, and directors who shape modern campaigns. This year’s program includes Peter May, co-founder and President of Trian Fund Management, the $10.4B activist fund.</p>
+          </li>
+          <li class="track a-reveal" style="--d:.24s">
+            <span class="track__num">04</span>
+            <span class="track__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 22h48v32H8z"/><path d="M24 22v-6h16v6"/><path d="M8 36h48"/><path d="M28 36v6h8v-6"/></svg>
+            </span>
+            <h3 class="track__title">Finance Recruiting Bootcamp</h3>
+            <p class="track__text">A preparation track for investment banking, private equity, technology, and consulting recruiting, covering accounting and valuation technicals, financial modeling, and behavioral prep, with live mock interviews run by leadership.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="home-faq" aria-labelledby="faq-title">
+      <div class="container">
+        <h2 id="faq-title" class="home-faq__title a-reveal">Frequently Asked Questions</h2>
+        <div class="faq faq--compact">
+          <details class="faq__item a-reveal" name="home-faq">
+            <summary class="faq__q">What do we look for?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p>We hope to admit people who will embrace the challenge of activist investing and make the most of the club's opportunities. We look for genuine intellectual curiosity, intrinsic motivation, and strong business intuition. We are not looking for a previously established interest in, or knowledge of, investing.</p></div>
+          </details>
+          <details class="faq__item a-reveal" style="--d:.06s" name="home-faq">
+            <summary class="faq__q">What does the application process include?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p>A written application followed by interviews with our board members. We do not expect any prior knowledge or finance experience.</p></div>
+          </details>
+          <details class="faq__item a-reveal" style="--d:.12s" name="home-faq">
+            <summary class="faq__q">Do I need finance or activist investing experience to join?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p>No, and we encourage applicants without it. No prior finance, investing, or activist investing experience is required or expected. Our new member education assumes zero prior knowledge, and many of our most successful members entered the club with no background in finance.</p></div>
+          </details>
+          <details class="faq__item a-reveal" style="--d:.18s" name="home-faq">
+            <summary class="faq__q">I applied in a previous cycle. Can I apply again?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p>Yes. Many of our members were admitted after more than one application. Our next cycle opens in Fall 2026.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner a-fade">
+      <a class="footer__brand" href="index.html#top">UChicago Activist Investing Club</a>
+      <div class="footer__right">
+        <div class="footer__icons">
+        <a class="footer__icon" href="https://www.instagram.com/uchicagoactivistinvesting/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a class="footer__icon" href="https://www.linkedin.com/company/uchicago-activist-investing/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM10 9h3.8v1.7h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21h-4z"/></svg>
+        </a>
+        </div>
+        <a class="footer__email" href="mailto:uchicagoactivistinvesting@gmail.com">uchicagoactivistinvesting@gmail.com</a>
+      </div>
     </div>
   </footer>
-  -->
-  <!-- =========== end of the held-back page =========== -->
 
-</main>
-
+  <script src="main.js?v=16"></script>
 </body>
 </html>
-

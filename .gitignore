@@ -7,3 +7,11 @@ desktop.ini
 .vscode/
 node_modules/
 .vercel/
+
+# Member area — not deployed, and its gate password must not enter git history.
+# The file stays on disk locally; it is simply never committed.
+site/partners.html
+
+# Scratch source material: screenshots, downloads and duplicates. The
+# web-ready versions of everything the site uses live in site/assets/.
+photos/
