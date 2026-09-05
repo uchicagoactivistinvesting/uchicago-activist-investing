@@ -25,7 +25,31 @@ icons/                original icon files
 ```
 
 `site/` is the deploy root. Everything above it is source material and is not served.
-The five deployed pages are Home, Team, Placements, Events, and Apply.
+The five pages are Home, Team, Placements, Events, and Apply; Team and Placements are
+currently hidden (see below), so Home, Events and Apply are what visitors can reach.
+
+## Hidden pages
+
+Team and Placements are **hidden, not deleted**. The files are untouched and still
+deploy, so `team.html` and `placements.html` still work if you type the URL — they are
+just unlinked, kept out of the sitemap, and marked `noindex` so search engines drop them.
+
+To bring either page back:
+
+1. **Nav links** — every page's `<nav>` carries the two links inside a comment block
+   marked `<!-- HIDDEN PAGES: ... -->`. Delete the `<!--` and `-->` markers around them
+   in **all five** HTML files (keep whichever link you want back).
+2. **Sitemap** — uncomment the matching `<!-- HIDDEN: <url>...</url> -->` line in
+   `site/sitemap.xml`.
+3. **Search** — delete the `<meta name="robots" content="noindex, nofollow">` line near
+   the top of `site/team.html` / `site/placements.html`. It is tagged with a
+   `HIDDEN PAGE` comment.
+
+Everything you need to change is greppable:
+
+```
+grep -rn "HIDDEN" site/
+```
 
 ## Running locally
 
@@ -83,8 +107,8 @@ and italic, weights 400 to 800) and declared inline in each page's head with
 
 The reference site scales its whole desktop layout with the browser width, so
 `styles.css` does the same: every desktop dimension is written as a multiple of the
-`--u` unit, which equals `100vw / 1728 * 0.86`. The 0.86 factor renders the whole site
-(text and elements) 14% smaller than the reference at the same window width; change that
+`--u` unit, which equals `100vw / 1728 * 0.80`. The 0.80 factor renders the whole site
+(text and elements) 20% smaller than the reference at the same window width; change that
 one number to make everything larger or smaller. Vertical section spacing was also
 tightened below the reference values to reduce white space. No text is italic. Below 760px the unit is
 fixed at 1px and the mobile rules take over.

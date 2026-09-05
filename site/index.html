@@ -17,7 +17,7 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="assets/icon-180.png">
   <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#5c0000">
+  <meta name="theme-color" content="#77080e">
   <meta property="og:site_name" content="UChicago Activist Investing">
   <meta name="twitter:card" content="summary_large_image">
   <style>
@@ -27,7 +27,7 @@
   <link rel="preload" href="assets/fonts/eb-garamond-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/eb-garamond-italic.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/hero.jpg" as="image" imagesrcset="assets/hero-1200.jpg 1200w, assets/hero-1800.jpg 1800w, assets/hero-2400.jpg 2400w, assets/hero-3200.jpg 3200w" imagesizes="108vw">
-  <link rel="stylesheet" href="styles.css?v=40">
+  <link rel="stylesheet" href="styles.css?v=46">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -67,14 +67,17 @@
   <header class="header header--overlay">
     <div class="header__inner">
       <a class="header__logo brand" href="index.html" aria-label="UChicago Activist Investing home">
-        <img class="brand__mark brand__mark--dark" src="assets/logo-symbol.png" alt="" width="480" height="437">
-        <img class="brand__mark brand__mark--light" src="assets/logo-symbol-white.png" alt="" width="480" height="437">
-        <span class="brand__text"><span class="brand__uni">UChicago</span><span class="brand__name">Activist Investing Club</span></span>
+        <img class="brand__mark brand__mark--dark" src="assets/logo-lockup.png" alt="" width="1431" height="240">
+        <img class="brand__mark brand__mark--light" src="assets/logo-lockup-white.png" alt="" width="1431" height="240">
       </a>
       <nav class="nav" aria-label="Site">
         <a href="index.html">Home</a>
+        <!-- HIDDEN PAGES: delete these two comment markers to put Team and
+             Placements back in the nav. See README > Hidden pages. -->
+        <!--
         <a href="team.html">Team</a>
         <a href="placements.html">Placements</a>
+        -->
         <a href="events.html">Events</a>
         <a href="apply.html">Apply</a>
         <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSd7scVT1mrpAjkMAzSu8tgRPPc5qBR-0cmRhfG86xJkjW001g/viewform?usp=sharing&amp;ouid=108936570684424300500" target="_blank" rel="noopener">Interest Form</a>
@@ -90,8 +93,7 @@
       <div class="hero__shade" aria-hidden="true"></div>
       <div class="hero__veil" aria-hidden="true"></div>
       <div class="hero__content container">
-        <p class="hero__eyebrow a-fade">The University of Chicago</p>
-        <h1 id="hero-title" class="hero__title a-reveal" style="--d:.15s">The World&rsquo;s First Activist Investing Club</h1>
+        <h1 id="hero-title" class="hero__title a-reveal" style="--d:.15s">The University of Chicago<br>Activist Investing Club</h1>
         <div class="hero__actions a-fade" style="--d:.45s">
           <a class="btn btn--light" href="apply.html">Apply</a>
         </div>
@@ -101,7 +103,6 @@
     <section class="statement" aria-labelledby="statement-title">
       <div class="container">
         <h2 id="statement-title" class="statement__title a-reveal">We train undergraduates to think, research, and act like activist investors.</h2>
-        <p class="statement__sub a-fade" style="--d:.2s">Rigorous analysis, direct access to practitioners, and a community of students committed to the craft of shareholder engagement.</p>
         <div class="statement__rule a-fade" style="--d:.3s" aria-hidden="true"></div>
       </div>
     </section>
@@ -109,41 +110,36 @@
     <section class="program" id="program" aria-labelledby="program-title">
       <div class="container">
         <div class="program__head">
-          <h2 id="program-title" class="h2 a-reveal">What we do:</h2>
-          <p class="program__intro a-fade">Our curriculum is built on four pillars that run each quarter, taking members from foundational concepts to a complete activist campaign.</p>
+          <h2 id="program-title" class="h2 a-reveal">What we do</h2>
         </div>
         <ul class="program__grid">
           <li class="track a-reveal">
-            <span class="track__num">01</span>
-            <span class="track__icon" aria-hidden="true">
-              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 16h48v30H8z"/><path d="M8 24h48"/><path d="M14 33h14M14 39h20"/><path d="M40 33l4 4 8-8"/><path d="M24 54h16M32 46v8"/></svg>
-            </span>
-            <h3 class="track__title">Activist Investor Educational Sessions</h3>
-            <p class="track__text">A structured curriculum covering the activist playbook end to end: screening for undervalued companies, developing a differentiated view, assessing capital allocation and governance, and the mechanics of proxy contests and settlements.</p>
-          </li>
-          <li class="track a-reveal" style="--d:.08s">
-            <span class="track__num">02</span>
-            <span class="track__icon" aria-hidden="true">
-              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="27" cy="27" r="17"/><path d="M39.5 39.5L54 54"/><path d="M17 31l6-6 5 4 8-9"/><path d="M33 20h3v3"/></svg>
-            </span>
-            <h3 class="track__title">Research: Activist Investor Pitch</h3>
-            <p class="track__text">Members work in small teams to develop a complete activist thesis on a public company, from valuation and operational diagnosis to a proposed plan for the board, presented to a panel of practitioners at the close of each quarter.</p>
-          </li>
-          <li class="track a-reveal" style="--d:.16s">
-            <span class="track__num">03</span>
             <span class="track__icon" aria-hidden="true">
               <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><rect x="24" y="8" width="16" height="28" rx="8"/><path d="M14 30c0 10 8 17 18 17s18-7 18-17"/><path d="M32 47v9M22 56h20"/></svg>
             </span>
-            <h3 class="track__title">Activist Investor Talks</h3>
-            <p class="track__text">A speaker series featuring the principals, advisors, and directors who shape modern campaigns. This year’s program includes Peter May, co-founder and President of Trian Fund Management, the $10.4B activist fund.</p>
+            <h3 class="track__title">Guest Speakers</h3>
+            <p class="track__text">A speaker series featuring leading investors, advisors, executives, and other professionals who have shaped some of the most notable activist campaigns. Speakers share their perspectives on investing, corporate strategy, governance, and the decisions behind shareholder activism.</p>
+          </li>
+          <li class="track a-reveal" style="--d:.08s">
+            <span class="track__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 16h48v30H8z"/><path d="M8 24h48"/><path d="M14 33h14M14 39h20"/><path d="M40 33l4 4 8-8"/><path d="M24 54h16M32 46v8"/></svg>
+            </span>
+            <h3 class="track__title">Educational Sessions</h3>
+            <p class="track__text">A structured curriculum covering the foundations of investing and shareholder activism, from financial analysis and valuation to capital allocation, corporate governance, and activist strategy.</p>
+          </li>
+          <li class="track a-reveal" style="--d:.16s">
+            <span class="track__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="27" cy="27" r="17"/><path d="M39.5 39.5L54 54"/><path d="M17 31l6-6 5 4 8-9"/><path d="M33 20h3v3"/></svg>
+            </span>
+            <h3 class="track__title">Activist Investment Pitches</h3>
+            <p class="track__text">Members work in small groups to develop an activist thesis on a public company. Groups conduct fundamental research, evaluate the company&rsquo;s strategy and operations, and lay out their recommendations for change, to be published each quarter.</p>
           </li>
           <li class="track a-reveal" style="--d:.24s">
-            <span class="track__num">04</span>
             <span class="track__icon" aria-hidden="true">
               <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 22h48v32H8z"/><path d="M24 22v-6h16v6"/><path d="M8 36h48"/><path d="M28 36v6h8v-6"/></svg>
             </span>
-            <h3 class="track__title">Finance Recruiting Bootcamp</h3>
-            <p class="track__text">A preparation track for investment banking, private equity, technology, and consulting recruiting, covering accounting and valuation technicals, financial modeling, and behavioral prep, with live mock interviews run by leadership.</p>
+            <h3 class="track__title">Recruiting Bootcamp</h3>
+            <p class="track__text">A preparation track for investment banking, private equity, and general finance recruiting. Sessions will include crash courses in accounting, valuation, modeling, and interview preparation, with mentorship and mock interviews from experienced members.</p>
           </li>
         </ul>
       </div>
@@ -164,10 +160,6 @@
           <details class="faq__item a-reveal" style="--d:.12s" name="home-faq">
             <summary class="faq__q">Do I need finance or activist investing experience to join?<span class="faq__icon" aria-hidden="true"></span></summary>
             <div class="faq__a"><p>No, and we encourage applicants without it. No prior finance, investing, or activist investing experience is required or expected. Our new member education assumes zero prior knowledge, and many of our most successful members entered the club with no background in finance.</p></div>
-          </details>
-          <details class="faq__item a-reveal" style="--d:.18s" name="home-faq">
-            <summary class="faq__q">I applied in a previous cycle. Can I apply again?<span class="faq__icon" aria-hidden="true"></span></summary>
-            <div class="faq__a"><p>Yes. Many of our members were admitted after more than one application. Our next cycle opens in Fall 2026.</p></div>
           </details>
         </div>
       </div>
