@@ -52,6 +52,19 @@ To hide a different page later, do the same three edits in reverse. Tag each one
 grep -rn "HIDDEN" site/
 ```
 
+## Hidden sections
+
+Whole sections inside a page follow the same idea, tagged `HIDDEN SECTION`. The home-page
+**FAQ is currently hidden** — the markup is still in `site/index.html`, just wrapped in a
+comment. To bring it back, delete the `<!--` and `-->` markers around the
+`<section class="home-faq">` block. Nothing else needs changing: the section is
+self-contained, and its styles stay in `styles.css` either way.
+
+One gotcha when hiding a section this way — the FAQ items carry `style="--d:.06s"`
+animation delays, and a `--` inside an HTML comment is technically invalid. Browsers all
+close the comment at the `-->` regardless, so it renders correctly, but a strict HTML
+validator or minifier may flag it.
+
 ## Running locally
 
 ```
