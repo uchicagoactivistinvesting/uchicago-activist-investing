@@ -10,9 +10,9 @@ re-themed in white and maroon and re-written for the Activist Investing Club.
 ```
 site/                 what gets deployed
   index.html          Home: hero, statement, the four programme pillars, FAQ
-  team.html           Founding Board cards
+  team.html           People: Founding Board cards (hidden)
   placements.html     Firm logos where members have placed
-  events.html         Featured speaker events and info sessions
+  events.html         Featured speaker events and info sessions (hidden)
   apply.html          Application cycle and the interest form
   partners.html       Draft member area — git-ignored, not deployed (see below)
   styles.css          All styling (EB Garamond throughout, white paper, maroon sections)
@@ -25,21 +25,28 @@ icons/                original icon files
 ```
 
 `site/` is the deploy root. Everything above it is source material and is not served.
-The five pages are Home, Team, Placements, Events, and Apply. All five are live and
-reachable from the nav.
+The five pages are Home, People, Placements, Events, and Apply. **People and Events are
+currently hidden**, so Home, Placements and Apply are what visitors can reach.
 
-## Hiding a page
+## Hidden pages
 
-Team and Placements were hidden for a while and have since been restored. If you need to
-hide a page again, the page stays deployed and reachable by URL — you just unlink it:
+People (`team.html`) and Events are **hidden, not deleted**. Both files are untouched and
+still deploy, so the URLs still work if you type them — they are just unlinked, kept out
+of the sitemap, and marked `noindex` so search engines drop them.
 
-1. **Nav links** — remove or comment out the page's `<a>` in the `<nav>` of **all five**
-   HTML files.
-2. **Sitemap** — remove or comment out its `<url>` line in `site/sitemap.xml`.
-3. **Search** — add `<meta name="robots" content="noindex, nofollow">` near the top of
-   the page, below the `<meta name="description">` line.
+To bring either page back:
 
-Tag each edit with a `HIDDEN` comment so the set stays greppable:
+1. **Nav links** — every page's `<nav>` carries the link inside a comment block marked
+   `<!-- HIDDEN PAGE: ... -->`. Delete the `<!--` and `-->` markers around the link you
+   want back, in **all five** HTML files.
+2. **Sitemap** — uncomment the matching `<!-- HIDDEN: <url>...</url> -->` line in
+   `site/sitemap.xml`.
+3. **Search** — delete the `<meta name="robots" content="noindex, nofollow">` line near
+   the top of `site/team.html` / `site/events.html`, and the `HIDDEN PAGE` comment above
+   it.
+
+To hide a different page later, do the same three edits in reverse. Tag each one with a
+`HIDDEN` comment so the whole set stays greppable:
 
 ```
 grep -rn "HIDDEN" site/
@@ -87,7 +94,7 @@ Replace a file in place and nothing else needs to change.
 
 - **Programme pillars**: the four cards on the home page are the `.track` items in `index.html`.
 - **FAQ**: each question is a `.faq__item` in `index.html`. They open one at a time.
-- **Team**: each card in `team.html` has a photo, a name, a role, and a short bio. Duplicate a card to add a member.
+- **People**: each card in `team.html` has a photo, a name, and a role. Duplicate a card to add a member.
 - **Placements**: generated — drop a logo in `assets/logos/` and run the script below.
   Do not hand-edit the `.pl-grid` list; the next run overwrites it.
 - **Interest form**: the Google Form URL appears in the header of every page and on Apply.

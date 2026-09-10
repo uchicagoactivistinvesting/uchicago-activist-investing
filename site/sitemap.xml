@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.uchicagoactivistinvesting.com/</loc></url>
-  <url><loc>https://www.uchicagoactivistinvesting.com/team.html</loc></url>
+  <!-- HIDDEN: <url><loc>https://www.uchicagoactivistinvesting.com/team.html</loc></url> -->
   <url><loc>https://www.uchicagoactivistinvesting.com/placements.html</loc></url>
-  <url><loc>https://www.uchicagoactivistinvesting.com/events.html</loc></url>
+  <!-- HIDDEN: <url><loc>https://www.uchicagoactivistinvesting.com/events.html</loc></url> -->
   <url><loc>https://www.uchicagoactivistinvesting.com/apply.html</loc></url>
 </urlset>
