@@ -25,27 +25,21 @@ icons/                original icon files
 ```
 
 `site/` is the deploy root. Everything above it is source material and is not served.
-The five pages are Home, Team, Placements, Events, and Apply; Team and Placements are
-currently hidden (see below), so Home, Events and Apply are what visitors can reach.
+The five pages are Home, Team, Placements, Events, and Apply. All five are live and
+reachable from the nav.
 
-## Hidden pages
+## Hiding a page
 
-Team and Placements are **hidden, not deleted**. The files are untouched and still
-deploy, so `team.html` and `placements.html` still work if you type the URL — they are
-just unlinked, kept out of the sitemap, and marked `noindex` so search engines drop them.
+Team and Placements were hidden for a while and have since been restored. If you need to
+hide a page again, the page stays deployed and reachable by URL — you just unlink it:
 
-To bring either page back:
+1. **Nav links** — remove or comment out the page's `<a>` in the `<nav>` of **all five**
+   HTML files.
+2. **Sitemap** — remove or comment out its `<url>` line in `site/sitemap.xml`.
+3. **Search** — add `<meta name="robots" content="noindex, nofollow">` near the top of
+   the page, below the `<meta name="description">` line.
 
-1. **Nav links** — every page's `<nav>` carries the two links inside a comment block
-   marked `<!-- HIDDEN PAGES: ... -->`. Delete the `<!--` and `-->` markers around them
-   in **all five** HTML files (keep whichever link you want back).
-2. **Sitemap** — uncomment the matching `<!-- HIDDEN: <url>...</url> -->` line in
-   `site/sitemap.xml`.
-3. **Search** — delete the `<meta name="robots" content="noindex, nofollow">` line near
-   the top of `site/team.html` / `site/placements.html`. It is tagged with a
-   `HIDDEN PAGE` comment.
-
-Everything you need to change is greppable:
+Tag each edit with a `HIDDEN` comment so the set stays greppable:
 
 ```
 grep -rn "HIDDEN" site/
@@ -94,8 +88,63 @@ Replace a file in place and nothing else needs to change.
 - **Programme pillars**: the four cards on the home page are the `.track` items in `index.html`.
 - **FAQ**: each question is a `.faq__item` in `index.html`. They open one at a time.
 - **Team**: each card in `team.html` has a photo, a name, a role, and a short bio. Duplicate a card to add a member.
-- **Placements**: each firm is one `.pl-firm` item in `placements.html` pointing at a logo in `assets/logos/`.
+- **Placements**: generated — drop a logo in `assets/logos/` and run the script below.
+  Do not hand-edit the `.pl-grid` list; the next run overwrites it.
 - **Interest form**: the Google Form URL appears in the header of every page and on Apply.
+
+## Placements logo wall
+
+The logo wall is generated from the contents of `site/assets/logos/`:
+
+```
+python tools/build-placements.py
+```
+
+Add a logo to that folder, run it, and the firm appears on the page. `--check`
+reports what would change without writing. The `.pl-grid` list in
+`placements.html` is generated — editing it by hand is pointless, the next run
+overwrites it.
+
+**Sizing.** Logos are sized by how big they *look*, which is not how big they
+are. Two corrections do the work:
+
+1. *Ink, not bounding box.* A lockup with thin strokes and small type (Perella
+   Weinberg, Black Opal) carries a fraction of the ink of a dense one (RBC,
+   Second Summit) — 7x less, measured. Equal heights make the sparse ones look
+   tiny, so the script counts each logo's ink and corrects toward equal optical
+   mass. `OPTICAL_K` controls how hard: 0 is equal heights, 1 is equal ink area,
+   0.5 is the tuned middle.
+2. *Artwork, not canvas.* Several files ship with transparent padding baked in —
+   `pwp.png` is 45% empty vertically, and that alone was enough to make it look
+   undersized. The script measures the ink bounding box and scales the canvas up
+   so the artwork lands at the intended size regardless of its margins.
+
+The result is a per-logo `--s` multiplier written into the markup; the CSS
+renders each logo at `--s x --pl-h`. Very long wordmarks (SACHEMHEAD is 11:1) get
+extra width before clamping, or their letters end up too small to read.
+
+3. *`NUDGE`, for what measurement cannot see.* A stacked two-line lockup (RBC,
+   Second Summit) sets its type at about half the box height, so it needs a
+   taller box than a single-line wordmark before the words read at the same size
+   — and no pixel count reveals that. `NUDGE` multiplies a logo's final size:
+   raise a value to grow it, lower it to shrink it, omit it to leave the logo to
+   the algorithm. This is the dial to reach for when something just looks wrong.
+
+**When you add a logo**, the script tells you what it needs:
+
+- *No display name* — add the filename stem to `NAMES`, or it falls back to a
+  title-cased filename.
+- *Baked-in background* — the file has an opaque canvas and will render as a
+  rectangle against the page tint. Save it with a transparent background.
+- *Transparent padding* — sizing already compensates, but the empty margins still
+  take up room in the row. Crop the file to its artwork for a tighter layout.
+- Put the stem in `ORDER` to place it; anything unlisted is appended
+  alphabetically. `SKIP` drops a file from the page while keeping it on disk,
+  for when two files are the same firm.
+
+Transparency matters more than format. SVG is best, then PNG with an alpha
+channel; a JPEG always carries a background. When several files share a stem
+(`coatue.jpg` and `coatue.png`), the best format wins and the rest are ignored.
 
 ## Fonts
 
