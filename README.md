@@ -9,15 +9,15 @@ re-themed in white and maroon and re-written for the Activist Investing Club.
 
 ```
 site/                 what gets deployed
-  index.html          Home: hero, statement, the four programme pillars, FAQ
+  index.html          Home: hero, statement, the four programme pillars, the activist
+                      investing primer, FAQ
   team.html           People: Founding Board cards (hidden)
   placements.html     Firm logos where members have placed
   events.html         Featured speaker events and info sessions (hidden)
   apply.html          Application cycle and the interest form
-  partners.html       Draft member area — git-ignored, not deployed (see below)
   styles.css          All styling (EB Garamond throughout, white paper, maroon sections)
   main.js             Scroll reveal, hero and banner parallax, page cross-fade, mobile menu,
-                      active nav link, FAQ slide, member-area gate
+                      active nav link, FAQ slide
   assets/             Logos, photographs, favicon, self-hosted EB Garamond (assets/fonts)
   robots.txt, sitemap.xml, site.webmanifest
 logos/                original logo files
@@ -54,13 +54,14 @@ grep -rn "HIDDEN" site/
 
 ## Hidden sections
 
-Whole sections inside a page follow the same idea, tagged `HIDDEN SECTION`. The home-page
-**FAQ is currently hidden** — the markup is still in `site/index.html`, just wrapped in a
-comment. To bring it back, delete the `<!--` and `-->` markers around the
-`<section class="home-faq">` block. Nothing else needs changing: the section is
-self-contained, and its styles stay in `styles.css` either way.
+Whole sections inside a page follow the same idea, tagged `HIDDEN SECTION`: wrap the
+`<section>` in an HTML comment and leave a `HIDDEN SECTION` note above it saying how to
+bring it back. Nothing else needs changing — each section is self-contained, and its
+styles stay in `styles.css` either way. The same trick works on a single item: the FAQ's
+"Do I need finance or activist investing experience to join?" question is parked in a
+comment inside the otherwise-visible home-page FAQ.
 
-One gotcha when hiding a section this way — the FAQ items carry `style="--d:.06s"`
+One gotcha when hiding a section this way — items often carry `style="--d:.06s"`
 animation delays, and a `--` inside an HTML comment is technically invalid. Browsers all
 close the comment at the `-->` regardless, so it renders correctly, but a strict HTML
 validator or minifier may flag it.
@@ -74,38 +75,37 @@ python3 -m http.server 4173 --directory site
 Then open http://localhost:4173. Hard-reload with Cmd+Shift+R after editing CSS.
 
 Each page links `styles.css` and `main.js` with a `?v=` query so browsers pick up
-changes. After editing either file, bump that number in **all** the HTML files at once:
+changes. After editing either file, bump that number in **all** the HTML files at once
+(the numbers below are the current ones — read them out of any page's `<head>` first):
 
 ```
-sed -i '' 's/styles.css?v=40/styles.css?v=41/g; s/main.js?v=16/main.js?v=17/g' site/*.html
+sed -i "s/styles.css?v=63/styles.css?v=64/g; s/main.js?v=17/main.js?v=18/g" site/*.html
 ```
-
-## Member area
-
-`partners.html` is a draft member-resources page and is **not part of the deployed
-site**. It is git-ignored, unlinked from every other page, and absent from the
-sitemap, so it exists only on a local checkout.
-
-It carries a client-side password gate whose password is the `data-key` attribute
-on the `.gate` element. That gate is a courtesy, not security — anyone can read the
-password in the page source — so never commit a real password and never put
-anything sensitive on that page.
 
 ## Photographs and placeholders
 
 | File                                | Where it appears                                    |
 |-------------------------------------|-----------------------------------------------------|
 | `assets/hero.jpg` (+ 1200/1800/2400/3200 widths) | Home hero, and the banner on every inner page |
-| `assets/headshot-tanish.jpg`, `headshot-rahul.jpg` | Team cards                        |
+| `assets/headshot-tanish.jpg`, `headshot-rahul.jpg` | People cards                      |
+| `assets/headshot-placeholder.jpg`   | People, the four cards without a real photo yet     |
 | `assets/speaker-peter-may.jpg`      | Events, featured speaker                            |
 | `assets/logos/*.png`                | Placements, firm logos                              |
-| `assets/partners-wide.jpg`, `resource-1..6.jpg` | Member area (not deployed)              |
+| `assets/og.jpg`                     | The social preview image (`og:image`) on every page |
 
 Replace a file in place and nothing else needs to change.
+
+Several files in `assets/` are no longer referenced by any page: `about-campus.jpg`,
+`university.jpg`, `why-campus.jpg`, `headshot-square.jpg`, `partners-wide.jpg`,
+`resource-1..6.jpg`, `logo-full.png`, `logo-full-white.png`, `logo-symbol*.png` and
+`icon-32.png`. They are kept on purpose — several are obvious candidates for a future
+About page — but nothing breaks if you delete them.
 
 ## Editing content
 
 - **Programme pillars**: the four cards on the home page are the `.track` items in `index.html`.
+- **Activist investing primer**: the left-aligned paragraph below the pillars is the
+  `.primer` section in `index.html`.
 - **FAQ**: each question is a `.faq__item` in `index.html`. They open one at a time.
 - **People**: each card in `team.html` has a photo, a name, and a role. Duplicate a card to add a member.
 - **Placements**: generated — drop a logo in `assets/logos/` and run the script below.
@@ -174,20 +174,29 @@ and italic, weights 400 to 800) and declared inline in each page's head with
 
 ## Layout scaling
 
-The reference site scales its whole desktop layout with the browser width, so
-`styles.css` does the same: every desktop dimension is written as a multiple of the
-`--u` unit, which equals `100vw / 1728 * 0.80`. The 0.80 factor renders the whole site
-(text and elements) 20% smaller than the reference at the same window width; change that
-one number to make everything larger or smaller. Vertical section spacing was also
-tightened below the reference values to reduce white space. No text is italic. Below 760px the unit is
-fixed at 1px and the mobile rules take over.
+Two sizing systems live in `styles.css`, and **new work should use the second one**:
+
+1. `--u`, inherited from the reference site, equals `100vw / 1728 * 0.80` and scales a
+   dimension with the browser width, with no floor or ceiling. The 0.80 factor renders
+   text and elements 20% smaller than the reference at the same window width. Below
+   760px the unit is pinned to 1px and the mobile rules take over. Only the People page
+   (`.team`, `.card`, `.display--56`) still uses it.
+2. `px` and `clamp()`, which every other page uses: a floor, a viewport-relative middle,
+   and a ceiling, so type stays readable on a small laptop and stops growing on a large
+   display.
+
+Mixing them inside one page is what made the home-page FAQ render several points smaller
+than the sections around it, so keep a page on one system. Vertical section spacing was
+tightened below the reference values to reduce white space, and no text is italic.
+
+Section headings (`.h2`, `.statement__title`, `.primer__title`, `.home-faq__title`,
+`.events-section__title`, `.notice__title`, `.display--56`) all run at weight 500.
 
 ## Animations
 
-`main.js` adds the `in` class as elements scroll into view, which starts one of three
+`main.js` adds the `in` class as elements scroll into view, which starts one of two
 entrances, each 0.9s on an ease-out curve: `.a-reveal` wipes text up from its bottom
-edge, `.a-fade` fades in, and `.a-expand` fades while scaling up from 92%. Stagger a
-group by giving each item a `--d` delay inline. Every section on every page carries one
+edge, and `.a-fade` fades in. Stagger a group by giving each item a `--d` delay inline. Every section on every page carries one
 of these, the footer included.
 
 **Performance.** All scroll-driven work — the reveals, the sticky hero, the overlay

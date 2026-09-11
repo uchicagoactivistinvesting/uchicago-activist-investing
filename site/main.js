@@ -22,14 +22,18 @@
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   if (!location.hash) window.scrollTo(0, 0);
 
-  /* ---------- active nav link ---------- */
-  var path = location.pathname.replace(/\/index\.html$/, '/');
+  /* ---------- active nav link ----------
+     Match on the bare page name with any .html stripped from both sides, so the
+     link still lights up on hosts that serve extensionless URLs (/events as well
+     as /events.html). The home page is the empty name. */
+  var here = location.pathname.split('/').pop().replace(/\.html$/, '');
+  if (here === 'index') here = '';
   document.querySelectorAll('.nav a[href]').forEach(function (a) {
-    var href = a.getAttribute('href').replace(/^\.\//, '');
-    var isHome = href === 'index.html' || href === './' || href === '/';
-    if ((isHome && (path.endsWith('/') || path.endsWith('/index.html'))) || (!isHome && path.endsWith('/' + href))) {
-      a.setAttribute('aria-current', 'page');
-    }
+    var raw = a.getAttribute('href');
+    if (/^[a-z]+:/i.test(raw)) return; /* the Interest Form and other off-site links */
+    var name = raw.replace(/^\.\//, '').replace(/\.html$/, '').replace(/^\/$/, '');
+    if (name === 'index') name = '';
+    if (name === here) a.setAttribute('aria-current', 'page');
   });
 
   /* ---------- page transitions ---------- */
@@ -189,7 +193,7 @@
   var overlay = document.querySelector('.header--overlay');
   var hero = document.querySelector('.hero');
   if (overlay && hero) {
-    var heroText = hero.querySelector('.hero__eyebrow') || hero.querySelector('.hero__title');
+    var heroText = hero.querySelector('.hero__title');
     var solidAt = 0;
     var isSolid = null;
     measureJobs.push(function () {
@@ -290,35 +294,6 @@
   }
 
   remeasure();
-
-  /* ---------- partner area gate ---------- */
-  var gate = document.querySelector('.gate');
-  if (gate) {
-    var KEY = 'uai-partner-unlocked';
-    var form = gate.querySelector('form');
-    var input = gate.querySelector('input');
-    var err = gate.querySelector('.gate__error');
-    var main = document.getElementById('main');
-    var unlock = function () {
-      gate.hidden = true;
-      if (main) main.removeAttribute('aria-hidden');
-      try { sessionStorage.setItem(KEY, '1'); } catch (e) {}
-    };
-    var locked = true;
-    try { locked = sessionStorage.getItem(KEY) !== '1'; } catch (e) {}
-    if (!locked) { unlock(); } else { if (main) main.setAttribute('aria-hidden', 'true'); setTimeout(function () { input && input.focus(); }, 50); }
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      if (input.value.trim().toLowerCase() === gate.getAttribute('data-key')) {
-        unlock();
-      } else {
-        err.textContent = 'That password is not right. Please try again.';
-        input.select();
-      }
-    });
-    var close = gate.querySelector('.gate__close');
-    if (close) close.addEventListener('click', function () { location.href = 'index.html'; });
-  }
 
   /* FAQ — quick height slide on open/close. The <details> element has no
      native transition, so we animate the answer's height ourselves and let
