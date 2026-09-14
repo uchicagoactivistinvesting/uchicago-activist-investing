@@ -280,7 +280,6 @@ html.js .hero .hero__actions.a-fade.in { animation-duration: 1.1s; }
 /* Home — plain-language primer, left-aligned under the programme pillars */
 .primer { background: var(--bg); padding: clamp(40px, 4.4vw, 64px) 0 clamp(44px, 5vw, 72px); }
 .primer__title { font-size: clamp(23px, 2vw, 30px); line-height: 1.1; letter-spacing: -0.01em; color: var(--ink); font-weight: 500; }
-.primer__rule { width: 48px; height: 2px; background: var(--red); margin: 20px 0 0; opacity: 0.8; }
 .primer__body { margin-top: clamp(18px, 1.8vw, 26px); }
 /* the measure is set on the paragraph so the em resolves against its own size, not the 12px body base */
 .primer__body p { font-size: clamp(14px, 1vw, 16px); line-height: 1.7; color: var(--ink); max-width: 42em; text-wrap: pretty; }
