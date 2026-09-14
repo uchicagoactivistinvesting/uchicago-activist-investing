@@ -3,13 +3,13 @@
   "configurations": [
     {
       "name": "site",
-      "runtimeExecutable": "python",
+      "runtimeExecutable": "npx",
       "runtimeArgs": [
-        "-m",
-        "http.server",
-        "4173",
-        "--directory",
-        "site"
+        "--yes",
+        "serve",
+        "site",
+        "-l",
+        "4173"
       ],
       "port": 4173
     }

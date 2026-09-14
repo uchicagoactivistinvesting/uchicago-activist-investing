@@ -69,10 +69,29 @@ validator or minifier may flag it.
 ## Running locally
 
 ```
-python3 -m http.server 4173 --directory site
+npx serve site -l 4173
 ```
 
 Then open http://localhost:4173. Hard-reload with Cmd+Shift+R after editing CSS.
+
+Use `serve` rather than `python -m http.server`: the site's links are clean URLs
+(`/apply`, not `apply.html`), and Python's server can't resolve those, so every nav link
+would 404 locally. `serve` resolves them the same way Vercel does.
+
+## Clean URLs
+
+The site is hosted on **Vercel**, and `site/vercel.json` turns on `cleanUrls`. Visitors
+see `/placements` rather than `/placements.html`, and any old `.html` link (or
+`/index.html`) 308-redirects to its clean form, so bookmarks and search results keep
+working.
+
+Two things to keep true when editing:
+
+- **Link to pages without the extension, from the root**: `href="/apply"`,
+  `href="/"`, `href="/#top"`. Canonical URLs, `og:url` and `sitemap.xml` use the same
+  form. Assets (`assets/...`, `styles.css`) stay as they are.
+- **`vercel.json` lives in `site/`, not the repo root.** The Vercel project's Root
+  Directory is `site`, so a config file at the repo root is silently ignored.
 
 Each page links `styles.css` and `main.js` with a `?v=` query so browsers pick up
 changes. After editing either file, bump that number in **all** the HTML files at once
@@ -238,5 +257,4 @@ to a few weeks). Submitting the sitemap in Google Search Console speeds this up.
 - Email: uchicagoactivistinvesting@gmail.com
 
 Each public page carries a canonical URL and Open Graph tags built on the domain above.
-Deploying to GitHub Pages with the custom domain also needs a `CNAME` file in `site/`
-containing `www.uchicagoactivistinvesting.com`.
+The site deploys to Vercel from `main`: pushing to `main` publishes it.

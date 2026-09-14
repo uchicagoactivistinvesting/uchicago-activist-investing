@@ -31,7 +31,7 @@
   document.querySelectorAll('.nav a[href]').forEach(function (a) {
     var raw = a.getAttribute('href');
     if (/^[a-z]+:/i.test(raw)) return; /* the Interest Form and other off-site links */
-    var name = raw.replace(/^\.\//, '').replace(/\.html$/, '').replace(/^\/$/, '');
+    var name = raw.replace(/^\.?\//, '').replace(/\.html$/, '');
     if (name === 'index') name = '';
     if (name === here) a.setAttribute('aria-current', 'page');
   });
@@ -55,7 +55,9 @@
       if (a.hasAttribute('download')) return false;
       var url = new URL(a.href, location.href);
       if (url.origin !== location.origin) return false;
-      if (!/\.html$|\/$/.test(url.pathname)) return false;
+      /* Pages are clean URLs (/apply) or legacy .html; anything else with an
+         extension is a file (a PDF, an image) and should just open. */
+      if (/\.(?!html$)[a-z0-9]+$/i.test(url.pathname)) return false;
       if (url.pathname === location.pathname && url.hash) return false;
       return true;
     };
@@ -221,10 +223,9 @@
   /* ---------- logo click: back to the hero ---------- */
   /* On the home page the logo scrolls back up to the hero instead of
      reloading; anywhere else it navigates home and lands on the hero. */
+  var pageOf = function (path) { return path.replace(/(index)?(\.html)?$/, ''); };
   var samePage = function (a) {
-    var here = location.pathname.replace(/index\.html$/, '');
-    var there = new URL(a.href, location.href).pathname.replace(/index\.html$/, '');
-    return here === there;
+    return pageOf(location.pathname) === pageOf(new URL(a.href, location.href).pathname);
   };
   document.querySelectorAll('.header__logo, .footer__logo').forEach(function (a) {
     a.addEventListener('click', function (e) {
