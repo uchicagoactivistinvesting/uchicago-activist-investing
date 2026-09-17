@@ -13,7 +13,7 @@ site/                 what gets deployed
                       investing primer, FAQ
   team.html           People: Founding Board cards (hidden)
   placements.html     Firm logos where members have placed
-  events.html         Featured speaker events and info sessions (hidden)
+  events.html         Featured speaker events and info sessions
   apply.html          Application cycle and the interest form
   styles.css          All styling (EB Garamond throughout, white paper, maroon sections)
   main.js             Scroll reveal, hero and banner parallax, page cross-fade, mobile menu,
@@ -25,16 +25,16 @@ icons/                original icon files
 ```
 
 `site/` is the deploy root. Everything above it is source material and is not served.
-The five pages are Home, People, Placements, Events, and Apply. **People and Events are
-currently hidden**, so Home, Placements and Apply are what visitors can reach.
+The five pages are Home, People, Placements, Events, and Apply. **People is currently
+hidden**, so Home, Placements, Events and Apply are what visitors can reach.
 
 ## Hidden pages
 
-People (`team.html`) and Events are **hidden, not deleted**. Both files are untouched and
-still deploy, so the URLs still work if you type them — they are just unlinked, kept out
-of the sitemap, and marked `noindex` so search engines drop them.
+People (`team.html`) is **hidden, not deleted**. The file is untouched and still deploys,
+so the URL still works if you type it — it is just unlinked, kept out of the sitemap, and
+marked `noindex` so search engines drop it.
 
-To bring either page back:
+To bring it back:
 
 1. **Nav links** — every page's `<nav>` carries the link inside a comment block marked
    `<!-- HIDDEN PAGE: ... -->`. Delete the `<!--` and `-->` markers around the link you
@@ -42,8 +42,7 @@ To bring either page back:
 2. **Sitemap** — uncomment the matching `<!-- HIDDEN: <url>...</url> -->` line in
    `site/sitemap.xml`.
 3. **Search** — delete the `<meta name="robots" content="noindex, nofollow">` line near
-   the top of `site/team.html` / `site/events.html`, and the `HIDDEN PAGE` comment above
-   it.
+   the top of `site/team.html`, and the `HIDDEN PAGE` comment above it.
 
 To hide a different page later, do the same three edits in reverse. Tag each one with a
 `HIDDEN` comment so the whole set stays greppable:
