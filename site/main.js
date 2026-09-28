@@ -296,60 +296,62 @@
 
   remeasure();
 
-  /* FAQ — quick height slide on open/close. The <details> element has no
-     native transition, so we animate the answer's height ourselves and let
-     the browser keep the open/closed state and keyboard behaviour. */
+  /* FAQ — height slide on open/close. The <details> element has no native
+     transition, so we animate the answer's height ourselves and let the
+     browser keep the open/closed state and keyboard behaviour. Each slide
+     starts from the panel's current height, so a click mid-animation
+     reverses smoothly instead of jumping. */
   (function () {
     var items = document.querySelectorAll('.faq__item');
     if (!items.length) return;
     var quick = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var DUR = 220;
-    var EASE = 'cubic-bezier(0.22, 1, 0.36, 1)';
+    if (quick) return;
+    var DUR = 340;
+    var EASE = 'cubic-bezier(0.25, 1, 0.5, 1)';
 
     function slide(item, opening) {
       var panel = item.querySelector('.faq__a');
-      if (!panel || !panel.animate) { if (!opening) item.open = false; return; }
-      if (item._faqDone) item._faqDone();
+      if (!panel || !panel.animate) { item.open = opening; return; }
 
-      var h = panel.scrollHeight;
-      var frames = [{ height: '0px', opacity: 0 }, { height: h + 'px', opacity: 1 }];
-      var anim = panel.animate(opening ? frames : frames.slice().reverse(), {
-        duration: DUR, easing: EASE
-      });
+      var from = item.open ? panel.getBoundingClientRect().height : 0;
+      if (item._faqAnim) item._faqAnim.cancel();
+      if (opening) item.open = true;
+      var to = opening ? panel.scrollHeight : 0;
+      if (Math.abs(to - from) < 1) { if (!opening) item.open = false; return; }
 
-      var settled = false;
-      var finish = function () {
-        if (settled) return;
-        settled = true;
-        clearTimeout(guard);
-        item._faqDone = null;
-        try { anim.cancel(); } catch (e) {}
-        panel.style.height = '';
+      var anim = panel.animate(
+        [{ height: from + 'px', opacity: opening ? 0.2 : 1 },
+         { height: to + 'px', opacity: opening ? 1 : 0 }],
+        { duration: DUR * Math.min(1, Math.max(0.5, Math.abs(to - from) / Math.max(to, from))), easing: EASE }
+      );
+      item._faqAnim = anim;
+      anim.onfinish = function () {
+        item._faqAnim = null;
         if (!opening) item.open = false;
       };
-      var guard = setTimeout(finish, DUR + 120);
-      anim.onfinish = finish;
-      item._faqDone = finish;
     }
 
     items.forEach(function (item) {
       var summary = item.querySelector('.faq__q');
       if (!summary) return;
+      // The native name="" group closes siblings instantly with no animation,
+      // so take the group over and close siblings with a slide instead.
+      var group = item.getAttribute('name');
+      if (group) { item.dataset.faqGroup = group; item.removeAttribute('name'); }
+
       summary.addEventListener('click', function (e) {
-        if (quick) return;
         e.preventDefault();
-        if (item.open) {
-          slide(item, false);
-        } else {
-          var group = item.getAttribute('name');
-          if (group) {
-            document.querySelectorAll('.faq__item[name="' + group + '"][open]').forEach(function (other) {
-              if (other !== item) slide(other, false);
-            });
-          }
-          item.open = true;
-          slide(item, true);
+        var closing = item.open && !(item._faqAnim && item._faqOpening === false);
+        item._faqOpening = !closing;
+        if (!closing && group) {
+          document.querySelectorAll('.faq__item[data-faq-group="' + group + '"]').forEach(function (other) {
+            if (other !== item && other.open && other._faqOpening !== false) {
+              other._faqOpening = false;
+              slide(other, false);
+            }
+          });
         }
+        slide(item, !closing);
       });
     });
   })();
