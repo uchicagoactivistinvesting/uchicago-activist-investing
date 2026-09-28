@@ -282,12 +282,15 @@ html.js .hero .hero__actions.a-fade.in { animation-duration: 1.1s; }
 .primer { background: var(--bg); padding: clamp(32px, 3.4vw, 48px) 0 clamp(40px, 4.5vw, 64px); }
 .primer .program__head .h2 { font-size: clamp(23px, 2vw, 30px); }
 .primer__card {
-  max-width: 900px; margin: clamp(24px, 2.6vw, 36px) auto 0; text-align: center;
-  padding: clamp(28px, 3.2vw, 44px) clamp(24px, 4.4vw, 64px);
+  max-width: 900px; margin: clamp(24px, 2.6vw, 36px) auto 0;
+  padding: clamp(26px, 3vw, 40px) clamp(24px, 4.4vw, 64px);
   background: var(--white); border: 1px solid var(--line); border-top: 3px solid var(--red);
 }
-/* the measure is set on the paragraph so the em resolves against its own size, not the 12px body base */
-.primer__text { margin-inline: auto; max-width: 46em; font-size: clamp(15px, 1.1vw, 17px); line-height: 1.75; color: var(--ink); text-wrap: pretty; }
+/* Three short points, each led by a small maroon square in place of a bullet */
+.primer__list { list-style: none; margin: 0 auto; padding: 0; max-width: 40em; font-size: clamp(15px, 1.1vw, 17px); line-height: 1.6; color: var(--ink); }
+.primer__list li { position: relative; padding-left: 26px; text-wrap: pretty; }
+.primer__list li + li { margin-top: clamp(12px, 1.2vw, 16px); }
+.primer__list li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 7px; height: 7px; background: var(--red); }
 @media (max-width: 600px) {
   .primer__card { padding: 24px 20px; }
 }
@@ -569,8 +572,8 @@ html.js .hero .hero__actions.a-fade.in { animation-duration: 1.1s; }
 .notice__links a:hover, .notice__links a:focus-visible { text-decoration-color: var(--red); }
 
 /* Timeline — one boxed schedule, set like the Events speaker card: white panel with a
-   hairline border on the paper band, heading with the short maroon rule, dates in the
-   .speaker__when style (maroon date, plain grey weekday beneath). Rows are banded, not ruled. */
+   hairline border on the paper band, heading with the short maroon rule. Each row is a
+   maroon date beside a bold event name; rows are banded, not ruled. */
 .timeline { background: linear-gradient(180deg, var(--bg) 0%, var(--paper) 22%, var(--paper) 78%, var(--bg) 100%); padding: clamp(40px, 4.4vw, 64px) 0; }
 .timeline__box {
   max-width: 940px; margin-inline: auto; background: var(--white); border: 1px solid var(--line);
@@ -581,26 +584,14 @@ html.js .hero .hero__actions.a-fade.in { animation-duration: 1.1s; }
 .timeline__rule { width: 48px; height: 2px; background: var(--red); margin: 20px auto 0; opacity: 0.8; }
 .timeline__list { list-style: none; margin: 0; padding: 0; }
 .timeline__row {
-  display: grid; grid-template-columns: minmax(0, 150px) minmax(0, 1fr); gap: clamp(16px, 3vw, 40px); align-items: start;
+  display: grid; grid-template-columns: minmax(0, 170px) minmax(0, 1fr); gap: clamp(16px, 3vw, 40px); align-items: baseline;
   padding: clamp(16px, 1.6vw, 22px) clamp(16px, 2vw, 26px);
 }
 .timeline__row:nth-child(odd) { background: var(--paper); }
 .timeline__when { font-size: clamp(16px, 1.2vw, 18px); line-height: 1.4; color: var(--red); font-weight: 600; }
-.timeline__when--tbd { color: var(--ink-soft); }
-.timeline__day { display: block; font-size: clamp(14px, 1.05vw, 16px); font-weight: 400; color: var(--ink-soft); }
-.timeline__event { min-width: 0; }
 .timeline__title { font-size: clamp(16px, 1.2vw, 18px); line-height: 1.4; font-weight: 700; color: var(--ink); }
-.timeline__detail { font-size: clamp(14px, 1vw, 16px); line-height: 1.6; color: var(--ink); text-wrap: pretty; }
-.timeline__detail a {
-  color: var(--red); text-decoration: underline; text-underline-offset: 3px;
-  text-decoration-color: rgba(119, 8, 14, 0.35); transition: text-decoration-color 0.25s ease;
-}
-.timeline__detail a:hover, .timeline__detail a:focus-visible { text-decoration-color: var(--red); }
-.timeline__note { margin-top: clamp(20px, 2.2vw, 28px); text-align: center; font-size: clamp(14px, 1vw, 16px); line-height: 1.6; color: var(--ink-soft); text-wrap: balance; }
 @media (max-width: 600px) {
-  .timeline__row { grid-template-columns: 1fr; gap: 6px; }
-  .timeline__day { display: inline; }
-  .timeline__day::before { content: " \00b7  "; }
+  .timeline__row { grid-template-columns: 1fr; gap: 2px; }
 }
 
 @media (max-width: 760px) {
