@@ -15,19 +15,20 @@ site/                 what gets deployed
   placements.html     Firm logos where members have placed
   events.html         Featured speaker events and info sessions
   apply.html          Application cycle and the application form
-  timeline.html       Fall application timeline (dates, info sessions, deadline)
   styles.css          All styling (EB Garamond throughout, white paper, maroon sections)
   main.js             Scroll reveal, hero and banner parallax, page cross-fade, mobile menu,
                       active nav link, FAQ slide
   assets/             Logos, photographs, favicon, self-hosted EB Garamond (assets/fonts)
   robots.txt, sitemap.xml, site.webmanifest
+parked/               pages taken off the site (Timeline); not deployed
 logos/                original logo files
 icons/                original icon files
 ```
 
 `site/` is the deploy root. Everything above it is source material and is not served.
-The six pages are Home, People, Placements, Events, Timeline, and Apply. **People is
-currently hidden**, so Home, Placements, Events, Timeline and Apply are what visitors can reach.
+The live pages are Home, People, Placements, Events, and Apply. **People is currently
+hidden**, so Home, Placements, Events and Apply are what visitors can reach. The Timeline
+page is parked outside the deploy root (see Hidden pages).
 
 ## Hidden pages
 
@@ -39,11 +40,16 @@ To bring it back:
 
 1. **Nav links** — every page's `<nav>` carries the link inside a comment block marked
    `<!-- HIDDEN PAGE: ... -->`. Delete the `<!--` and `-->` markers around the link you
-   want back, in **all six** HTML files.
+   want back, in **all five** HTML files.
 2. **Sitemap** — uncomment the matching `<!-- HIDDEN: <url>...</url> -->` line in
    `site/sitemap.xml`.
 3. **Search** — delete the `<meta name="robots" content="noindex, nofollow">` line near
    the top of `site/team.html`, and the `HIDDEN PAGE` comment above it.
+
+Timeline (`parked/timeline.html`) is **removed from the live site**, not just unlinked:
+the file sits outside `site/`, so it is not deployed and `/timeline` returns a 404. Its
+styles stay in `styles.css`. To bring it back, move it into `site/`, uncomment its nav link
+in every page and its sitemap line, then push.
 
 To hide a different page later, do the same three edits in reverse. Tag each one with a
 `HIDDEN` comment so the whole set stays greppable:
@@ -125,8 +131,8 @@ About page — but nothing breaks if you delete them.
 - **Programme pillars**: the four cards on the home page are the `.track` items in `index.html`.
 - **Activist investing primer**: the boxed paragraph under "What is activist investing?",
   above the pillars, is the `.primer` section in `index.html`.
-- **Application timeline**: each date is one `<li class="timeline__row">` in
-  `timeline.html`. Replace a `TBD` with the date, written like `Monday, Sep 28`.
+- **Application timeline** (parked): each date is one `<li class="timeline__row">` in
+  `parked/timeline.html`. Replace a `TBD` with the date, written like `Monday, Sep 28`.
 - **FAQ**: each question is a `.faq__item` in `index.html`. They open one at a time.
 - **People**: each card in `team.html` has a photo, a name, and a role. Duplicate a card to add a member.
 - **Placements**: generated — drop a logo in `assets/logos/` and run the script below.
