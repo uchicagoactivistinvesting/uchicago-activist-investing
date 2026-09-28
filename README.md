@@ -126,8 +126,7 @@ About page — but nothing breaks if you delete them.
 - **Activist investing primer**: the boxed paragraph under "What is activist investing?",
   above the pillars, is the `.primer` section in `index.html`.
 - **Application timeline**: each date is one `<li class="timeline__row">` in
-  `timeline.html`. Replace a `TBD` with the date and add its weekday in
-  `<span class="timeline__day">`.
+  `timeline.html`. Replace a `TBD` with the date, written like `Monday, Sep 28`.
 - **FAQ**: each question is a `.faq__item` in `index.html`. They open one at a time.
 - **People**: each card in `team.html` has a photo, a name, and a role. Duplicate a card to add a member.
 - **Placements**: generated — drop a logo in `assets/logos/` and run the script below.
