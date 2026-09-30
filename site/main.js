@@ -6,6 +6,7 @@
    - mobile menu, active nav link with an animated underline
    - cross-fade between pages on internal links
    - partner area password gate
+   - meeting buttons that stay locked until their start time (data-opens)
 */
 (function () {
   'use strict';
@@ -34,6 +35,24 @@
     var name = raw.replace(/^\.?\//, '').replace(/\.html$/, '');
     if (name === 'index') name = '';
     if (name === here) a.setAttribute('aria-current', 'page');
+  });
+
+  /* ---------- meeting buttons ----------
+     A .btn with data-opens stays greyed out with no link until that moment,
+     then takes its data-href and becomes a normal "Join Meeting" button. */
+  document.querySelectorAll('a[data-opens]').forEach(function (a) {
+    var opens = new Date(a.getAttribute('data-opens')).getTime();
+    var unlock = function () {
+      if (Date.now() < opens) return false;
+      a.href = a.getAttribute('data-href');
+      a.textContent = 'Join Meeting';
+      a.classList.remove('is-locked');
+      a.removeAttribute('aria-disabled');
+      return true;
+    };
+    if (unlock()) return;
+    a.addEventListener('click', function (e) { if (!a.href) e.preventDefault(); });
+    var timer = setInterval(function () { if (unlock()) clearInterval(timer); }, 15000);
   });
 
   /* ---------- page transitions ---------- */
