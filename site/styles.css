@@ -83,7 +83,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
   padding-inline: clamp(20px, 3.5vw, 56px);
 }
 .brand { display: flex; align-items: center; color: var(--red); flex: 1 1 0; min-width: 0; }
-.brand__mark { height: 36px; width: auto; }
+.brand__mark { height: 64px; width: auto; }
 .brand__mark--light { display: none; }
 
 .nav { display: flex; align-items: center; justify-content: center; flex: none; gap: clamp(14px, 1.8vw, 26px); }
@@ -155,7 +155,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
   .header__cta { display: none; }
   .nav { gap: 20px; }
   .nav a { font-size: 16px; }
-  .brand__mark { height: 32px; }
+  .brand__mark { height: 52px; }
 }
 @media (max-width: 900px) {
   .nav { gap: 0; }
@@ -174,7 +174,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
   .header--overlay .nav .btn { border-color: var(--red); color: var(--red); }
 }
 @media (max-width: 760px) { :root { --header-h: 80px; } }
-@media (max-width: 480px) { :root { --header-h: 68px; } .brand__mark { height: 24px; } }
+@media (max-width: 480px) { :root { --header-h: 68px; } .brand__mark { height: 44px; } }
 
 /* --------------------------------------------------------------------------
    Type scale (desktop reference sizes)
