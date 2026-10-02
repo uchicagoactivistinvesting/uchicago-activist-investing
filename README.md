@@ -27,8 +27,8 @@ icons/                original icon files
 ```
 
 `site/` is the deploy root. Everything above it is source material and is not served.
-The live pages are Home, People, Placements, Events, and Apply. **People is
-currently hidden**, so Home, Placements, Events and Apply are what visitors can reach.
+The live pages are Home, People, Placements, Events, Advisors, and Apply. **People is
+currently hidden**, so Home, Placements, Events, Advisors and Apply are what visitors can reach.
 The old Timeline page now lives on Apply; `/timeline` redirects there (`vercel.json`).
 
 ## Hidden pages
