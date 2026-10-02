@@ -22,7 +22,8 @@ site/                 what gets deployed
   assets/             Logos, photographs, favicon, self-hosted EB Garamond (assets/fonts)
   robots.txt, sitemap.xml, site.webmanifest
 parked/               pages taken off the site; not deployed
-logos/                original logo files
+logos/                original logo files (Logo_Stacked_* are the full-size header logo:
+                      maroon, white, and white on maroon for slides and social)
 icons/                original icon files
 ```
 
@@ -111,6 +112,9 @@ sed -i "s/styles.css?v=63/styles.css?v=64/g; s/main.js?v=17/main.js?v=18/g" site
 | `assets/headshot-tanish.jpg`, `headshot-rahul.jpg` | People cards                      |
 | `assets/headshot-placeholder.jpg`   | People, the four cards without a real photo yet     |
 | `assets/speaker-peter-may.jpg`      | Events, featured speaker                            |
+| `assets/advisor-rob-schriesheim.jpg` | Advisors card                                      |
+| `assets/logo-stacked.png`           | Header logo (maroon), on white / once you scroll    |
+| `assets/logo-stacked-white.png`     | Header logo (white), over the hero photo            |
 | `assets/logos/*.png`                | Placements, firm logos                              |
 | `assets/og.jpg`                     | The social preview image (`og:image`) on every page |
 
@@ -118,8 +122,8 @@ Replace a file in place and nothing else needs to change.
 
 Several files in `assets/` are no longer referenced by any page: `about-campus.jpg`,
 `university.jpg`, `why-campus.jpg`, `headshot-square.jpg`, `partners-wide.jpg`,
-`resource-1..6.jpg`, `logo-full.png`, `logo-full-white.png`, `logo-symbol*.png` and
-`icon-32.png`. They are kept on purpose — several are obvious candidates for a future
+`resource-1..6.jpg`, `logo-full.png`, `logo-full-white.png`, `logo-lockup*.png` (the old
+horizontal header logo), `logo-symbol*.png` and `icon-32.png`. They are kept on purpose — several are obvious candidates for a future
 About page — but nothing breaks if you delete them.
 
 ## Editing content
