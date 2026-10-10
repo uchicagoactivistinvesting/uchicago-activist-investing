@@ -235,7 +235,7 @@ html.js .hero .hero__actions.a-fade.in { animation-duration: 1.1s; }
 }
 .hero__sub {
   margin-top: clamp(16px, 1.6vw, 20px); max-width: 30em;
-  font-size: clamp(19px, 1.75vw, 25px); line-height: 1.35; font-style: italic; letter-spacing: 0.005em;
+  font-size: clamp(18px, 1.6vw, 23px); line-height: 1.4; letter-spacing: 0.01em;
   color: rgba(255, 255, 255, 0.9); text-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
 }
 .hero__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 32px; }
@@ -761,3 +761,6 @@ html.js .footer__icon:hover { transform: translateY(-2px); }
   .card__name { font-size: 17px; }
   .card__role { font-size: 14px; }
 }
+
+/* Placeholder pages (Member Login): heading sits centered in the space between header and footer */
+.soon { min-height: calc(100vh - 260px); display: flex; align-items: center; justify-content: center; }
