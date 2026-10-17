@@ -764,3 +764,36 @@ html.js .footer__icon:hover { transform: translateY(-2px); }
 
 /* Placeholder pages (Member Login): heading sits centered in the space between header and footer */
 .soon { min-height: calc(100vh - 260px); display: flex; align-items: center; justify-content: center; }
+
+/* Member Login — sign-in card in the .track treatment (white panel, hairline border,
+   maroon top rule). Create an Account (/signup) uses the same card */
+.auth__card {
+  max-width: 440px; margin: clamp(26px, 3vw, 40px) auto 0; padding: clamp(26px, 2.6vw, 36px) clamp(22px, 2.6vw, 36px);
+  background: var(--white); border: 1px solid var(--line); border-top: 3px solid var(--red); text-align: left;
+}
+.auth__sub { margin: 6px 0 4px; font-size: clamp(14px, 1.05vw, 16px); line-height: 1.45; color: var(--ink-soft); text-align: center; }
+.auth__field { display: block; margin-top: 18px; }
+.auth__field:first-child { margin-top: 0; }
+.auth__sub--top { margin: 0 0 22px; }
+.auth__card[hidden] { display: none; }
+.auth__note { margin: -8px 0 22px; text-align: center; font-size: clamp(15px, 1.1vw, 17px); line-height: 1.5; color: var(--ink); }
+.auth__who { font-weight: 600; color: var(--ink); }
+.auth__btn:disabled { opacity: 0.6; cursor: default; }
+.auth__label { display: block; margin-bottom: 6px; font-size: clamp(15px, 1.1vw, 17px); font-weight: 600; color: var(--ink); }
+.auth__input {
+  display: block; width: 100%; height: 44px; padding: 0 12px; font-size: 16px;
+  background: var(--white); border: 1px solid var(--line); border-radius: 0; outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.auth__input:focus { border-color: var(--red); box-shadow: 0 0 0 3px rgba(119, 8, 14, 0.1); }
+.auth__msg { min-height: 1.5em; margin-top: 14px; font-size: clamp(14px, 1.05vw, 16px); line-height: 1.45; color: var(--red); }
+.auth__msg.is-ok { color: var(--ink); }
+.auth__btn { width: 100%; height: 46px; margin-top: 6px; font-size: 16px; background: var(--red); color: var(--white); }
+.auth__btn:hover, .auth__btn:focus-visible { background: var(--red-deep); border-color: var(--red-deep); }
+.auth__switch { margin-top: 22px; font-size: clamp(15px, 1.1vw, 17px); color: var(--ink); }
+.auth__link {
+  display: inline; padding: 0; background: none; border: 0; cursor: pointer; color: var(--red);
+  text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(119, 8, 14, 0.35);
+  transition: text-decoration-color 0.25s ease;
+}
+.auth__link:hover, .auth__link:focus-visible { text-decoration-color: var(--red); }
