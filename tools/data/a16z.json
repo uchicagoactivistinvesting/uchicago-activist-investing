@@ -1,0 +1,5150 @@
+[
+{
+"name": "11x",
+"site": "https://www.11x.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "[untitled]",
+"site": "https://untitled.stream/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Abridge",
+"site": "https://abridge.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Accolade",
+"site": "https://www.accolade.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Actifio",
+"site": "https://www.actifio.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "ActionIQ",
+"site": "https://www.actioniq.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Adaptive",
+"site": "https://adaptive.build",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Adaptive Security",
+"site": "https://www.adaptivesecurity.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Addi",
+"site": "https://addi.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Aerodome",
+"site": "https://www.aerodome.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Affirm",
+"site": "https://affirm.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Air Space Intelligence",
+"site": "https://www.airspace-intelligence.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Airbase",
+"site": "https://www.airbase.us/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Airbnb",
+"site": "https://airbnb.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "AirGarage",
+"site": "https://www.airgarage.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "AKASA",
+"site": "https://akasa.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Akita Software",
+"site": "https://www.akitasoftware.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Aktis Oncology",
+"site": "https://aktisoncology.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Alchemy",
+"site": "https://alchemy.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Alchemy Health",
+"site": "https://alchemyhealth.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Aleo",
+"site": "https://provable.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Aleph Surgical",
+"site": "https://alephsurgical.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Alleviate Health",
+"site": "https://alleviatehealth.care",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Allset",
+"site": "https://allsetnow.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Alluxio",
+"site": "https://www.alluxio.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Alpha-9 Oncology",
+"site": "http://www.a9oncology.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Alpine Bio",
+"site": "https://www.nobellfoods.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Alta",
+"site": "https://www.altavr.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "AltSchool",
+"site": "https://altitudelearning.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Amber",
+"site": "https://amber.bio",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Ambience Healthcare",
+"site": "https://ambiencehealthcare.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Ambient.ai",
+"site": "https://ambient.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Amca",
+"site": "https://amca.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "AminoChain",
+"site": "https://aminochain.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Anchorage",
+"site": "https://anchorage.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Anduril",
+"site": "https://www.anduril.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Angle",
+"site": "https://angle.money",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "AnyRoad",
+"site": "https://anyroad.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Anyscale",
+"site": "https://anyscale.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Apeel Sciences",
+"site": "https://apeel.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Apex Space",
+"site": "https://apexspace.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Apollo",
+"site": "https://www.apollographql.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Applied Intuition",
+"site": "https://appliedintuition.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Apptio",
+"site": "https://www.apptio.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Aptos",
+"site": "https://aptoslabs.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Aradigm",
+"site": "https://www.aradigmhealth.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Arc",
+"site": "https://arcboats.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Arcjet",
+"site": "https://arcjet.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Arda Therapeutics",
+"site": "https://www.ardatx.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Arena",
+"site": "https://arena.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Arimo",
+"site": "https://arimo.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Armadin",
+"site": "https://www.armadin.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Arpeggi Labs",
+"site": "https://arpeggi.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Arweave",
+"site": "https://arweave.org",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Asana",
+"site": "https://asana.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Asimov",
+"site": "https://www.asimov.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Asserts",
+"site": "https://www.asserts.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Astral",
+"site": "https://astral.sh",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Astranis",
+"site": "https://www.astranis.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Astro Mechanica",
+"site": "https://astromecha.co/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Atlys",
+"site": "https://www.atlys.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Atoms",
+"site": "https://atoms.co/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Authy",
+"site": "https://authy.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Autograph.io",
+"site": "https://autograph.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Automatic Labs, Inc",
+"site": "https://automatic.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Avalanche",
+"site": "https://avax.network",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Axoni",
+"site": "https://axoni.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Azra Games",
+"site": "https://azragames.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Aztec",
+"site": "https://aztec.network",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Babylon",
+"site": "https://babylonlabs.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Backbone Systems",
+"site": "https://www.backbonesystems.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Backflip AI",
+"site": "https://backflip.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Backstory",
+"site": "https://www.backstory.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Barefoot Networks",
+"site": "http://www.barefootnetworks.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Base Power",
+"site": "https://basepowercompany.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Bastion",
+"site": "https://bastion.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Bayesian Health",
+"site": "https://bayesianhealth.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "BBA Inc",
+"site": "https://www.meldium.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Beacons",
+"site": "https://beacons.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Beeps",
+"site": "https://beeps.dev/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Believer",
+"site": "https://www.believer.gg/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Belisar",
+"site": "https://belisar.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Belong",
+"site": "https://belonghome.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Benchling",
+"site": "https://benchling.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Ber Sarai Labs",
+"site": "https://yupp.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "BeReal",
+"site": "https://bereal.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "BigHat Biosciences",
+"site": "https://www.bighatbio.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "BigScreen",
+"site": "https://bigscreenvr.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "BioAge Labs",
+"site": "http://bioagelabs.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Biodock",
+"site": "https://www.biodock.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Bitski",
+"site": "https://bitski.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Black Forest Labs",
+"site": "https://bfl.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Black Ore Technologies",
+"site": "https://www.blackore.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Blackbird.xyz",
+"site": "https://blackbird.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Blockspring",
+"site": "https://www.blockspring.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Boku",
+"site": "https://www.boku.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Bold",
+"site": "https://agebold.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Boltz",
+"site": "https://boltz.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Bonfire Studios",
+"site": "http://www.bonfirestudios.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Border0",
+"site": "https://border0.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Bounce",
+"site": "https://bounce.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Box",
+"site": "https://box.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Bracket Computing",
+"site": "https://www.brkt.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Braintrust",
+"site": "https://www.braintrust.dev/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Branch.co",
+"site": "https://Branch.co",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Braveheart",
+"site": "https://www.braveheart.bio/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Brightside",
+"site": "https://gobrightside.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Bromium",
+"site": "https://www.bromium.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Bump",
+"site": "https://www.bu.mp",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "BuzzFeed",
+"site": "https://buzzfeed.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cadre",
+"site": "https://cadre.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "California Forever",
+"site": "https://californiaforever.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Camber",
+"site": "https://camber.health",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Camp4",
+"site": "https://www.camp4tx.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Camu",
+"site": "https://www.camu.com.br/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Canal",
+"site": "https://shopcanal.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cape",
+"site": "https://www.cape.co/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Capital.xyz",
+"site": "https://capital.xyz/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Capitolis",
+"site": "https://www.capitolis.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Capriza",
+"site": "https://www.capriza.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Carbonated",
+"site": "https://www.carbonated.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cardiogram",
+"site": "https://cardiogram.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Carry1st",
+"site": "https://carry1st.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Carta",
+"site": "https://carta.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cartography Biosciences",
+"site": "https://cartography.bio/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Castelion",
+"site": "https://www.castelion.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Catena Labs",
+"site": "https://catenalabs.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Caviar",
+"site": "https://www.trycaviar.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cazena",
+"site": "https://www.cazena.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cedar",
+"site": "https://cedar.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Celo",
+"site": "https://clabs.co",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Census",
+"site": "https://getcensus.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "CFO.ai",
+"site": "https://cfo.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Character.AI",
+"site": "https://character.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Chariot Defense",
+"site": "https://chariotdefense.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Charthop",
+"site": "https://charthop.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Chestnut",
+"site": "https://www.chestnutai.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Chia",
+"site": "https://chia.net",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "CHIP Professionals",
+"site": "https://www.chipprofessionals.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cider",
+"site": "https://shopcider.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Ciitizen",
+"site": "https://www.ciitizen.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "CipherCloud",
+"site": "https://www.lookout.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Civitai",
+"site": "https://civitai.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "ClearStory Data",
+"site": "https://www.clearstorydata.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Clerk",
+"site": "https://clerk.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "ClickUp",
+"site": "https://clickup.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Clover Network",
+"site": "https://www.clover.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Clubhouse",
+"site": "https://clubhouse.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cluely",
+"site": "https://cluely.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Clutch",
+"site": "https://www.withclutch.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Co:Create",
+"site": "https://usecocreate.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Coactive",
+"site": "https://coactive.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "CodeCombat",
+"site": "https://codecombat.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Codi",
+"site": "https://www.codi.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cognition",
+"site": "https://cognition.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Coinbase",
+"site": "https://www.coinbase.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Comma.ai",
+"site": "https://comma.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Command Zero",
+"site": "https://www.commandzero.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Compound",
+"site": "https://compound.finance",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Concourse",
+"site": "https://www.concourse.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "ConductorAI",
+"site": "https://conductorai.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Convex",
+"site": "https://convex.dev/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Conway",
+"site": "https://conway.tech/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Core Loop",
+"site": "https://coreloop.gg/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cotool",
+"site": "https://cotool.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Counsel Health",
+"site": "https://www.counselhealth.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cowboy Space Corporation",
+"site": "https://www.cowboyspace.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Createra",
+"site": "https://createra.fun/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cresta",
+"site": "https://cresta.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cross River Bank",
+"site": "https://www.crossriver.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Crossbeam",
+"site": "https://crossbeam.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Crux",
+"site": "https://www.crux.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cryptoys",
+"site": "https://onchainstudios.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cuenca",
+"site": "https://cuenca.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cult of the North",
+"site": "https://www.cultofthenorth.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Culture Wireless",
+"site": "https://www.goculturewireless.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cumulus Networks",
+"site": "https://www.cumulusnetworks.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Current",
+"site": "https://current.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cursor",
+"site": "https://cursor.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "CX2",
+"site": "https://cx2.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "CYGNVS",
+"site": "https://cygnvs.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Cyngn",
+"site": "https://www.cyngn.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "D2iQ",
+"site": "https://d2iq.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Dapper Labs",
+"site": "https://dapperlabs.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Databricks",
+"site": "https://databricks.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Datanomik",
+"site": "https://www.datanomik.com/en-us",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Daylight",
+"site": "https://godaylight.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Daze",
+"site": "https://daze.chat/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "dbt Labs",
+"site": "https://www.getdbt.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Decagon",
+"site": "https://decagon.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Deel",
+"site": "http://www.deel.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Deepcell",
+"site": "https://deepcell.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "DeepMap.ai",
+"site": "https://www.deepmap.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Deepr",
+"site": "https://www.deeprmusic.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Deeptune",
+"site": "https://deeptune.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Delphix",
+"site": "https://www.delphix.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "DELV",
+"site": "https://delv.tech",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Descript",
+"site": "https://www.descript.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "DeSO",
+"site": "https://deso.org",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Destruction Labz",
+"site": "https://www.destructionlabz.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Devoted Health",
+"site": "https://www.devoted.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Dfinity",
+"site": "https://dfinity.org",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Dialpad",
+"site": "https://dialpad.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "DigitalOcean",
+"site": "https://digitalocean.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Diode",
+"site": "https://diode.computer/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Dishpatch",
+"site": "https://dishpatch.co.uk/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Dispatch",
+"site": "https://dispatch.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "District",
+"site": "https://www.joindistrict.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Divvy Homes",
+"site": "https://divvyhomes.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Dollar Shave Club",
+"site": "https://www.dollarshaveclub.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "DoNotPay",
+"site": "https://donotpay.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Doppel",
+"site": "https://www.doppel.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Doxel",
+"site": "https://www.doxel.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "doxxnet",
+"site": "https://doxx.net/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Dwolla",
+"site": "https://www.dwolla.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "dYdX",
+"site": "https://dydx.exchange",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Dynamic Labs, Inc.",
+"site": "https://dynamic.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Dyno Therapeutics",
+"site": "https://dynotx.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "E-3 Tech",
+"site": "https://e-3.tech",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Earli",
+"site": "https://earli.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Earn.com",
+"site": "https://earn.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Earnin",
+"site": "https://www.earnin.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Ease Health",
+"site": "https://easehealth.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Eclypsium",
+"site": "https://www.eclypsium.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Eco",
+"site": "https://eco.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "EigenLayer",
+"site": "https://eigenlayer.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Elegen",
+"site": "https://www.elegenbio.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "ElevenLabs",
+"site": "https://elevenlabs.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "EliseAI",
+"site": "https://www.eliseai.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "End Game",
+"site": "https://end.gg",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Endra",
+"site": "https://endra.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "EngFlow",
+"site": "https://www.engflow.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Entropy",
+"site": "https://entropy.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Envoy",
+"site": "https://envoy.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "EON",
+"site": "https://endeavornetworks.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "EPAL, INC.",
+"site": "https://www.epal.gg/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "EQRx",
+"site": "https://www.eqrx.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Equal IQ",
+"site": "https://www.equal-iq.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Equals",
+"site": "https://equals.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Erasca",
+"site": "https://www.erasca.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Erebor Bank",
+"site": "https://erebor.bank/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Espresso (Translucence Research Inc)",
+"site": "https://espressosys.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Ethos",
+"site": "https://agent.askethos.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Eve",
+"site": "https://eve.legal",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Everlaw",
+"site": "https://www.everlaw.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "EveryRealm",
+"site": "https://everyrealm.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Exa",
+"site": "https://exa.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Exowatt",
+"site": "https://exowatt.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Facebook",
+"site": "https://facebook.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Factual",
+"site": "https://www.factual.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "fal",
+"site": "https://fal.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Fanatics",
+"site": "https://fanatics.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Faraway",
+"site": "https://faraway.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Fashivly",
+"site": "https://fashivly.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "favorited",
+"site": "https://www.favorited.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Feedplan",
+"site": "https://feedplan.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Fei Protocol",
+"site": "https://fei.money",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Fenris Games",
+"site": "https://fenris.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Ferry Health",
+"site": "https://ferry.health",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "FidoCure",
+"site": "https://www.fidocure.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "FiftyThree",
+"site": "https://www.fiftythree.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Figma",
+"site": "https://figma.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Filmhub",
+"site": "https://filmhub.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "FingerprintsDAO",
+"site": "https://fingerprintsdao.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Firefly Health",
+"site": "https://www.firefly.health/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Firstbase",
+"site": "https://www.firstbasehq.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Fivetran",
+"site": "https://fivetran.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Flash Hoops",
+"site": "https://www.flashhoops.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Fleek",
+"site": "https://www.joinfleek.com/home",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Flexport",
+"site": "https://flexport.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Flock",
+"site": "https://www.flocksafety.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Flock Homes",
+"site": "https://www.flockhomes.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Flow",
+"site": "https://www.flow.life/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Flowcarbon",
+"site": "https://flowcarbon.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Flutter",
+"site": "https://flutter.dev/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Fly.io",
+"site": "https://fly.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "FlyHomes",
+"site": "https://www.flyhomes.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Foodology",
+"site": "https://foodology.com.co",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Formation",
+"site": "https://formation.dev",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Formation Bio",
+"site": "https://www.formation.bio/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Forta Network",
+"site": "https://forta.org",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Forte Labs, Inc.",
+"site": "https://forte.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Fortuna Health",
+"site": "https://fortunahealth.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Forward",
+"site": "https://www.forwardnetworks.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Foundation",
+"site": "https://foundation.app",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Foundry Management",
+"site": "https://www.foundrymgt.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Foursquare",
+"site": "https://foursquare.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Freatic",
+"site": "https://freatic.team",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Freenome",
+"site": "https://www.freenome.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Fudo",
+"site": "https://fu.do",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Function Health",
+"site": "https://www.functionhealth.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "FurtherAI",
+"site": "https://furtherai.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Fusion I/O",
+"site": "http://www.fusionio.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "FWB",
+"site": "https://fwb.help",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Gainspeed",
+"site": "https://www.gainspeed.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Galadyne",
+"site": "https://galadyne.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "GamerXSociety",
+"site": "https://www.gamerxsociety.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Gamma.app",
+"site": "https://www.gamma.app",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Gate Bio",
+"site": "https://gatebio.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "GC Therapeutics",
+"site": "https://www.gc-tx.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "General Medicine",
+"site": "https://generalmedicine.co",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Genesis Molecular AI",
+"site": "https://genesis.ml/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Genius",
+"site": "https://genius.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Gensyn",
+"site": "https://gensyn.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Gimlet Labs",
+"site": "https://gimletlabs.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Gitbutler",
+"site": "https://www.gitbutler.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "GitHub",
+"site": "https://github.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Glif",
+"site": "https://glif.app/chat",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Glimpse",
+"site": "https://tryglimpse.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Glorify",
+"site": "https://www.glorify.global/app",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Glossbird",
+"site": "http://www.glossbird.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Glow",
+"site": "https://glowing.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Gobble",
+"site": "https://www.gobble.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Golden",
+"site": "https://golden.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "gooddata.ai",
+"site": "https://www.gooddata.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Granular",
+"site": "https://www.granular.ag",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Graphite",
+"site": "https://graphite.dev/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Greenlight",
+"site": "https://greenlight.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Greether",
+"site": "https://www.greether.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "greply",
+"site": "https://www.grep.ly/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Grepr",
+"site": "https://www.grepr.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Groupon, Inc.",
+"site": "https://www.groupon.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Gym Class VR",
+"site": "https://www.gymclass.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Hadrian",
+"site": "https://hadrian.co/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Halliday",
+"site": "https://halliday.xyz/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "HappyRobot",
+"site": "https://happyrobot.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Harbor",
+"site": "https://harbor.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Harvey",
+"site": "https://www.harvey.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Hatch Loyalty",
+"site": "https://www.stuzo.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Headway",
+"site": "https://headway.co/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Hebbia",
+"site": "https://www.hebbia.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Hedra",
+"site": "https://www.hedra.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Here Not There, Inc.",
+"site": "https://hntlabs.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Heron Power",
+"site": "https://heronpower.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Hex",
+"site": "https://hex.tech/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Highstock",
+"site": "https://highstock.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Hilbert",
+"site": "https://hilberts.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Hipcamp",
+"site": "https://hipcamp.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Hippocratic AI",
+"site": "https://hippocraticai.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Honor",
+"site": "https://www.joinhonor.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Hopin",
+"site": "https://hopin.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "HumanAPI",
+"site": "https://www.humanapi.co/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "hyperexponential",
+"site": "https://hyperexponential.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "iCracked",
+"site": "https://www.icracked.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Ideogram",
+"site": "https://ideogram.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "IDRx",
+"site": "https://www.idrx.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "IFTTT",
+"site": "https://ifttt.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Illumio",
+"site": "https://www.illumio.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Imgur",
+"site": "https://imgur.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Imply",
+"site": "https://imply.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Improbable",
+"site": "https://www.improbable.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Incention",
+"site": "https://www.incention.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Inceptive",
+"site": "https://inceptive.life",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Incredible Health",
+"site": "https://www.incrediblehealth.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Inductive Bio",
+"site": "https://inductive.bio",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Inferact",
+"site": "https://Inferact.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Infinite Athlete",
+"site": "https://infiniteathlete.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Infinite Machine",
+"site": "https://infinitemachine.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Infinitus",
+"site": "https://infinitus.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Inngest",
+"site": "https://www.inngest.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Insitro",
+"site": "https://www.insitro.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Instacart",
+"site": "https://instacart.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Instagram",
+"site": "https://instagram.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Instart",
+"site": "https://www.instart.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Intrinsic",
+"site": "https://intrinsic.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Intro",
+"site": "https://intro.co",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Inventa",
+"site": "https://inventa.com.br/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Iron Fish",
+"site": "https://ironfish.network",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Irreverent Labs",
+"site": "https://irreverentlabs.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Isovalent",
+"site": "https://isovalent.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "IYK",
+"site": "https://iyk.app",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Jarvie AI",
+"site": "https://heyjarvie.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Jeeves",
+"site": "https://tryjeeves.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Jito",
+"site": "https://www.jito.network/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Jopwell",
+"site": "https://www.jopwell.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Journera",
+"site": "https://journera.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Julep",
+"site": "https://www.julep.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "k-ID",
+"site": "https://k-id.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "K12 Crypto",
+"site": "https://www.k12crypto.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Kadabra",
+"site": "https://www.kadabrainc.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Kaedim",
+"site": "https://www.kaedim3d.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Kairos",
+"site": "https://kairos.trade/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Kaizen Labs",
+"site": "https://www.kaizenlabs.co/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Kalshi",
+"site": "https://www.kalshi.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Kavak",
+"site": "https://kavak.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Keep Network",
+"site": "https://keep.network/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Keybase.io",
+"site": "https://keybase.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Keycard",
+"site": "https://www.keycard.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "KIKI",
+"site": "https://kikiworld.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Kindred",
+"site": "https://livekindred.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Kinter",
+"site": "https://kinter.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Kiosk",
+"site": "https://kiosk.app",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Knowable",
+"site": "https://knowable.fyi",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Knownwell",
+"site": "https://www.knownwell.co/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "KoBold Metals",
+"site": "https://www.koboldmetals.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Kodex",
+"site": "https://www.kodexglobal.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Komodo Health",
+"site": "https://komodohealth.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Kong",
+"site": "https://konghq.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Kosen Labs",
+"site": "https://kosen.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Krea",
+"site": "https://Krea.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "kweliTV",
+"site": "https://www.kweli.tv",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Labelbox",
+"site": "https://labelbox.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Labster",
+"site": "https://www.labster.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Larridin",
+"site": "https://www.larridin.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Lassie",
+"site": "https://www.lassie.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "LayerZero",
+"site": "https://layerzero.network",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Legend Labs",
+"site": "https://legend.xyz/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Leona Health",
+"site": "https://leona.health",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Levels Health",
+"site": "https://www.levels.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Lido Finance",
+"site": "https://lido.fi/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Lightfield",
+"site": "https://lightfield.app",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Lightspark",
+"site": "https://lightspark.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Lightup",
+"site": "https://www.lightup.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Lime",
+"site": "https://www.li.me/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Limitless",
+"site": "https://www.limitless.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Lio",
+"site": "https://lio.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Local Motion",
+"site": "https://www.getlocalmotion.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Locale",
+"site": "https://shoplocale.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Loft",
+"site": "https://loft.com.br",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Longeye",
+"site": "https://www.longeye.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Longitude Labs",
+"site": "https://longitudelabs.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Lookout",
+"site": "https://lookout.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Loom",
+"site": "https://loom.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Loop",
+"site": "https://loopcrypto.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "LootRush",
+"site": "https://www.lootrush.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Lowkey.gg",
+"site": "https://lowkey.gg",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "LTSE Services, Inc.",
+"site": "https://ltse.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Luma",
+"site": "https://judgeholdings.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Luma AI",
+"site": "https://lumalabs.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Lumi Interactive",
+"site": "https://www.playkinderworld.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Lumos",
+"site": "https://lumos.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Lyft",
+"site": "https://lyft.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Lyrebird.ai",
+"site": "https://lyrebird.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Lytro",
+"site": "https://www.lytro.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Macro",
+"site": "https://macro.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Magic Leap",
+"site": "https://www.magicleap.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mainframe Industries",
+"site": "https://themainframe.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mana Bio",
+"site": "https://mana.bio",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Manifold",
+"site": "https://manifold.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mariana Minerals",
+"site": "https://marianaminerals.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Marker Learning",
+"site": "https://markerlearning.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Material Security",
+"site": "https://material.security",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Matik",
+"site": "https://www.matik.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Matter Labs",
+"site": "https://matter-labs.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Maven",
+"site": "https://maven.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mayvenn",
+"site": "https://shop.mayvenn.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Maze Therapeutics",
+"site": "https://mazetx.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mediachain",
+"site": "https://mediachain.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Medium",
+"site": "https://medium.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Medley",
+"site": "https://www.withmedley.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "MEGA",
+"site": "https://www.gomega.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Meitre",
+"site": "https://meitre.com/en",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mem",
+"site": "https://get.mem.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mem Protocol",
+"site": "https://mem.co",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Memora Health",
+"site": "https://memorahealth.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mentari Therapeutics",
+"site": "https://mentaritx.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mercury",
+"site": "https://mercury.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Merit Systems",
+"site": "https://www.merit.systems/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Merkle Manufactory, Inc.",
+"site": "https://farcaster.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Meta4 Capital",
+"site": "https://meta4.capital",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Metatheory",
+"site": "https://metatheory.gg",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Method",
+"site": "https://methodfi.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Method Security",
+"site": "https://method.security",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Metronome",
+"site": "https://metronome.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Midstream Health",
+"site": "https://midstream.health",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Milu Health",
+"site": "https://www.miluhealth.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mind Robotics",
+"site": "https://www.mindrobotics.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mintlify",
+"site": "https://mintlify.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mirage",
+"site": "https://mirage.app/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mirelo AI",
+"site": "https://mirelo.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mirendil",
+"site": "https://Mirendil.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mistral",
+"site": "https://www.mistral.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mixpanel",
+"site": "https://mixpanel.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "ModernFi",
+"site": "https://modernfi.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Moment",
+"site": "https://moment.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Moov",
+"site": "https://moov.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Morpho",
+"site": "https://morpho.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mosaic",
+"site": "https://mosaic.us/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mother Computer Inc.",
+"site": "https://mother.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Motherduck",
+"site": "https://motherduck.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mountaintop Studios",
+"site": "https://www.mountaintop.gg",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Muse App Inc",
+"site": "https://www.musesessions.co/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mux",
+"site": "https://mux.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mvmnt",
+"site": "https://mvmnt.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mysten Labs",
+"site": "https://mystenlabs.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Mythical Games",
+"site": "https://mythicalgames.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Nansen",
+"site": "https://nansen.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Nash",
+"site": "https://www.nash.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "NationBuilder",
+"site": "https://nationbuilder.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Nautilus Biotechnology",
+"site": "https://www.nautilus.bio/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Nava Therapeutics",
+"site": "https://navatx.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Navan",
+"site": "https://navan.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "NEAR",
+"site": "https://near.org",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Neighbor",
+"site": "https://www.neighbor.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Neo",
+"site": "https://www.neo.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Netlify",
+"site": "https://netlify.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Netography",
+"site": "https://netography.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Netris",
+"site": "https://netris.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Neural Magic",
+"site": "https://neuralmagic.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Nexthop",
+"site": "https://nexthop.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "NG.CASH",
+"site": "https://ng.cash/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Nicira Networks",
+"site": "https://www.vmware.com/products/nsx.html",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Niftmint",
+"site": "https://tflabs.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "NOD Games",
+"site": "https://nodgames.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "North Pole Security",
+"site": "https://northpole.security/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Northwood Space",
+"site": "https://northwoodspace.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Nova Labs",
+"site": "https://nova.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "NX",
+"site": "http://nx.dev/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Nym",
+"site": "https://nymtech.net",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Oasis Labs",
+"site": "https://www.oasislabs.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Oboe",
+"site": "https://oboe.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Octant Bio",
+"site": "https://www.octant.bio/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Oculus VR",
+"site": "https://store.facebook.com/quest/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Odyssey",
+"site": "https://withodyssey.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Odyssey Interactive",
+"site": "http://OdysseyInteractive.gg",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "OfferUp",
+"site": "https://offerup.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Okta",
+"site": "https://www.okta.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Ollin Bio",
+"site": "https://ollin.bio",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Omada Health",
+"site": "https://www.omadahealth.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "One More Game",
+"site": "https://www.onemoregame.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Onshape",
+"site": "https://www.onshape.com/en/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Oorja Bio",
+"site": "https://oorjabio.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "OpenAI",
+"site": "https://openai.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "OpenBazaar",
+"site": "https://openbazaar.org/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Opendoor",
+"site": "https://www.opendoor.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "OpenEvidence",
+"site": "https://www.openevidence.com/about",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "OpenGov",
+"site": "https://www.opengov.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "OpenInvest",
+"site": "https://www.openinvest.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "OpenRouter",
+"site": "https://openrouter.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "OpenSea",
+"site": "https://opensea.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Optimism",
+"site": "https://optimism.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Optimizely",
+"site": "https://www.optimizely.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Optimyze",
+"site": "https://www.optimyze.cloud",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Orbital Therapeutics",
+"site": "https://orbitaltx.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Orchestra Bio",
+"site": "https://Orchestra.bio",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Orchid Labs",
+"site": "https://www.orchid.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Orderful",
+"site": "https://www.orderful.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Original Games",
+"site": "https://originalgames.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Otter",
+"site": "https://withotter.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Outing",
+"site": "https://www.joinouting.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Overtime",
+"site": "https://overtime.tv/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Overwolf",
+"site": "https://www.overwolf.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "PagerDuty",
+"site": "https://pagerduty.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Pahdo Labs",
+"site": "https://pahdolabs.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Palmstreet",
+"site": "https://palmstreet.app/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Parsec Gaming",
+"site": "https://parsecgaming.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "PartyDAO",
+"site": "https://partybid.app",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Patch",
+"site": "https://www.patch.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Patch Biosciences",
+"site": "https://www.patch.bio",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "PatientPing",
+"site": "https://www.patientping.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Pave",
+"site": "https://pave.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Payall",
+"site": "https://payall.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Payrails",
+"site": "https://payrails.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Pearl Health",
+"site": "https://pearlhealth.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Peepal.co",
+"site": "https://coinswitch.co",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Periodic Labs",
+"site": "https://periodic.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Petual",
+"site": "https://www.petual.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Phantom",
+"site": "https://phantom.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Phota Labs",
+"site": "https://www.photalabs.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Phylo",
+"site": "https://phylo.bio",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Pietra",
+"site": "http://www.pietrastudio.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "PilotGPT",
+"site": "https://www.pilotgpt.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Pimlico",
+"site": "https://pimlico.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Pindrop",
+"site": "https://www.pindrop.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Pinecone",
+"site": "https://www.pinecone.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Pinterest",
+"site": "https://pinterest.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Pixate",
+"site": "http://pixate.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Plaid",
+"site": "https://plaid.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "PlanetScale",
+"site": "https://planetscale.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Platfora",
+"site": "https://www.platfora.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "PleasrDAO",
+"site": "https://pleasr.org",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Plix",
+"site": "https://plix.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Podium Automation",
+"site": "https://podiumautomation.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Point",
+"site": "https://point.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Polychain",
+"site": "https://polychain.capital/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Pomelo Care",
+"site": "https://pomelocare.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Poseidon",
+"site": "https://psdn.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Practice",
+"site": "https://practice.do/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Preference Model",
+"site": "https://preferencemodel.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Prepared",
+"site": "https://prepared911.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Preset",
+"site": "https://preset.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Prisms",
+"site": "https://prismsvr.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Probably",
+"site": "https://www.probably.dev/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Probook",
+"site": "https://probook.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "ProductHunt",
+"site": "https://producthunt.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Promise",
+"site": "https://www.promise.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "PromptFoo",
+"site": "https://www.promptfoo.dev/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Proof Holdings",
+"site": "https://proof.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Proof of Play",
+"site": "https://proofofplay.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Propel",
+"site": "https://www.propel.app/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Prosper AI",
+"site": "https://getprosper.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Protege",
+"site": "https://withprotege.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Protocol Labs",
+"site": "https://protocol.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Proven",
+"site": "https://www.proven.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Pug.AI",
+"site": "https://www.pug.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Pylon",
+"site": "https://www.usepylon.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Pyn",
+"site": "https://pynhq.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Q Bio, Inc.",
+"site": "https://q.bio/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Quantopian",
+"site": "https://www.quantopian.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "QuiverAI",
+"site": "https://quiver.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Quora",
+"site": "https://quora.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Rabbit",
+"site": "https://rabb.it",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "RadEmploy",
+"site": "https://www.rademploy.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Radiant",
+"site": "https://radiantnuclear.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Raid Base",
+"site": "https://raidbase.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Rapid",
+"site": "https://rapidapi.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Rappi",
+"site": "https://rappi.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Rasa",
+"site": "https://rasa.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Raspberry AI",
+"site": "https://www.raspberry.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Ready Player Me",
+"site": "https://readyplayer.me",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Red Hot Labs",
+"site": "https://www.redhotlabs.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Reddit",
+"site": "https://redditinc.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Reducto",
+"site": "https://reducto.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Reface",
+"site": "https://reface.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Reflektive",
+"site": "https://www.reflektive.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Reforge",
+"site": "https://www.reforge.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Regrello",
+"site": "https://regrello.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Relace",
+"site": "https://relace.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Relay",
+"site": "https://relay.app",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Replay",
+"site": "https://replay.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Replicate",
+"site": "https://replicate.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Replit",
+"site": "https://replit.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Resend",
+"site": "https://resend.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Resourcely",
+"site": "https://resourcely.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Revolut",
+"site": "https://revolut.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Rewatch",
+"site": "https://rewatch.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Rezo Therapeutics",
+"site": "https://rezotx.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Ribbon Health",
+"site": "https://www.ribbonhealth.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Rigetti Quantum Computing",
+"site": "https://rigetti.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Rigup",
+"site": "https://www.rigup.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Rillet",
+"site": "https://www.rillet.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Rival",
+"site": "https://rival.co/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Rive",
+"site": "https://rive.app",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "RLY Network",
+"site": "https://forte.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Robinhood",
+"site": "https://robinhood.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Roblox",
+"site": "http://corp.roblox.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Roboto Games",
+"site": "https://robotogames.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Roebling",
+"site": "https://roebling.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Rollup AI",
+"site": "https://rollup.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "ROME Therapeutics",
+"site": "https://rometx.com/home/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Royal",
+"site": "https://royal.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "RTFKT",
+"site": "https://RTFKT.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Run the World",
+"site": "https://www.runtheworld.today/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Rune Technologies",
+"site": "https://www.runetech.co/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Runloop",
+"site": "https://runloop.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Runta",
+"site": "https://runta.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Rutter",
+"site": "https://www.rutter.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Rye",
+"site": "https://rye.store",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Safe Superintelligence",
+"site": "https://ssi.inc/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Salient",
+"site": "https://www.trysalient.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Salt AI",
+"site": "https://www.salt.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Samsara",
+"site": "https://samsara.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sandbox VR",
+"site": "https://sandboxvr.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Santa Ana Bio",
+"site": "https://SantaAnaBio.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sardine",
+"site": "https://www.sardine.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Saronic",
+"site": "https://www.saronic.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Scene Infrastructure Co",
+"site": "https://sceneinfrastructure.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Scribe Therapeutics",
+"site": "https://Scribetx.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Scribenote",
+"site": "https://scribenote.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Season Health",
+"site": "https://seasonhealth.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "SeedFi",
+"site": "https://seedfi.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Segura",
+"site": "https://www.segura.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Seismic Systems",
+"site": "https://seismic.systems",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Senra Systems",
+"site": "https://www.senrasystems.us/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "SentiLink",
+"site": "https://www.sentilink.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sequence",
+"site": "https://www.sequencehq.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Series Entertainment",
+"site": "https://www.series.inc/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sesame",
+"site": "https://www.sesame.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Setpoint.io",
+"site": "https://www.setpoint.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Shapeways",
+"site": "https://www.shapeways.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sharp Performance",
+"site": "https://www.sharpperformance.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Shef",
+"site": "https://shef.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Shibuya",
+"site": "https://shibuya.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Shield AI",
+"site": "https://shield.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Shizuku AI",
+"site": "https://shizuku.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "ShoeDazzle",
+"site": "https://www.shoedazzle.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Shop Rodeo",
+"site": "https://www.shoprodeo.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "SignalFx",
+"site": "https://www.signalfx.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "SigOpt",
+"site": "https://sigopt.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Silver Tail Systems",
+"site": "https://www.rsa.com/products/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Singularity 6",
+"site": "https://www.singularity6.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Skout",
+"site": "https://www.skout.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sky",
+"site": "https://sky.money/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sky Mavis",
+"site": "https://skymavis.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Skydio",
+"site": "https://skydio.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Skylight Health",
+"site": "https://skylight.health",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Skype",
+"site": "https://www.skype.com/en/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "SkySafe",
+"site": "https://www.skysafe.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Slack",
+"site": "https://slack.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sleeper",
+"site": "https://sleeper.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Slingshot AI",
+"site": "https://www.slingshot.xyz/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sloyd",
+"site": "https://sloyd.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Smartcar",
+"site": "https://smartcar.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Snackpass",
+"site": "https://snackpass.co",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "SnapLogic",
+"site": "https://www.snaplogic.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Snapser",
+"site": "https://snapser.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Socket",
+"site": "https://socket.dev",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sola",
+"site": "https://www.sola.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Solana",
+"site": "https://solana.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sound.xyz",
+"site": "https://sound.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sourcegraph",
+"site": "https://sourcegraph.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sovrun",
+"site": "https://www.sovrun.org/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Soylent",
+"site": "https://soylent.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "SpaceX",
+"site": "https://spacex.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Spade",
+"site": "https://spade.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Specter",
+"site": "https://specter.co",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sphere",
+"site": "https://getsphere.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "SpotOn",
+"site": "https://spoton.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sprig",
+"site": "https://sprig.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Sprinter Health",
+"site": "https://sprinterhealth.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Spruce Systems",
+"site": "https://spruceid.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Stack Overflow",
+"site": "https://www.stackoverflowbusiness.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Stacker",
+"site": "https://stacker.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Stainless",
+"site": "https://www.stainless.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Standard Nuclear",
+"site": "https://standardnuclear.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Starburst",
+"site": "https://www.starburst.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Stelo Labs, Inc.",
+"site": "https://stelolabs.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Stipple Bio",
+"site": "https://www.stipple.bio/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Stitch",
+"site": "https://www.stitch.co/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Stoik",
+"site": "https://www.stoik.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Story Protocol",
+"site": "https://storyprotocol.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Stripe",
+"site": "https://stripe.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Stuut",
+"site": "https://www.stuut.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Substack",
+"site": "https://substack.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Super Evil MegaCorp",
+"site": "https://www.superevilmegacorp.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "SuperApp",
+"site": "https://superapp.chat/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Superhuman",
+"site": "https://superhuman.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Supermove",
+"site": "https://supermove.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Supersonik",
+"site": "https://supersonik.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Svix",
+"site": "https://svix.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Swan",
+"site": "https://www.swan.tech/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "SwayBrand, Inc.",
+"site": "https://www.swaybrand.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Swell",
+"site": "https://swell.life",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Swiftype",
+"site": "https://swiftype.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Synapse",
+"site": "https://synapsefi.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Syndicate",
+"site": "https://syndicate.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tabular",
+"site": "https://tabular.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tackle.io",
+"site": "https://Tackle.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tako",
+"site": "https://tako.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Talaria Scientific",
+"site": "https://talariasci.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Talkiatry",
+"site": "https://www.talkiatry.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tally Labs, Inc.",
+"site": "https://tallylabs.xyz",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Talos",
+"site": "https://talos.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tanium",
+"site": "https://tanium.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tapi",
+"site": "https://tapi.la/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tecton",
+"site": "https://tecton.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Teespring",
+"site": "https://teespring.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Telepatia AI",
+"site": "https://telepatia.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Teleport",
+"site": "https://teleport.org",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tellus",
+"site": "https://tellusapp.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Temporal",
+"site": "https://temporal.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tenex AI",
+"site": "https://tenex.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tenfold",
+"site": "https://www.tenfold.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tennr",
+"site": "https://www.tennr.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "ternwheel",
+"site": "https://www.ternwheel.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tessera Labs",
+"site": "https://tesseralabs.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Testcode",
+"site": "https://testco.de",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Thatch Health",
+"site": "https://thatch.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "The Coterie",
+"site": "https://www.thecoterie.co/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "The Horowitz Andreessen Academy (HAA)",
+"site": "https://theacademysf.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Theorycraft Games",
+"site": "https://www.theorycraftgames.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Thinking Machines Lab",
+"site": "https://thinkingmachines.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Third Arc Bio",
+"site": "https://thirdarcbio.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Thyme Care",
+"site": "https://www.thymecare.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tidemark",
+"site": "https://insightsoftware.com/tidemark/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tigris Data",
+"site": "https://tigrisdata.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tilt",
+"site": "https://tilt.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Timbucktoo",
+"site": "https://www.thetimbucktoo.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "TinyCo",
+"site": "https://www.tinyco.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Titan",
+"site": "https://titan.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tlon",
+"site": "https://urbit.org/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tmunity Therapeutics",
+"site": "https://www.tmunity.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Toka",
+"site": "https://tokagroup.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Toma",
+"site": "https://www.toma.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tomfoolery",
+"site": "https://www.tomfoolery.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tomorrow Health",
+"site": "https://home.tomorrowhealth.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "TopKey",
+"site": "https://www.topkey.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Topography Health",
+"site": "https://jointopo.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Town",
+"site": "https://town.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Tradeblock",
+"site": "https://tradeblock.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Treeline",
+"site": "https://www.treeline.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "TruckSmarter",
+"site": "https://www.trucksmarter.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "TrueFi",
+"site": "https://truefi.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Truemed",
+"site": "https://truemed.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Truffle Security",
+"site": "https://trufflesecurity.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Trunk",
+"site": "https://trunk.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Turquoise Health",
+"site": "https://turquoise.health/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "TXN Solutions",
+"site": "https://txn.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "TypeSafe AI",
+"site": "http://typesafe.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Udacity",
+"site": "https://www.udacity.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Udio",
+"site": "https://www.udio.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Ultima Genomics",
+"site": "https://ultimagenomics.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Ulysses",
+"site": "https://www.theoceancompany.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Unconventional AI",
+"site": "https://unconv.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "UnifyID",
+"site": "https://unify.id",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Unisound",
+"site": "https://www.unisound.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Uniswap",
+"site": "https://uniswap.org",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "UnitedMasters",
+"site": "https://unitedmasters.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Universal",
+"site": "https://www.universal.xyz/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Unlimited Industries",
+"site": "https://www.unlimitedindustries.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Uplift",
+"site": "https://uplift.us",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "UpSmith",
+"site": "https://upsmith.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Upstash",
+"site": "https://upstash.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Usermind",
+"site": "https://usermind.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Vaas",
+"site": "https://getvaas.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Valar Labs",
+"site": "https://valarlabs.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Valon",
+"site": "https://www.valon.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Valora",
+"site": "https://valoraapp.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Vals AI",
+"site": "https://vals.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Vantage",
+"site": "https://www.vantage.sh/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "VeeFriends",
+"site": "https://veefriends.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Ventrilo",
+"site": "https://ventrilo.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Ventus Therapeutics",
+"site": "https://www.ventustx.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Very Good Security",
+"site": "https://www.verygoodsecurity.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Vesta",
+"site": "https://vesta.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Viggle",
+"site": "https://viggle.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Viki",
+"site": "https://www.viki.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Virch Merch",
+"site": "https://www.virchmerchshop.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Vitally",
+"site": "https://vitally.io/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Voldex",
+"site": "https://voldex.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Volta",
+"site": "https://volta.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Wabi AI",
+"site": "https://wabi.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Walker & Co",
+"site": "https://walkerandcompany.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Warbler Labs, Incorporated",
+"site": "https://goldfinch.finance",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "WaveForms AI",
+"site": "https://www.waveforms.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Waymark",
+"site": "https://www.waymarkcare.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Waymo",
+"site": "https://waymo.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Wealthmore",
+"site": "https://www.wealthmore.net/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Westmag",
+"site": "https://www.westmag.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Whatnot",
+"site": "https://www.whatnot.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Wingspan",
+"site": "https://www.wingspan.app/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Wise",
+"site": "https://wise.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Wit.AI",
+"site": "https://wit.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Within",
+"site": "https://www.getsupernatural.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Wiz",
+"site": "https://wiz.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Wonderschool",
+"site": "https://www.wonderschool.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "WorkBoard",
+"site": "https://workboard.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "World Labs",
+"site": "https://worldlabs.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Worldcoin",
+"site": "https://worldcoin.org",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Wrapbook",
+"site": "https://www.wrapbook.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "xAI",
+"site": "https://x.ai",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "XBuild",
+"site": "https://www.x.build/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "XDOF",
+"site": "https://www.xdof.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "XMTP Labs",
+"site": "https://xmtp.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Yellow",
+"site": "http://yellowsignal.ai/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Yield Guild Games",
+"site": "https://yieldguild.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Yubico",
+"site": "https://www.yubico.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Yuga Labs (BAYC)",
+"site": "https://yuga.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Yuno",
+"site": "https://y.uno/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Zed.run",
+"site": "https://vhslab.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Zefchain",
+"site": "https://linera.io",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Zenefits",
+"site": "https://www.zenefits.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "ZeroMark",
+"site": "https://zeromark.com",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Zipline",
+"site": "https://www.zipline.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Zulily",
+"site": "https://www.zulily.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Zuma",
+"site": "https://www.getzuma.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Zus Health",
+"site": "https://zushealth.com/",
+"group": "Startups",
+"logo": ""
+},
+{
+"name": "Zynga",
+"site": "https://zynga.com",
+"group": "Startups",
+"logo": ""
+}
+]

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Fall 2026 Application Timeline</title>
+<style>
+  /* Same font files the website loads */
+  @font-face { font-family: 'EB Garamond'; font-style: normal; font-weight: 400 800; src: url('../site/assets/fonts/eb-garamond-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'EB Garamond'; font-style: italic; font-weight: 400 800; src: url('../site/assets/fonts/eb-garamond-italic.woff2') format('woff2'); }
+
+  :root {
+    --white: #ffffff;
+    --rule: rgba(255, 255, 255, 0.35);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; }
+  body {
+    font-family: 'EB Garamond', Garamond, serif;
+    color: var(--white);
+    position: relative;
+    overflow: hidden;
+    background: #53060a;
+    font-feature-settings: "lnum" 1, "kern" 1;
+  }
+
+  /* Campus photo kept as texture only: softened and under a deep maroon wash so text reads cleanly */
+  .photo {
+    position: absolute; inset: -20px;
+    background: url('../site/assets/hero-1800.jpg') center 30% / cover no-repeat;
+    filter: grayscale(0.6) blur(4px);
+  }
+  .wash {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(92,8,12,0.88) 0%, rgba(110,10,16,0.90) 40%, rgba(58,4,8,0.96) 100%);
+  }
+
+  .wrap {
+    position: absolute; inset: 0;
+    padding: 0 130px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+  }
+
+  .lockup { width: 600px; display: block; }
+
+  h1 { margin-top: 84px; font-size: 64px; font-weight: 600; line-height: 1.05; text-align: center; white-space: nowrap; }
+
+  .rows { width: 100%; margin-top: 56px; border-top: 1px solid var(--rule); }
+  .row {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    align-items: center;
+    padding: 36px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .date { font-size: 54px; line-height: 1; font-weight: 600; }
+  .day  { margin-top: 8px; font-size: 30px; line-height: 1; font-weight: 400; }
+  .what { font-size: 44px; line-height: 1.05; font-weight: 600; }
+  .detail { margin-top: 8px; font-size: 30px; line-height: 1.2; font-weight: 400; }
+
+  .note { margin-top: 60px; font-size: 32px; line-height: 1.35; font-weight: 400; text-align: center; }
+
+  .apply { margin-top: 40px; font-size: 36px; line-height: 1.25; font-weight: 600; text-align: center; }
+</style>
+</head>
+<body>
+  <div class="photo"></div>
+  <div class="wash"></div>
+
+  <div class="wrap">
+    <img class="lockup" src="../site/assets/logo-lockup-white.png" alt="The University of Chicago Activist Investing">
+
+    <h1>Fall 2026 Application Timeline</h1>
+
+    <div class="rows">
+      <div class="row">
+        <div><div class="date">Sep 28</div><div class="day">Monday</div></div>
+        <div><div class="what">Applications Open</div><div class="detail">Released on our website</div></div>
+      </div>
+      <div class="row">
+        <div><div class="date">Oct 4</div><div class="day">Sunday</div></div>
+        <div><div class="what">Info Session</div><div class="detail">4:00 PM CT</div></div>
+      </div>
+      <div class="row">
+        <div><div class="date">Oct 9</div><div class="day">Friday</div></div>
+        <div><div class="what">Applications Close</div><div class="detail">11:59 PM CT</div></div>
+      </div>
+    </div>
+
+    <p class="note">Applications are rolling, so we encourage you to apply early.</p>
+
+    <p class="apply">Apply at<br>www.uchicagoactivistinvesting.com/apply</p>
+  </div>
+</body>
+</html>

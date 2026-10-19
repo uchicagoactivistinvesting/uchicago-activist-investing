@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Members | UChicago Activist Investing</title>
   <meta name="robots" content="noindex">
-  <meta name="description" content="Members area of the University of Chicago Activist Investing Club.">
+  <meta name="description" content="Alumni directory of the University of Chicago Activist Investing Club.">
   <link rel="canonical" href="https://www.uchicagoactivistinvesting.com/members">
   <meta property="og:title" content="Members | UChicago Activist Investing">
-  <meta property="og:description" content="Members area of the University of Chicago Activist Investing Club.">
+  <meta property="og:description" content="Alumni directory of the University of Chicago Activist Investing Club.">
   <meta property="og:image" content="https://www.uchicagoactivistinvesting.com/assets/og.jpg">
   <meta property="og:url" content="https://www.uchicagoactivistinvesting.com/members">
   <meta property="og:type" content="website">
@@ -27,7 +27,8 @@
   </style>
   <link rel="preload" href="assets/fonts/eb-garamond-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/eb-garamond-italic.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css?v=118">
+  <link rel="stylesheet" href="styles.css?v=144">
+  <script src="page-swap.js?v=2"></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -61,29 +62,35 @@
   }
   </script>
 </head>
-<body>
+<body data-page="members">
 
-  <header class="header">
+  <header class="header header--member">
     <div class="header__inner">
-      <a class="header__logo brand" href="/" aria-label="UChicago Activist Investing home">
+      <a class="header__logo brand" href="/members" aria-label="Member directory">
         <img class="brand__mark brand__mark--dark" src="assets/logo-stacked.png" alt="" width="614" height="192">
         <img class="brand__mark brand__mark--light" src="assets/logo-stacked-white.png" alt="" width="614" height="192">
       </a>
-      <nav class="nav" aria-label="Site">
-        <a href="/">Home</a>
-        <!-- HIDDEN PAGE: delete the two comment markers below to put People back
-             in the nav. Do it in all five HTML files. See README > Hiding a page. -->
-        <!--
-        <a href="/team">People</a>
-        -->
-        <a href="/placements">Placements</a>
-        <a href="/events">Events</a>
-        <a href="/advisors">Advisors</a>
-        <a href="/apply">Apply</a>
-        <a class="btn" href="/login">Member Login</a>
-      </nav>
-      <div class="header__cta"><a class="btn" href="/login">Member Login</a></div>
-      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="acct" id="acct" hidden>
+        <button class="acct__btn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="acct-menu">
+          <span class="acct__avatar" aria-hidden="true"></span>
+          <span class="acct__id"><span class="acct__name"></span><span class="acct__email"></span></span>
+          <svg class="acct__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="acct__menu" id="acct-menu" hidden>
+          <div class="acct__head">
+            <span class="acct__avatar acct__avatar--lg" aria-hidden="true"></span>
+            <span class="acct__id"><span class="acct__name"></span><span class="acct__email"></span></span>
+          </div>
+          <p class="acct__current" hidden></p>
+          <nav class="acct__group" aria-label="Account">
+            <a class="acct__item" href="/members" data-member><svg class="acct__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>Directory</a>
+            <a class="acct__item" href="/profile" data-member><svg class="acct__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21a8 8 0 0 0-16 0"/><circle cx="12" cy="8" r="4"/></svg>My Profile</a>
+          </nav>
+          <div class="acct__group">
+            <button class="acct__item js-signout" type="button"><svg class="acct__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="m16 17 5-5-5-5"/><path d="M21 12H9"/></svg>Sign Out</button>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -91,18 +98,40 @@
     <section class="timeline auth" aria-labelledby="members-title">
       <div class="container">
         <h1 id="members-title" class="timeline__heading a-reveal" style="--d:.1s">Members</h1>
-        <div class="timeline__rule" aria-hidden="true"></div>
+        <div class="timeline__rule a-expand" aria-hidden="true" style="--d:.2s"></div>
 
-        <div class="auth__card" id="member" hidden>
-          <p class="auth__sub auth__sub--top">Signed in as <strong class="auth__who"></strong></p>
-          <p class="auth__note">Member resources will be posted here.</p>
-          <button class="btn auth__btn" type="button" id="signout">Sign Out</button>
+        <div class="dir a-fade" id="directory" hidden>
+          <div class="dir__panel">
+            <h2 class="dir__title">Filters</h2>
+            <div class="dir__filters">
+              <input class="auth__input dir__select" type="text" id="f-industry" placeholder="All industries" aria-label="Filter by industry" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false">
+              <input class="auth__input dir__select" type="text" id="f-firm" placeholder="All companies" aria-label="Filter by company" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false">
+              <input class="auth__input dir__select" type="text" id="f-location" placeholder="All locations" aria-label="Filter by location" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false">
+              <input class="auth__input dir__select" type="text" id="f-position" placeholder="All positions" aria-label="Filter by position" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false">
+              <button class="dir__reset" type="button" id="dir-clear" disabled>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>Reset
+              </button>
+            </div>
+          </div>
+
+          <div class="dir__panel dir__panel--results">
+            <div class="dir__head">
+              <h2 class="dir__title">Directory</h2>
+              <p class="dir__count" id="dir-count"></p>
+            </div>
+            <div class="dir__searchwrap">
+              <svg class="dir__searchicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+              <input class="auth__input dir__search" type="search" id="dir-search" placeholder="Search members, firms, industries, positions or locations…" aria-label="Search members">
+            </div>
+            <div class="dir__grid" id="dir-list"></div>
+            <p class="dir__empty" id="dir-empty" hidden>No members match those filters.</p>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer" id="page-end">
     <div class="footer__inner a-fade">
       <a class="footer__brand" href="/#top">UChicago Activist Investing Club</a>
       <div class="footer__right">
@@ -119,8 +148,25 @@
     </div>
   </footer>
 
-  <script src="main.js?v=20"></script>
+  <div class="drawer" id="drawer" hidden>
+    <div class="drawer__scrim" data-close></div>
+    <aside class="drawer__panel" role="dialog" aria-modal="true" aria-labelledby="drawer-name">
+      <div class="drawer__bar">
+        <span class="drawer__tile drawer__tile--sm" aria-hidden="true"></span>
+        <span class="drawer__firm"></span>
+        <button class="drawer__close" type="button" aria-label="Close" data-close>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div id="drawer-body"></div>
+    </aside>
+  </div>
+
+
+  <script src="main.js?v=26"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.4/dist/umd/supabase.js"></script>
-  <script src="auth.js?v=2"></script>
+  <script src="auth.js?v=5"></script>
+  <script src="firms.js?v=2"></script>
+  <script src="members.js?v=28"></script>
 </body>
 </html>

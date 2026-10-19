@@ -4,7 +4,8 @@
    - home header floats over the hero and turns solid after it scrolls away
    - hero fade-in on load and a gentle parallax on scroll
    - mobile menu, active nav link with an animated underline
-   - cross-fade between pages on internal links
+   - cross-fade between pages on internal links (native view transitions,
+     with a JS fade as the fallback)
    - partner area password gate
    - meeting buttons that stay locked until their start time (data-opens)
 */
@@ -34,7 +35,15 @@
     if (/^[a-z]+:/i.test(raw)) return; /* the Interest Form and other off-site links */
     var name = raw.replace(/^\.?\//, '').replace(/\.html$/, '');
     if (name === 'index') name = '';
-    if (name === here) a.setAttribute('aria-current', 'page');
+    if (name === here) {
+      a.setAttribute('aria-current', 'page');
+      /* A real element in place of the ::after underline, so the page
+         transition can slide it across to the next page's link */
+      var ink = document.createElement('span');
+      ink.className = 'nav__ink';
+      ink.setAttribute('aria-hidden', 'true');
+      a.appendChild(ink);
+    }
   });
 
   /* ---------- meeting buttons ----------
@@ -58,8 +67,13 @@
   /* ---------- page transitions ---------- */
   /* Content fades in on arrival and out again on the way to the next page, so
      the header and the maroon rules appear to stay put between pages. */
-  var FADE_OUT = 260;
-  if (reduce) {
+  var FADE_OUT = 200;
+  /* Where the browser cross-fades pages itself (@view-transition in the CSS),
+     leave navigation alone: holding the click and fading out first is what
+     left a blank frame between pages. */
+  var nativeVT = 'CSSViewTransitionRule' in window;
+  if (nativeVT) root.classList.add('vt');
+  if (reduce || nativeVT) {
     root.classList.add('is-ready');
   } else {
     requestAnimationFrame(function () {
@@ -95,6 +109,52 @@
     window.addEventListener('pageshow', function (e) {
       if (e.persisted) { leaving = false; root.classList.remove('is-leaving'); root.classList.add('is-ready'); }
     });
+  }
+
+  /* ---------- sign in / sign out ----------
+     auth.js and members.js navigate from script once Supabase answers. Fade the
+     page out straight away (.is-signing) instead of sitting still on the click,
+     and leave once both the fade and the work are done. `work` resolves to the
+     URL to go to, or to nothing to keep `url`. */
+  var SIGN_FADE = 320;
+  window.uaicLeave = function (url, work) {
+    root.classList.add('is-signing');
+    var wait = new Promise(function (done) { setTimeout(done, reduce ? 0 : SIGN_FADE); });
+    var go = function (to) { location.href = typeof to === 'string' ? to : url; };
+    Promise.all([Promise.resolve(work), wait]).then(function (r) { go(r[0]); }, function () { go(); });
+  };
+  window.addEventListener('pageshow', function (e) { if (e.persisted) root.classList.remove('is-signing'); });
+
+  /* ---------- prefetch the next page ----------
+     A transition can only start once the next page has arrived, so fetch it
+     while the pointer is still on the way: speculation rules where the browser
+     has them (prefetch on hover or press), a <link rel="prefetch"> otherwise.
+     Prefetch, not prerender: a prerendered page would play its entrance
+     animations before anyone sees it. */
+  var supportsRules = HTMLScriptElement.supports && HTMLScriptElement.supports('speculationrules');
+  if (supportsRules) {
+    var rules = document.createElement('script');
+    rules.type = 'speculationrules';
+    rules.textContent = JSON.stringify({
+      prefetch: [{ where: { and: [{ href_matches: '/*' }, { not: { selector_matches: '[target], [download]' } }] }, eagerness: 'moderate' }]
+    });
+    document.head.appendChild(rules);
+  } else {
+    var fetched = {};
+    var prefetch = function (e) {
+      var a = e.target.closest && e.target.closest('a[href]');
+      if (!a || a.target || a.hasAttribute('download')) return;
+      var url = new URL(a.href, location.href);
+      if (url.origin !== location.origin || url.pathname === location.pathname) return;
+      if (/\.(?!html$)[a-z0-9]+$/i.test(url.pathname) || fetched[url.pathname]) return;
+      fetched[url.pathname] = true;
+      var link = document.createElement('link');
+      link.rel = 'prefetch';
+      link.href = url.pathname;
+      document.head.appendChild(link);
+    };
+    document.addEventListener('pointerover', prefetch, { passive: true });
+    document.addEventListener('touchstart', prefetch, { passive: true });
   }
 
   /* ---------- mobile menu ---------- */

@@ -7,11 +7,10 @@
       "runtimeArgs": [
         "--yes",
         "serve",
-        "site",
-        "-l",
-        "4173"
+        "site"
       ],
-      "port": 4173
+      "port": 4173,
+      "autoPort": true
     }
   ]
 }

@@ -27,7 +27,9 @@
   </style>
   <link rel="preload" href="assets/fonts/eb-garamond-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/eb-garamond-italic.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css?v=118">
+  <link rel="stylesheet" href="styles.css?v=144">
+  <link rel="expect" href="#page-end" blocking="render">
+  <script src="page-swap.js?v=2"></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -76,7 +78,7 @@
         <!--
         <a href="/team">People</a>
         -->
-        <a href="/placements">Placements</a>
+        <a href="/placements">Alumni</a>
         <a href="/events">Events</a>
         <a href="/advisors">Advisors</a>
         <a href="/apply">Apply</a>
@@ -91,9 +93,9 @@
     <section class="timeline auth" aria-labelledby="login-title">
       <div class="container">
         <h1 id="login-title" class="timeline__heading a-reveal" style="--d:.1s">Member Login</h1>
-        <div class="timeline__rule" aria-hidden="true"></div>
+        <div class="timeline__rule a-expand" aria-hidden="true" style="--d:.2s"></div>
 
-        <form class="auth__card a-fade" id="signin" novalidate>
+        <form class="auth__card a-fade" id="signin" style="--d:.25s" novalidate>
           <label class="auth__field">
             <span class="auth__label">Email</span>
             <input class="auth__input" type="email" name="email" autocomplete="email" required>
@@ -106,12 +108,12 @@
           <button class="btn auth__btn" type="submit">Sign In</button>
         </form>
 
-        <p class="auth__switch">New member? <a class="auth__link" href="/signup">Create an account</a></p>
+        <p class="auth__switch a-fade" style="--d:.4s">New member? <a class="auth__link" href="/signup">Create an account</a></p>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer" id="page-end">
     <div class="footer__inner a-fade">
       <a class="footer__brand" href="/#top">UChicago Activist Investing Club</a>
       <div class="footer__right">
@@ -128,8 +130,8 @@
     </div>
   </footer>
 
-  <script src="main.js?v=20"></script>
+  <script src="main.js?v=26"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.4/dist/umd/supabase.js"></script>
-  <script src="auth.js?v=2"></script>
+  <script src="auth.js?v=5"></script>
 </body>
 </html>

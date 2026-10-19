@@ -1,0 +1,1207 @@
+# Investment Banking
+Goldman Sachs|goldmansachs.com|GS
+Morgan Stanley|morganstanley.com|MS
+J.P. Morgan|jpmorgan.com|JPMorgan;JPM;JP Morgan Chase;JPMorgan Chase
+Bank of America|bankofamerica.com|BofA;BofA Securities;Merrill Lynch;BAML
+Citi|citigroup.com|Citigroup;Citibank
+Barclays|barclays.com|
+Deutsche Bank|db.com|
+UBS|ubs.com|
+Credit Suisse|credit-suisse.com|CS
+Wells Fargo|wellsfargo.com|Wells Fargo Securities
+RBC Capital Markets|rbccm.com|RBC;Royal Bank of Canada
+BMO Capital Markets|bmocm.com|BMO;Bank of Montreal
+TD Securities|tdsecurities.com|TD Bank
+TD Cowen|tdsecurities.com|
+Scotiabank|scotiabank.com|Scotia
+CIBC Capital Markets|cibccm.com|CIBC
+Jefferies|jefferies.com|
+Mizuho|mizuhogroup.com|Mizuho Americas
+MUFG|mufgamericas.com|Mitsubishi UFJ
+SMBC|smbc.co.jp|SMBC Nikko;Sumitomo Mitsui
+Nomura|nomura.com|
+BNP Paribas|bnpparibas.com|BNP
+Societe Generale|societegenerale.com|SocGen
+HSBC|hsbc.com|
+Macquarie|macquarie.com|Macquarie Capital
+Lazard|lazard.com|
+Evercore|evercore.com|
+Centerview Partners|centerviewpartners.com|Centerview
+PJT Partners|pjtpartners.com|PJT
+Moelis & Company|moelis.com|Moelis
+Perella Weinberg Partners|pwpartners.com|PWP;Perella
+Guggenheim Partners|guggenheimpartners.com|Guggenheim Securities
+Qatalyst Partners|qatalyst.com|Qatalyst
+Houlihan Lokey|hl.com|HL
+William Blair|williamblair.com|
+Harris Williams|harriswilliams.com|
+Lincoln International|lincolninternational.com|
+Baird|rwbaird.com|Robert W. Baird
+Piper Sandler|pipersandler.com|
+Raymond James|raymondjames.com|
+Stifel|stifel.com|Stifel Nicolaus;KBW;Keefe Bruyette & Woods
+KeyBanc Capital Markets|key.com|KeyBanc;KeyBank
+Truist Securities|truist.com|Truist;SunTrust
+Citizens JMP|citizensbank.com|Citizens;JMP
+Cantor Fitzgerald|cantor.com|Cantor
+Oppenheimer & Co.|oppenheimer.com|Oppenheimer
+Leerink Partners|leerink.com|SVB Leerink
+Cowen|cowen.com|
+Needham & Company|needhamco.com|Needham
+Canaccord Genuity|canaccordgenuity.com|Canaccord
+B. Riley|brileyfin.com|B Riley Securities
+Rothschild & Co|rothschildandco.com|Rothschild
+Ducera Partners|ducerapartners.com|Ducera
+Ardea Partners|ardeapartners.com|Ardea
+LionTree|liontree.com|
+Allen & Company|allenco.com|Allen & Co
+Tudor Pickering Holt|tphco.com|TPH
+Solomon Partners|solomonpartners.com|PJ Solomon
+Greenhill & Co.|greenhill.com|Greenhill
+Gleacher & Company|gleacher.com|
+Robey Warshaw|robeywarshaw.com|
+Union Square Advisors|usadvisors.com|
+GCA Advisors|gcaglobal.com|Houlihan GCA
+Intrepid Investment Bankers|intrepidib.com|
+Imperial Capital|imperialcapital.com|
+Configure Partners|configurepartners.com|
+Capstone Partners|capstonepartners.com|
+Brown Gibbons Lang|bglco.com|BGL
+DC Advisory|dcadvisory.com|Daiwa
+Fifth Third Securities|53.com|Fifth Third
+PNC Capital Markets|pnc.com|PNC
+Regions Securities|regions.com|Regions
+Huntington Capital Markets|huntington.com|Huntington
+US Bancorp|usbank.com|U.S. Bank;US Bank
+Santander|santander.com|Banco Santander
+BBVA|bbva.com|
+ING|ing.com|
+Natixis|natixis.com|
+Credit Agricole CIB|ca-cib.com|Credit Agricole;CACIB
+Standard Chartered|sc.com|
+Commerzbank|commerzbank.com|
+Rabobank|rabobank.com|
+Daiwa Capital Markets|daiwa.jp|Daiwa
+Banco Itaú|itau.com.br|Itau BBA
+BTG Pactual|btgpactual.com|BTG
+Nomura Greentech|nomuragreentech.com|
+Ladenburg Thalmann|ladenburg.com|
+Wedbush Securities|wedbush.com|Wedbush
+D.A. Davidson|dadavidson.com|DA Davidson
+Janney Montgomery Scott|janney.com|Janney
+Roth Capital Partners|roth.com|Roth
+Lake Street Capital Markets|lakestreetcm.com|
+Benchmark Company|benchmarkcompany.com|
+Craig-Hallum|craig-hallum.com|
+Hovde Group|hovdegroup.com|
+Mesirow|mesirow.com|Mesirow Financial
+Chicago Atlantic|chicagoatlantic.com|
+Duff & Phelps|duffandphelps.com|
+Kroll|kroll.com|
+Alvarez & Marsal|alvarezandmarsal.com|A&M
+FTI Consulting|fticonsulting.com|FTI
+AlixPartners|alixpartners.com|
+Ankura|ankura.com|
+Berkeley Research Group|thinkbrg.com|BRG
+Miller Buckfire|millerbuckfire.com|
+Seaport Global|seaportglobal.com|
+Siebert Williams Shank|siebertwilliams.com|
+Loop Capital|loopcap.com|
+Academy Securities|academysecurities.com|
+Drexel Hamilton|drexelhamilton.com|
+CastleOak Securities|castleoaksecurities.com|
+Mischler Financial|mischlerfinancial.com|
+Ramirez & Co.|ramirezco.com|
+# Private Equity
+Blackstone|blackstone.com|BX
+KKR|kkr.com|Kohlberg Kravis Roberts
+Apollo Global Management|apollo.com|Apollo
+The Carlyle Group|carlyle.com|Carlyle
+TPG|tpg.com|TPG Capital
+Bain Capital|baincapital.com|
+Bain Capital Ventures|baincapitalventures.com|BCV
+Warburg Pincus|warburgpincus.com|
+Advent International|adventinternational.com|Advent
+CVC Capital Partners|cvc.com|CVC
+EQT|eqtgroup.com|EQT Partners
+Hellman & Friedman|hf.com|H&F
+Silver Lake|silverlake.com|
+Thoma Bravo|thomabravo.com|
+Vista Equity Partners|vistaequitypartners.com|Vista
+Clayton Dubilier & Rice|cdr-inc.com|CD&R
+Leonard Green & Partners|leonardgreen.com|Leonard Green;LGP
+Permira|permira.com|
+Cinven|cinven.com|
+Brookfield|brookfield.com|Brookfield Asset Management
+Ares Management|aresmgmt.com|Ares
+Blue Owl|blueowl.com|Owl Rock;Dyal
+General Atlantic|generalatlantic.com|GA
+Stone Point Capital|stonepoint.com|Stone Point
+Apax Partners|apax.com|Apax
+BC Partners|bcpartners.com|
+PAI Partners|paipartners.com|PAI
+Ardian|ardian.com|
+Partners Group|partnersgroup.com|
+Platinum Equity|platinumequity.com|
+American Securities|american-securities.com|
+Genstar Capital|gencap.com|Genstar
+Veritas Capital|veritascapital.com|Veritas
+Francisco Partners|franciscopartners.com|
+Insight Partners|insightpartners.com|Insight Venture Partners
+Hg|hgcapital.com|HgCapital
+Welsh Carson Anderson & Stowe|wcas.com|WCAS;Welsh Carson
+GTCR|gtcr.com|
+Madison Dearborn Partners|mdcp.com|MDP;Madison Dearborn
+Thomas H. Lee Partners|thl.com|THL;Thomas H Lee
+Berkshire Partners|berkshirepartners.com|
+New Mountain Capital|newmountaincapital.com|New Mountain
+Kohlberg & Company|kohlberg.com|Kohlberg
+Roark Capital|roarkcapital.com|Roark
+Searchlight Capital|searchlightcap.com|Searchlight
+Centerbridge Partners|centerbridge.com|Centerbridge
+Cerberus Capital Management|cerberus.com|Cerberus
+Oaktree Capital Management|oaktreecapital.com|Oaktree
+Sycamore Partners|sycamorepartners.com|Sycamore
+Golden Gate Capital|goldengatecap.com|
+Onex|onex.com|Onex Partners
+TA Associates|ta.com|TA
+Summit Partners|summitpartners.com|
+Providence Equity Partners|provequity.com|Providence Equity
+Siris Capital|siris.com|Siris
+L Catterton|lcatterton.com|Catterton
+Lindsay Goldberg|lindsaygoldbergllc.com|
+Carlyle AlpInvest|alpinvest.com|AlpInvest
+Arsenal Capital Partners|arsenalcapital.com|Arsenal
+Audax Group|audaxgroup.com|Audax
+Charlesbank Capital Partners|charlesbank.com|Charlesbank
+H.I.G. Capital|higcapital.com|HIG
+Vestar Capital Partners|vestarcapital.com|Vestar
+Trivest Partners|trivest.com|Trivest
+Gryphon Investors|gryphoninvestors.com|Gryphon
+Littlejohn & Co.|littlejohnllc.com|Littlejohn
+Wind Point Partners|wppartners.com|Wind Point
+Water Street Healthcare Partners|waterstreet.com|Water Street
+Shore Capital Partners|shorecp.com|Shore Capital
+Nautic Partners|nautic.com|Nautic
+Riverside Company|riversidecompany.com|The Riverside Company;Riverside
+Sentinel Capital Partners|sentinelpartners.com|Sentinel
+Harvest Partners|harvestpartners.com|
+Frontenac|frontenac.com|
+Pritzker Private Capital|ppcpartners.com|PPC
+The Jordan Company|thejordancompany.com|TJC
+Odyssey Investment Partners|odysseyinvestment.com|Odyssey
+Kelso & Company|kelso.com|Kelso
+Court Square Capital Partners|courtsquare.com|Court Square
+Clearlake Capital|clearlake.com|Clearlake
+Stonepeak|stonepeak.com|
+Global Infrastructure Partners|global-infra.com|GIP
+I Squared Capital|isquaredcapital.com|I Squared
+Antin Infrastructure Partners|antin-ip.com|Antin
+EnCap Investments|encapinvestments.com|EnCap
+Quantum Capital Group|quantumcap.com|Quantum Energy Partners
+Pearl Energy Investments|pearlenergy.com|
+Energy Capital Partners|ecpgp.com|ECP
+ArcLight Capital Partners|arclight.com|ArcLight
+Riverstone Holdings|riverstonellc.com|Riverstone
+First Reserve|firstreserve.com|
+Kayne Anderson|kaynecapital.com|
+Hamilton Lane|hamiltonlane.com|
+StepStone Group|stepstonegroup.com|StepStone
+Adams Street Partners|adamsstreetpartners.com|Adams Street
+HarbourVest Partners|harbourvest.com|HarbourVest
+Lexington Partners|lexingtonpartners.com|Lexington
+Coller Capital|collercapital.com|Coller
+Neuberger Berman Private Markets|nb.com|NB Private Markets
+Pantheon|pantheon.com|
+Goldman Sachs Asset Management|gsam.com|GSAM
+Morgan Stanley Capital Partners|morganstanley.com|MSCP
+J.P. Morgan Asset Management|jpmorgan.com|JPMAM
+Atlas Holdings|atlasholdingsllc.com|Atlas
+Altas Partners|altas.com|
+Cove Hill Partners|covehill.com|
+Hidden Harbor Capital Partners|hh-cp.com|
+Thompson Street Capital Partners|thompsonstreet.net|Thompson Street
+Linden Capital Partners|lindenllc.com|Linden
+Prospect Partners|prospect-partners.com|
+Lake Capital|lakecapital.com|
+Victory Park Capital|victoryparkcapital.com|Victory Park
+Mesirow Private Equity|mesirow.com|
+Arbor Investments|arborinvestments.com|Arbor
+KSB Capital|ksbcapital.com|
+Wynnchurch Capital|wynnchurch.com|Wynnchurch
+Grey Mountain Partners|greymountain.com|
+Sterling Partners|sterlingpartners.com|
+High Street Capital|highstreetcapital.com|
+Svoboda Capital Partners|svoboda.com|
+Valor Equity Partners|valorep.com|Valor
+CIVC Partners|civc.com|CIVC
+Merit Capital Partners|meritcapital.com|
+Monroe Capital|monroecap.com|Monroe
+Calera Capital|caleracapital.com|
+Ridgemont Equity Partners|ridgemontep.com|Ridgemont
+Comvest Partners|comvest.com|Comvest
+Kinderhook Industries|kinderhook.com|Kinderhook
+LLR Partners|llrpartners.com|LLR
+Main Post Partners|mainpostpartners.com|
+Brentwood Associates|brentwood.com|Brentwood
+Freeman Spogli & Co.|freemanspogli.com|Freeman Spogli
+Levine Leichtman Capital Partners|llcp.com|LLCP
+Gores Group|gores.com|The Gores Group
+Oak Hill Capital|oakhillcapital.com|Oak Hill
+Kainos Capital|kainoscapital.com|Kainos
+Brazos Private Equity Partners|brazos.com|
+CenterOak Partners|centeroakpartners.com|
+Hicks Equity Partners|hicksequity.com|
+Insight Equity|insightequity.com|
+Pharos Capital|pharosfunds.com|
+Teakwood Capital|teakwoodcapital.com|
+Quad-C Management|quadcmanagement.com|Quad-C
+Carousel Capital|carouselcapital.com|
+Pamlico Capital|pamlicocapital.com|Pamlico
+Eagle Merchant Partners|eaglemerchantpartners.com|
+Bregal Partners|bregalpartners.com|Bregal
+Trilantic North America|trilantic.com|Trilantic
+Tailwind Capital|tailwind.com|Tailwind
+Siguler Guff|sigulerguff.com|
+Aquiline Capital Partners|aquiline.com|Aquiline
+Lovell Minnick Partners|lmpartners.com|Lovell Minnick
+Pine Brook|pinebrookpartners.com|
+Corsair Capital|corsair-capital.com|Corsair
+J.C. Flowers & Co.|jcfco.com|JC Flowers
+Vector Capital|vectorcapital.com|Vector
+Marlin Equity Partners|marlinequity.com|Marlin
+Accel-KKR|accel-kkr.com|
+Great Hill Partners|greathillpartners.com|Great Hill
+Spectrum Equity|spectrumequity.com|
+JMI Equity|jmi.com|
+Battery Ventures|battery.com|
+Riverwood Capital|riverwoodcapital.com|
+Primus Capital|primuscapital.com|
+STG Partners|stgpartners.com|Symphony Technology Group;STG
+Siris Capital Group|siris.com|
+Haveli Investments|haveli.com|
+Turn/River Capital|turnriver.com|
+Mainsail Partners|mainsailpartners.com|
+Serent Capital|serentcapital.com|
+Five Elms Capital|fiveelms.com|
+PSG Equity|psgequity.com|PSG
+Susquehanna Growth Equity|sgep.com|SGE
+Kayne Partners|kaynecapital.com|
+Frontier Growth|frontiergrowth.com|
+Arlington Capital Partners|arlingtoncap.com|Arlington
+Sun Capital Partners|suncappart.com|Sun Capital
+Wellspring Capital|wellspringcapital.com|
+OpenGate Capital|opengatecapital.com|
+KPS Capital Partners|kpsfund.com|KPS
+Mill Point Capital|millpoint.com|
+Bertram Capital|bertramcapital.com|
+Incline Equity Partners|inclineequity.com|Incline
+Alpine Investors|alpineinvestors.com|Alpine
+Silversmith Capital Partners|silversmith.com|Silversmith
+Abry Partners|abry.com|ABRY
+Macquarie Asset Management|macquarie.com|MIRA
+Temasek|temasek.com.sg|
+GIC|gic.com.sg|
+Abu Dhabi Investment Authority|adia.ae|ADIA
+Mubadala|mubadala.com|
+Public Investment Fund|pif.gov.sa|PIF
+Qatar Investment Authority|qia.qa|QIA
+Norges Bank Investment Management|nbim.no|NBIM
+CPP Investments|cppinvestments.com|CPPIB;Canada Pension Plan
+Ontario Teachers' Pension Plan|otpp.com|OTPP;Ontario Teachers
+CDPQ|cdpq.com|Caisse de dépôt
+PSP Investments|investpsp.com|PSP
+OMERS|omers.com|
+British Columbia Investment Management|bci.ca|BCI
+CalPERS|calpers.ca.gov|
+CalSTRS|calstrs.com|
+Teacher Retirement System of Texas|trs.texas.gov|TRS
+Wellcome Trust|wellcome.org|
+Harvard Management Company|hmc.harvard.edu|HMC
+Yale Investments Office|investments.yale.edu|Yale Investments
+Stanford Management Company|smc.stanford.edu|
+University of Chicago Office of Investments|uchicago.edu|UChicago Office of Investments
+MIT Investment Management Company|mitimco.org|MITIMCo
+Princeton University Investment Company|princo.princeton.edu|PRINCO
+Bill & Melinda Gates Foundation Trust|gatesfoundation.org|Gates Foundation
+Cascade Investment|cascadeinvestment.com|
+MSD Partners|msdpartners.com|MSD Capital
+Pritzker Group|pritzkergroup.com|
+Berkshire Hathaway|berkshirehathaway.com|
+Loews Corporation|loews.com|Loews
+Icahn Enterprises|ielp.com|IEP;Icahn
+# Growth Equity & Venture Capital
+Sequoia Capital|sequoiacap.com|Sequoia
+Andreessen Horowitz|a16z.com|a16z
+Accel|accel.com|
+Benchmark|benchmark.com|
+Kleiner Perkins|kleinerperkins.com|KPCB
+Lightspeed Venture Partners|lsvp.com|Lightspeed
+Greylock Partners|greylock.com|Greylock
+Index Ventures|indexventures.com|
+General Catalyst|generalcatalyst.com|
+Founders Fund|foundersfund.com|
+Khosla Ventures|khoslaventures.com|
+NEA|nea.com|New Enterprise Associates
+Bessemer Venture Partners|bvp.com|Bessemer
+Tiger Global Management|tigerglobal.com|Tiger Global
+Coatue Management|coatue.com|Coatue
+Thrive Capital|thrivecap.com|Thrive
+IVP|ivp.com|Institutional Venture Partners
+Iconiq Capital|iconiq.com|ICONIQ Growth
+Redpoint Ventures|redpoint.com|Redpoint
+Union Square Ventures|usv.com|USV
+First Round Capital|firstround.com|First Round
+GV|gv.com|Google Ventures
+Y Combinator|ycombinator.com|YC
+SoftBank Vision Fund|softbank.jp|SoftBank;Vision Fund
+DST Global|dst-global.com|DST
+Ribbit Capital|ribbitcap.com|Ribbit
+Paradigm|paradigm.xyz|
+Lux Capital|luxcapital.com|Lux
+8VC|8vc.com|
+Craft Ventures|craftventures.com|
+Felicis|felicis.com|Felicis Ventures
+Spark Capital|sparkcapital.com|Spark
+CRV|crv.com|Charles River Ventures
+Mayfield|mayfield.com|Mayfield Fund
+Norwest Venture Partners|nvp.com|Norwest
+Menlo Ventures|menlovc.com|Menlo
+Matrix Partners|matrix.vc|Matrix
+Emergence Capital|emcap.com|Emergence
+Lowercase Capital|lowercasecapital.com|
+Initialized Capital|initialized.com|Initialized
+SV Angel|svangel.com|
+Dragoneer Investment Group|dragoneer.com|Dragoneer
+D1 Capital Partners|d1capital.com|D1
+Altimeter Capital|altimeter.com|Altimeter
+Durable Capital Partners|durablecap.com|Durable
+Addition|addition.com|
+Greenoaks Capital|greenoaks.com|Greenoaks
+Kinnevik|kinnevik.com|
+Atomico|atomico.com|
+Balderton Capital|balderton.com|Balderton
+Northzone|northzone.com|
+Hummingbird Ventures|hummingbird.vc|
+Flybridge Capital|flybridge.com|Flybridge
+Hyperion|hyperionvc.com|
+Pritzker Vlock Family Office|pritzkervlock.com|
+Hyde Park Venture Partners|hydeparkvp.com|Hyde Park Ventures
+Pathlight Ventures|pathlightventures.com|
+OCA Ventures|ocaventures.com|OCA
+Chicago Ventures|chicagoventures.com|
+Jump Capital|jumpcap.com|
+Lightbank|lightbank.com|
+MATH Venture Partners|mathventurepartners.com|MATH VP
+Origin Ventures|originventures.com|
+Polsky Center|polsky.uchicago.edu|Polsky Center for Entrepreneurship
+Drive Capital|drivecapital.com|Drive
+Hyperflex|hyperflex.com|
+Black Opal Ventures|blackopalventures.com|
+Arch Venture Partners|archventure.com|ARCH
+Third Rock Ventures|thirdrockventures.com|Third Rock
+Flagship Pioneering|flagshippioneering.com|Flagship
+Polaris Partners|polarispartners.com|Polaris
+OrbiMed|orbimed.com|
+RA Capital Management|racap.com|RA Capital
+Deerfield Management|deerfield.com|Deerfield
+Venrock|venrock.com|
+5AM Ventures|5amventures.com|
+Atlas Venture|atlasventure.com|
+Foresite Capital|foresitecap.com|Foresite
+Casdin Capital|casdincapital.com|Casdin
+Perceptive Advisors|perceptivelife.com|Perceptive
+Baker Bros. Advisors|bakerbrothers.com|Baker Brothers
+Redmile Group|redmilegroup.com|Redmile
+Polychain Capital|polychain.capital|Polychain
+Pantera Capital|panteracapital.com|Pantera
+Multicoin Capital|multicoin.capital|Multicoin
+Haun Ventures|haun.co|
+Stripes|stripes.co|
+Bond Capital|bondcap.com|BOND
+Meritech Capital|meritechcapital.com|Meritech
+Sapphire Ventures|sapphireventures.com|Sapphire
+Scale Venture Partners|scalevp.com|Scale VP
+Wing Venture Capital|wing.vc|Wing
+True Blue Partners|truebluepartners.com|
+Second Summit Partners|secondsummitpartners.com|Second Summit
+Arcadia Investment Partners|arcadiainvestmentpartners.com|
+SC Holdings|scholdings.com|
+# Hedge Funds
+Citadel|citadel.com|Citadel LLC
+Millennium Management|mlp.com|Millennium
+Point72|point72.com|Point72 Asset Management;Cubist
+Bridgewater Associates|bridgewater.com|Bridgewater
+Two Sigma|twosigma.com|
+D.E. Shaw|deshaw.com|DE Shaw;D. E. Shaw & Co.
+Renaissance Technologies|rentec.com|RenTech
+Balyasny Asset Management|bamfunds.com|Balyasny;BAM
+ExodusPoint Capital|exoduspoint.com|ExodusPoint
+Schonfeld Strategic Advisors|schonfeld.com|Schonfeld
+Elliott Management|elliottmgmt.com|Elliott;Elliott Investment Management
+Baupost Group|baupost.com|Baupost
+Viking Global Investors|vikingglobal.com|Viking
+Lone Pine Capital|lonepinecapital.com|Lone Pine
+Tiger Management|tigermanagement.com|
+Maverick Capital|maverickcap.com|Maverick
+Pershing Square Capital Management|pershingsquareholdings.com|Pershing Square
+Third Point|thirdpoint.com|Third Point LLC
+Davidson Kempner Capital Management|davidsonkempner.com|Davidson Kempner;DK
+Farallon Capital Management|faralloncapital.com|Farallon
+King Street Capital Management|kingstreet.com|King Street
+Anchorage Capital Group|anchoragecap.com|Anchorage
+Silver Point Capital|silverpointcapital.com|Silver Point
+Canyon Partners|canyonpartners.com|Canyon
+Sculptor Capital Management|sculptor.com|Och-Ziff;Sculptor
+Marshall Wace|mwam.com|
+Man Group|man.com|Man AHL;Man GLG
+Brevan Howard|brevanhoward.com|
+Caxton Associates|caxton.com|Caxton
+Tudor Investment Corporation|tudor.com|Tudor
+Moore Capital Management|moorecap.com|Moore Capital
+Element Capital Management|elementcapital.com|Element Capital
+Rokos Capital Management|rokoscapital.com|Rokos
+Graham Capital Management|grahamcapital.com|Graham Capital
+AQR Capital Management|aqr.com|AQR
+Winton|winton.com|Winton Group
+Capula Investment Management|capulaglobal.com|Capula
+Hudson Bay Capital|hudsonbaycapital.com|Hudson Bay
+Verition Fund Management|verition.com|Verition
+Eisler Capital|eislercapital.com|Eisler
+Hap Trading|haptrading.com|
+Walleye Capital|walleyecapital.com|Walleye
+Magnetar Capital|magnetar.com|Magnetar
+Arrowstreet Capital|arrowstreetcapital.com|Arrowstreet
+PDT Partners|pdtpartners.com|PDT
+WorldQuant|worldquant.com|
+Cubist Systematic Strategies|cubistsystematic.com|Cubist
+Squarepoint Capital|squarepoint-capital.com|Squarepoint
+Qube Research & Technologies|qube-rt.com|QRT
+Voleon Group|voleon.com|Voleon
+Engineers Gate|engineersgate.com|
+Tower Research Capital|tower-research.com|Tower Research
+Jain Global|jainglobal.com|
+Holocene Advisors|holoceneadvisors.com|Holocene
+Light Street Capital|lightstreet.com|Light Street
+Whale Rock Capital|whalerockcapital.com|Whale Rock
+Steadfast Capital Management|steadfast.com|Steadfast
+Glenview Capital Management|glenviewcapital.com|Glenview
+Eminence Capital|eminencecapital.com|Eminence
+Lakewood Capital Management|lakewoodcap.com|Lakewood
+Kingdon Capital|kingdon.com|
+Soroban Capital Partners|sorobancap.com|Soroban
+Tybourne Capital|tybournecapital.com|Tybourne
+Hound Partners|houndpartners.com|
+Darsana Capital Partners|darsanacapital.com|Darsana
+Atreides Management|atreidesmgmt.com|Atreides
+Woodline Partners|woodline.com|Woodline
+Alkeon Capital Management|alkeon.com|Alkeon
+Suvretta Capital Management|suvretta.com|Suvretta
+Senvest Management|senvest.com|Senvest
+Abrams Capital|abramscapital.com|Abrams
+Greenlight Capital|greenlightcapital.com|Greenlight
+Appaloosa Management|appaloosamgt.com|Appaloosa
+Paulson & Co.|paulsonco.com|Paulson
+Soros Fund Management|soros.com|Soros
+Duquesne Family Office|duquesne.com|Duquesne
+Omega Advisors|omegaadvisors.com|
+Kynikos Associates|kynikos.com|
+Hindenburg Research|hindenburgresearch.com|Hindenburg
+Muddy Waters Research|muddywatersresearch.com|Muddy Waters
+Citron Research|citronresearch.com|
+Scion Asset Management|scionasset.com|Scion
+Saba Capital Management|sabacapital.com|Saba
+Sachem Head Capital Management|sachemhead.com|Sachem Head
+Jana Partners|janapartners.com|JANA
+Trian Partners|trianpartners.com|Trian;Trian Fund Management
+Starboard Value|starboardvalue.com|Starboard
+ValueAct Capital|valueact.com|ValueAct
+Engine Capital|enginecap.com|Engine No. 1
+Engine No. 1|engine1.com|
+Corvex Management|corvexcap.com|Corvex
+Land & Buildings|landandbuildings.com|
+Legion Partners|legionpartners.com|Legion
+Ancora|ancora.net|Ancora Holdings
+Mantle Ridge|mantleridge.com|
+Cevian Capital|cevian.com|Cevian
+Inclusive Capital Partners|incap.com|Inclusive Capital
+Politan Capital Management|politancapital.com|Politan
+Irenic Capital Management|irenic.com|Irenic
+Anson Funds|ansonfunds.com|Anson
+Blackwells Capital|blackwellscap.com|Blackwells
+Impactive Capital|impactive.com|Impactive
+Carronade Capital|carronadecapital.com|
+Bluebell Capital Partners|bluebellcp.com|Bluebell
+Barington Capital|barington.com|
+Bulldog Investors|bulldoginvestors.com|
+Lion Point Capital|lionpointcap.com|
+Driver Management|drivermanagement.com|
+Ortelius Advisors|orteliusadvisors.com|
+Voss Capital|vosscap.com|
+Kite Lake Capital|kitelakecapital.com|
+Palliser Capital|pallisercapital.com|
+Oasis Management|oasiscm.com|Oasis
+Strategic Value Partners|svpglobal.com|SVP
+Owl Creek Asset Management|owlcreekasset.com|Owl Creek
+Diameter Capital Partners|diametercap.com|Diameter
+Arini Capital|arinicapital.com|Arini
+Sona Asset Management|sonaassetmanagement.com|Sona
+Redwood Capital Management|redwoodcap.com|
+Mudrick Capital|mudrickcapital.com|Mudrick
+Monarch Alternative Capital|monarchlp.com|Monarch
+Aurelius Capital Management|aurelius-capital.com|Aurelius
+Contrarian Capital|contrariancapital.com|
+Glendon Capital|glendoncap.com|
+Whitebox Advisors|whiteboxadvisors.com|Whitebox
+Polygon Global Partners|polygoninv.com|Polygon
+Pentwater Capital Management|pentwater.com|Pentwater
+Taconic Capital|taconiccap.com|Taconic
+Tang Capital|tangcapital.com|
+Sarissa Capital|sarissacap.com|Sarissa
+Avoro Capital|avorocapital.com|Avoro
+EcoR1 Capital|ecor1cap.com|EcoR1
+Adage Capital Management|adagecapital.com|Adage
+Ziff Brothers Investments|ziffbrothers.com|
+Kora Management|koramgmt.com|
+Valinor Management|valinorcap.com|Valinor
+Cadian Capital|cadiancap.com|
+Southpoint Capital|southpointcapital.com|
+Shannon River|shannonriver.com|
+Matrix Capital Management|matrixcapital.com|
+Sylebra Capital|sylebra.com|Sylebra
+Pleiad Investment Advisors|pleiad.com|
+Bayview Asset Management|bayviewassetmanagement.com|Bayview
+LMR Partners|lmrpartners.com|LMR
+Garda Capital Partners|gardacp.com|Garda
+Symmetry Investments|symmetryinvestments.com|
+Alphadyne Asset Management|alphadyne.com|Alphadyne
+Kirkoswald|kirkoswald.com|
+Pharo Management|pharo.com|Pharo
+Haidar Capital|haidarcapital.com|
+Bluecrest Capital Management|bluecrestcapital.com|BlueCrest
+Garelick Capital Partners|garelickcapital.com|
+Melqart Asset Management|melqart.com|
+Pine River Capital|pinerivercapital.com|
+Two Seas Capital|twoseascapital.com|
+Taula Capital|taulacapital.com|
+Segantii Capital|segantii.com|
+Hill Path Capital|hillpathcapital.com|Hill Path
+Ruane Cunniff|ruanecunniff.com|Sequoia Fund
+Gotham Asset Management|gothamfunds.com|Gotham
+Fir Tree Partners|firtree.com|Fir Tree
+Wexford Capital|wexfordcapital.com|
+Chilton Investment Company|chiltoninvestment.com|
+Discovery Capital Management|discoverycapital.com|
+Luxor Capital Group|luxorcap.com|Luxor
+Kingstown Capital|kingstowncapital.com|
+Sessa Capital|sessacapital.com|Sessa
+Highfields Capital|highfields.com|
+Sandell Asset Management|sandellasset.com|
+GoldenTree Asset Management|goldentree.com|GoldenTree
+Marathon Asset Management|marathonfund.com|Marathon
+Brigade Capital Management|brigadecapital.com|Brigade
+Beach Point Capital Management|beachpointcapital.com|
+Hutchin Hill Capital|hutchinhill.com|
+Cantab Capital Partners|cantabcapital.com|
+Aspect Capital|aspectcapital.com|
+Lynx Asset Management|lynxhedge.se|
+Systematica Investments|systematica.com|Systematica
+Florin Court Capital|florincourtcapital.com|
+Jump Trading|jumptrading.com|Jump
+Old Mission Capital|oldmissioncapital.com|Old Mission
+Wolverine Trading|wolve.com|Wolverine
+Belvedere Trading|belvederetrading.com|Belvedere
+Peak6|peak6.com|PEAK6
+Group One Trading|grp1.com|Group One
+Geneva Trading|genevatrading.com|
+Chicago Trading Company|chicagotrading.com|CTC
+XR Trading|xrtrading.com|
+Akuna Capital|akunacapital.com|Akuna
+DRW|drw.com|
+Optiver|optiver.com|
+IMC Trading|imc.com|IMC
+Susquehanna International Group|sig.com|SIG;Susquehanna
+Jane Street|janestreet.com|
+Hudson River Trading|hudsonrivertrading.com|HRT
+Virtu Financial|virtu.com|Virtu
+Citadel Securities|citadelsecurities.com|
+Flow Traders|flowtraders.com|
+Five Rings|fiverings.com|Five Rings Capital
+Radix Trading|radixtrading.com|Radix
+Headlands Technologies|headlandstech.com|Headlands
+XTX Markets|xtxmarkets.com|XTX
+Maven Securities|mavensecurities.com|Maven
+Da Vinci|davincitrading.com|Da Vinci Trading
+Valkyrie Trading|valkyrietrading.com|
+Vatic Labs|vaticlabs.com|
+Quantlab|quantlab.com|
+Teza Technologies|tezatech.com|
+G-Research|gresearch.com|
+# Asset Management
+BlackRock|blackrock.com|
+Vanguard|vanguard.com|The Vanguard Group
+Fidelity Investments|fidelity.com|Fidelity;FMR
+State Street Global Advisors|ssga.com|SSGA;State Street
+Capital Group|capitalgroup.com|American Funds
+T. Rowe Price|troweprice.com|T Rowe Price
+Wellington Management|wellington.com|Wellington
+PIMCO|pimco.com|
+Invesco|invesco.com|
+Franklin Templeton|franklintempleton.com|Franklin;Templeton
+Northern Trust|northerntrust.com|
+BNY|bny.com|BNY Mellon;Bank of New York Mellon
+Charles Schwab|schwab.com|Schwab
+Nuveen|nuveen.com|TIAA
+TIAA|tiaa.org|
+Dimensional Fund Advisors|dimensional.com|Dimensional;DFA
+Dodge & Cox|dodgeandcox.com|
+MFS Investment Management|mfs.com|MFS
+Putnam Investments|putnam.com|Putnam
+Janus Henderson|janushenderson.com|
+Neuberger Berman|nb.com|
+AllianceBernstein|alliancebernstein.com|AB;Bernstein
+Lord Abbett|lordabbett.com|
+Federated Hermes|federatedhermes.com|Federated
+Legg Mason|leggmason.com|
+ClearBridge Investments|clearbridge.com|ClearBridge
+Western Asset Management|westernasset.com|Western Asset
+Loomis Sayles|loomissayles.com|
+Harris Associates|harrisassoc.com|Oakmark
+Ariel Investments|arielinvestments.com|Ariel
+William Blair Investment Management|williamblair.com|
+Calamos Investments|calamos.com|Calamos
+Morningstar|morningstar.com|
+Artisan Partners|artisanpartners.com|Artisan
+Baillie Gifford|bailliegifford.com|
+Schroders|schroders.com|
+abrdn|abrdn.com|Aberdeen;Standard Life Aberdeen
+Amundi|amundi.com|
+Allianz Global Investors|allianzgi.com|AllianzGI
+DWS|dws.com|
+Legal & General Investment Management|lgim.com|LGIM;Legal & General
+M&G Investments|mandg.com|M&G
+Columbia Threadneedle|columbiathreadneedle.com|Columbia;Threadneedle
+Principal Asset Management|principal.com|Principal Financial
+Voya Investment Management|voya.com|Voya
+Manulife Investment Management|manulifeim.com|Manulife;John Hancock
+PGIM|pgim.com|Prudential Investment Management
+MetLife Investment Management|metlife.com|MIM
+Eaton Vance|eatonvance.com|
+Parametric|parametricportfolio.com|
+GMO|gmo.com|Grantham Mayo
+Brandywine Global|brandywineglobal.com|
+Causeway Capital|causewaycap.com|Causeway
+Hotchkis & Wiley|hwcm.com|
+Sands Capital|sandscapital.com|
+Jennison Associates|jennison.com|Jennison
+Polen Capital|polencapital.com|Polen
+Fiduciary Management|fmimgt.com|
+Diamond Hill|diamond-hill.com|
+Cohen & Steers|cohenandsteers.com|
+Brown Advisory|brownadvisory.com|
+Fisher Investments|fisherinvestments.com|Fisher
+Edward Jones|edwardjones.com|
+Ameriprise Financial|ameriprise.com|Ameriprise
+LPL Financial|lpl.com|LPL
+Bessemer Trust|bessemertrust.com|
+Rockefeller Capital Management|rockco.com|Rockefeller
+Goldman Sachs Private Wealth|goldmansachs.com|GS PWM
+J.P. Morgan Private Bank|privatebank.jpmorgan.com|JPM Private Bank
+UBS Wealth Management|ubs.com|
+Merrill|ml.com|Merrill Wealth
+Northwestern Mutual|northwesternmutual.com|
+Creative Planning|creativeplanning.com|
+Wealthfront|wealthfront.com|
+Betterment|betterment.com|
+Ark Invest|ark-invest.com|ARK
+WisdomTree|wisdomtree.com|
+VanEck|vaneck.com|
+ProShares|proshares.com|
+First Trust|ftportfolios.com|
+Grayscale|grayscale.com|
+Russell Investments|russellinvestments.com|Russell
+SEI|seic.com|SEI Investments
+Mercer|mercer.com|
+Cambridge Associates|cambridgeassociates.com|
+Aon|aon.com|
+Willis Towers Watson|wtwco.com|WTW
+Commonfund|commonfund.org|
+Hirtle Callaghan|hirtlecallaghan.com|
+# Private Credit
+HPS Investment Partners|hpspartners.com|HPS
+Golub Capital|golubcapital.com|Golub
+Sixth Street|sixthstreet.com|TPG Sixth Street
+Antares Capital|antares.com|Antares
+Churchill Asset Management|churchillam.com|Churchill
+Benefit Street Partners|benefitstreetpartners.com|BSP
+Crescent Capital Group|crescentcap.com|Crescent
+Audax Private Debt|audaxgroup.com|
+Twin Brook Capital Partners|twincp.com|Twin Brook
+Fortress Investment Group|fortress.com|Fortress
+Angelo Gordon|angelogordon.com|TPG Angelo Gordon
+Blackstone Credit|blackstone.com|GSO
+KKR Credit|kkr.com|
+Apollo Capital Management|apollo.com|
+Ares Credit|aresmgmt.com|
+Barings|barings.com|
+Carlyle Credit|carlyle.com|
+Goldman Sachs Private Credit|goldmansachs.com|
+Oak Hill Advisors|oakhilladvisors.com|OHA
+Varde Partners|varde.com|Värde
+Tennenbaum Capital Partners|tennenbaum.com|
+Stellus Capital|stelluscapital.com|
+Cerberus Credit|cerberus.com|
+Kayne Anderson Private Credit|kaynecapital.com|
+Hercules Capital|htgc.com|Hercules
+Trinity Capital|trinitycap.com|
+Runway Growth|runwaygrowth.com|
+Main Street Capital|mainstcapital.com|
+Prospect Capital|prospectstreet.com|
+FS Investments|fsinvestments.com|FS KKR
+Neuberger Berman Credit|nb.com|
+Comvest Credit|comvest.com|
+Deerpath Capital|deerpathcapital.com|Deerpath
+Maranon Capital|maranoncapital.com|Marañon
+Brightwood Capital|brightwoodcapital.com|
+Varagon Capital|varagon.com|
+Lafayette Square|lafayettesquare.com|
+Jefferies Finance|jefferiesfinance.com|
+Arbour Lane Capital|arbourlane.com|
+Atalaya Capital|atalayacap.com|Atalaya
+Castlelake|castlelake.com|
+Davidson Kempner Credit|davidsonkempner.com|
+Elliott Credit|elliottmgmt.com|
+King Street Credit|kingstreet.com|
+# Real Estate
+Blackstone Real Estate|blackstone.com|BREIT
+Brookfield Properties|brookfieldproperties.com|
+Starwood Capital Group|starwoodcapital.com|Starwood
+Prologis|prologis.com|
+Simon Property Group|simon.com|Simon
+Equity Residential|equityapartments.com|
+AvalonBay Communities|avaloncommunities.com|AvalonBay
+Boston Properties|bxp.com|BXP
+Vornado Realty Trust|vno.com|Vornado
+SL Green|slgreen.com|
+Related Companies|related.com|Related
+Tishman Speyer|tishmanspeyer.com|
+Hines|hines.com|
+CBRE|cbre.com|
+JLL|jll.com|Jones Lang LaSalle
+Cushman & Wakefield|cushmanwakefield.com|
+Newmark|nmrk.com|
+Eastdil Secured|eastdilsecured.com|Eastdil
+Walker & Dunlop|walkerdunlop.com|
+Greystar|greystar.com|
+Lone Star Funds|lonestarfunds.com|Lone Star
+Rockpoint Group|rockpoint.com|Rockpoint
+Harrison Street|harrisonst.com|
+Heitman|heitman.com|
+LaSalle Investment Management|lasalle.com|LaSalle
+Invesco Real Estate|invesco.com|
+Ares Real Estate|aresmgmt.com|
+Bain Capital Real Estate|baincapital.com|
+Oaktree Real Estate|oaktreecapital.com|
+Carlyle Real Estate|carlyle.com|
+TPG Real Estate|tpg.com|
+KKR Real Estate|kkr.com|
+Westbrook Partners|westbrookpartners.com|
+Equity Group Investments|egizell.com|EGI
+Equity Commonwealth|eqcre.com|
+Sterling Bay|sterlingbay.com|
+GEM Realty Capital|gemrealtycapital.com|
+Waterton|waterton.com|
+Golub & Company|golubandcompany.com|
+Fifield Companies|fifieldcompanies.com|
+American Tower|americantower.com|
+Equinix|equinix.com|
+Digital Realty|digitalrealty.com|
+Welltower|welltower.com|
+Public Storage|publicstorage.com|
+Realty Income|realtyincome.com|
+Invitation Homes|invitationhomes.com|
+# Insurance
+Berkshire Hathaway Reinsurance|bhreinsurance.com|
+AIG|aig.com|American International Group
+MetLife|metlife.com|
+Prudential Financial|prudential.com|Prudential
+Allstate|allstate.com|
+Progressive|progressive.com|
+Chubb|chubb.com|
+Travelers|travelers.com|
+Liberty Mutual|libertymutual.com|
+State Farm|statefarm.com|
+Nationwide|nationwide.com|
+New York Life|newyorklife.com|
+MassMutual|massmutual.com|
+Lincoln Financial|lincolnfinancial.com|
+Aflac|aflac.com|
+Hartford|thehartford.com|The Hartford
+Marsh McLennan|marshmclennan.com|Marsh;MMC
+Arthur J. Gallagher|ajg.com|Gallagher
+Athene|athene.com|
+Global Atlantic|globalatlantic.com|
+Corebridge Financial|corebridgefinancial.com|Corebridge
+Brighthouse Financial|brighthousefinancial.com|
+Equitable|equitable.com|
+Swiss Re|swissre.com|
+Munich Re|munichre.com|
+Allianz|allianz.com|
+AXA|axa.com|
+Zurich Insurance|zurich.com|Zurich
+Kemper|kemper.com|
+Markel|markel.com|
+Kinsale Capital|kinsalecapitalgroup.com|
+# Consulting
+McKinsey & Company|mckinsey.com|McKinsey
+Boston Consulting Group|bcg.com|BCG
+Bain & Company|bain.com|Bain
+Deloitte|deloitte.com|Deloitte Consulting;Monitor Deloitte
+PwC|pwc.com|PricewaterhouseCoopers;Strategy&
+EY|ey.com|Ernst & Young;EY-Parthenon
+KPMG|kpmg.com|
+Accenture|accenture.com|
+Oliver Wyman|oliverwyman.com|
+L.E.K. Consulting|lek.com|LEK
+Kearney|kearney.com|A.T. Kearney
+Roland Berger|rolandberger.com|
+Strategy&|strategyand.pwc.com|
+Booz Allen Hamilton|boozallen.com|Booz Allen
+IBM Consulting|ibm.com|
+Capgemini|capgemini.com|
+Huron Consulting|huronconsultinggroup.com|Huron
+Guidehouse|guidehouse.com|
+West Monroe|westmonroe.com|
+Putnam Associates|putassoc.com|
+ZS Associates|zs.com|ZS
+Simon-Kucher|simon-kucher.com|Simon-Kucher & Partners
+Charles River Associates|crai.com|CRA
+Analysis Group|analysisgroup.com|
+Cornerstone Research|cornerstone.com|
+Compass Lexecon|compasslexecon.com|
+NERA Economic Consulting|nera.com|NERA
+Bates White|bateswhite.com|
+Brattle Group|brattle.com|The Brattle Group
+Keystone Strategy|keystone.ai|
+Marakon|marakon.com|
+Novantas|novantas.com|
+Clarion Healthcare|clarionhealthcare.com|
+Trinity Life Sciences|trinitylifesciences.com|
+Health Advances|healthadvances.com|
+Kaiser Associates|kaiserassociates.com|
+Altman Solon|altmansolon.com|
+Gartner|gartner.com|
+Teneo|teneo.com|
+Chartis|chartis.com|
+Grant Thornton|grantthornton.com|
+RSM|rsmus.com|RSM US
+BDO|bdo.com|
+Crowe|crowe.com|
+Baker Tilly|bakertilly.com|
+CohnReznick|cohnreznick.com|
+Protiviti|protiviti.com|
+Slalom|slalom.com|
+# Law
+Wachtell Lipton Rosen & Katz|wlrk.com|Wachtell
+Sullivan & Cromwell|sullcrom.com|S&C
+Cravath Swaine & Moore|cravath.com|Cravath
+Skadden|skadden.com|Skadden Arps
+Davis Polk|davispolk.com|Davis Polk & Wardwell
+Kirkland & Ellis|kirkland.com|Kirkland
+Latham & Watkins|lw.com|Latham
+Simpson Thacher|stblaw.com|Simpson Thacher & Bartlett;STB
+Paul Weiss|paulweiss.com|Paul, Weiss
+Cleary Gottlieb|clearygottlieb.com|Cleary
+Debevoise & Plimpton|debevoise.com|Debevoise
+Sidley Austin|sidley.com|Sidley
+Weil Gotshal & Manges|weil.com|Weil
+Ropes & Gray|ropesgray.com|
+Gibson Dunn|gibsondunn.com|
+Milbank|milbank.com|
+Freshfields|freshfields.com|
+Olshan Frome Wolosky|olshanlaw.com|Olshan
+Schulte Roth & Zabel|srz.com|Schulte Roth
+Willkie Farr & Gallagher|willkie.com|Willkie
+Fried Frank|friedfrank.com|
+Mayer Brown|mayerbrown.com|
+Winston & Strawn|winston.com|
+Jenner & Block|jenner.com|
+Goodwin Procter|goodwinlaw.com|Goodwin
+Cooley|cooley.com|
+Wilson Sonsini|wsgr.com|WSGR
+Quinn Emanuel|quinnemanuel.com|
+# Proxy & Advisory
+Institutional Shareholder Services|issgovernance.com|ISS
+Glass Lewis|glasslewis.com|
+Innisfree M&A|innisfreema.com|Innisfree
+Okapi Partners|okapipartners.com|Okapi
+D.F. King|dfking.com|DF King
+Morrow Sodali|morrowsodali.com|Sodali & Co
+Georgeson|georgeson.com|
+MacKenzie Partners|mackenziepartners.com|
+Joele Frank|joelefrank.com|Joele Frank Wilkinson Brimmer Katcher
+Sard Verbinnen|sardverb.com|SVC
+Brunswick Group|brunswickgroup.com|Brunswick
+FGS Global|fgsglobal.com|
+Kekst CNC|kekstcnc.com|
+Gasthalter & Co.|gasthalter.com|
+# Exchanges & Financial Data
+CME Group|cmegroup.com|CME
+Cboe Global Markets|cboe.com|Cboe
+Nasdaq|nasdaq.com|
+Intercontinental Exchange|ice.com|ICE;NYSE
+New York Stock Exchange|nyse.com|NYSE
+London Stock Exchange Group|lseg.com|LSEG;Refinitiv
+S&P Global|spglobal.com|S&P;Capital IQ
+Moody's|moodys.com|
+Fitch Ratings|fitchratings.com|Fitch
+MSCI|msci.com|
+Bloomberg|bloomberg.com|Bloomberg LP
+FactSet|factset.com|
+PitchBook|pitchbook.com|
+Preqin|preqin.com|
+Broadridge|broadridge.com|
+DTCC|dtcc.com|
+Tradeweb|tradeweb.com|
+MarketAxess|marketaxess.com|
+Interactive Brokers|interactivebrokers.com|IBKR
+Robinhood|robinhood.com|
+Coinbase|coinbase.com|
+Kraken|kraken.com|
+Circle|circle.com|
+# Fintech & Payments
+Visa|visa.com|
+Mastercard|mastercard.com|
+American Express|americanexpress.com|Amex
+PayPal|paypal.com|
+Stripe|stripe.com|
+Block|block.xyz|Square;Cash App
+Adyen|adyen.com|
+Fiserv|fiserv.com|
+FIS|fisglobal.com|Fidelity National Information Services
+Global Payments|globalpayments.com|
+Plaid|plaid.com|
+Chime|chime.com|
+SoFi|sofi.com|
+Affirm|affirm.com|
+Klarna|klarna.com|
+Brex|brex.com|
+Ramp|ramp.com|
+Ripple|ripple.com|
+Toast|toasttab.com|Toast
+Marqeta|marqeta.com|
+Carta|carta.com|
+Addepar|addepar.com|
+iCapital|icapitalnetwork.com|
+Capital One|capitalone.com|
+Discover Financial|discover.com|Discover
+Synchrony|synchrony.com|
+Ally Financial|ally.com|Ally
+First Republic|firstrepublic.com|
+Silicon Valley Bank|svb.com|SVB
+Goldman Sachs Marcus|marcus.com|Marcus
+# Technology
+Apple|apple.com|
+Microsoft|microsoft.com|
+Alphabet|abc.xyz|
+Google|google.com|
+Amazon|amazon.com|AWS;Amazon Web Services
+Meta|meta.com|Facebook;Instagram
+NVIDIA|nvidia.com|Nvidia
+Tesla|tesla.com|
+Netflix|netflix.com|
+Salesforce|salesforce.com|
+Oracle|oracle.com|
+Adobe|adobe.com|
+IBM|ibm.com|
+Intel|intel.com|
+AMD|amd.com|Advanced Micro Devices
+Qualcomm|qualcomm.com|
+Broadcom|broadcom.com|
+Cisco|cisco.com|
+OpenAI|openai.com|
+Anthropic|anthropic.com|
+xAI|x.ai|
+Palantir|palantir.com|
+Snowflake|snowflake.com|
+Databricks|databricks.com|
+ServiceNow|servicenow.com|
+Workday|workday.com|
+Intuit|intuit.com|
+Uber|uber.com|
+Airbnb|airbnb.com|
+DoorDash|doordash.com|
+Lyft|lyft.com|
+Shopify|shopify.com|
+Spotify|spotify.com|
+Snap|snap.com|Snapchat
+Pinterest|pinterest.com|
+X|x.com|Twitter
+LinkedIn|linkedin.com|
+ByteDance|bytedance.com|TikTok
+Samsung|samsung.com|
+Sony|sony.com|
+TSMC|tsmc.com|Taiwan Semiconductor
+ASML|asml.com|
+SAP|sap.com|
+Dell Technologies|dell.com|Dell
+HP|hp.com|HP Inc.
+Hewlett Packard Enterprise|hpe.com|HPE
+Micron|micron.com|Micron Technology
+Texas Instruments|ti.com|
+Applied Materials|appliedmaterials.com|
+Palo Alto Networks|paloaltonetworks.com|
+CrowdStrike|crowdstrike.com|
+Zoom|zoom.us|
+Atlassian|atlassian.com|
+Datadog|datadoghq.com|
+MongoDB|mongodb.com|
+Cloudflare|cloudflare.com|
+SpaceX|spacex.com|
+Scale AI|scale.com|
+Figma|figma.com|
+Notion|notion.so|
+Grubhub|grubhub.com|
+Groupon|groupon.com|
+Motorola Solutions|motorolasolutions.com|Motorola
+# Consumer & Industrials
+Walmart|walmart.com|
+Costco|costco.com|
+Target|target.com|
+Home Depot|homedepot.com|The Home Depot
+Lowe's|lowes.com|
+Procter & Gamble|pg.com|P&G
+Coca-Cola|coca-colacompany.com|Coke;The Coca-Cola Company
+PepsiCo|pepsico.com|Pepsi
+Nike|nike.com|
+Starbucks|starbucks.com|
+McDonald's|mcdonalds.com|
+The Walt Disney Company|thewaltdisneycompany.com|Disney
+Comcast|comcast.com|NBCUniversal
+Warner Bros. Discovery|wbd.com|Warner Bros
+Paramount|paramount.com|
+Unilever|unilever.com|
+Nestlé|nestle.com|Nestle
+Kraft Heinz|kraftheinzcompany.com|
+Mondelez International|mondelezinternational.com|Mondelez
+General Mills|generalmills.com|
+Kellanova|kellanova.com|Kellogg
+Conagra Brands|conagrabrands.com|Conagra
+Wendy's|wendys.com|The Wendy's Company
+Chipotle|chipotle.com|
+Yum! Brands|yum.com|Yum Brands
+Restaurant Brands International|rbi.com|RBI;Burger King
+Anheuser-Busch InBev|ab-inbev.com|AB InBev
+Constellation Brands|cbrands.com|
+Diageo|diageo.com|
+Estée Lauder|elcompanies.com|Estee Lauder
+L'Oréal|loreal.com|L'Oreal
+LVMH|lvmh.com|
+Tiffany & Co.|tiffany.com|Tiffany
+Lululemon|lululemon.com|
+Kroger|thekrogerco.com|Kroger
+Walgreens|walgreens.com|Walgreens Boots Alliance
+CVS Health|cvshealth.com|CVS
+Whole Foods Market|wholefoodsmarket.com|Whole Foods
+PetSmart|petsmart.com|
+Six Flags|sixflags.com|
+Marriott International|marriott.com|Marriott
+Hilton|hilton.com|
+Hyatt|hyatt.com|
+United Airlines|united.com|United
+Delta Air Lines|delta.com|Delta
+American Airlines|aa.com|
+Boeing|boeing.com|
+Lockheed Martin|lockheedmartin.com|
+RTX|rtx.com|Raytheon
+General Dynamics|gd.com|
+Northrop Grumman|northropgrumman.com|
+General Electric|ge.com|GE;GE Aerospace
+Honeywell|honeywell.com|
+3M|3m.com|
+Caterpillar|caterpillar.com|
+Deere & Company|deere.com|John Deere
+Ford Motor Company|ford.com|Ford
+General Motors|gm.com|GM
+Stellantis|stellantis.com|
+Toyota|toyota.com|
+Union Pacific|up.com|
+UPS|ups.com|United Parcel Service
+FedEx|fedex.com|
+Archer Daniels Midland|adm.com|ADM
+Cargill|cargill.com|
+Tyson Foods|tysonfoods.com|Tyson
+Lamb Weston|lambweston.com|
+TreeHouse Foods|treehousefoods.com|
+HD Supply|hdsupply.com|
+Mercury Systems|mrcy.com|
+Illinois Tool Works|itw.com|ITW
+Abbott|abbott.com|Abbott Laboratories
+AbbVie|abbvie.com|
+Baxter|baxter.com|Baxter International
+Walgreens Boots Alliance|walgreensbootsalliance.com|
+Exelon|exeloncorp.com|
+McKesson|mckesson.com|
+# Healthcare
+UnitedHealth Group|unitedhealthgroup.com|UnitedHealthcare;Optum
+Johnson & Johnson|jnj.com|J&J
+Pfizer|pfizer.com|
+Merck|merck.com|Merck & Co.
+Eli Lilly|lilly.com|Lilly
+Bristol Myers Squibb|bms.com|BMS
+Amgen|amgen.com|
+Gilead Sciences|gilead.com|Gilead
+Moderna|modernatx.com|
+Regeneron|regeneron.com|
+Vertex Pharmaceuticals|vrtx.com|Vertex
+Novartis|novartis.com|
+Roche|roche.com|Genentech
+AstraZeneca|astrazeneca.com|
+Novo Nordisk|novonordisk.com|
+Sanofi|sanofi.com|
+GSK|gsk.com|GlaxoSmithKline
+Medtronic|medtronic.com|
+Thermo Fisher Scientific|thermofisher.com|Thermo Fisher
+Danaher|danaher.com|
+Stryker|stryker.com|
+Intuitive Surgical|intuitive.com|Intuitive
+Boston Scientific|bostonscientific.com|
+Elevance Health|elevancehealth.com|Anthem
+Cigna|thecignagroup.com|The Cigna Group;Evernorth
+Humana|humana.com|
+HCA Healthcare|hcahealthcare.com|HCA
+TeamHealth|teamhealth.com|
+Tempus|tempus.com|Tempus AI
+# Energy
+ExxonMobil|exxonmobil.com|Exxon
+Chevron|chevron.com|
+ConocoPhillips|conocophillips.com|
+Shell|shell.com|
+BP|bp.com|
+TotalEnergies|totalenergies.com|Total
+Occidental Petroleum|oxy.com|Occidental;Oxy
+NextEra Energy|nexteraenergy.com|NextEra
+Duke Energy|duke-energy.com|
+Southern Company|southerncompany.com|
+Schlumberger|slb.com|SLB
+Halliburton|halliburton.com|
+Kinder Morgan|kindermorgan.com|
+Enterprise Products Partners|enterpriseproducts.com|
+Vitol|vitol.com|
+Trafigura|trafigura.com|
+Glencore|glencore.com|
+Mercuria|mercuria.com|
+Gunvor|gunvorgroup.com|
+Koch Industries|kochind.com|Koch
+# Government & Nonprofit
+Federal Reserve Bank of Chicago|chicagofed.org|Chicago Fed
+Federal Reserve Bank of New York|newyorkfed.org|New York Fed;NY Fed
+Federal Reserve Board|federalreserve.gov|Federal Reserve;The Fed
+U.S. Department of the Treasury|treasury.gov|US Treasury;Treasury
+Securities and Exchange Commission|sec.gov|SEC
+Commodity Futures Trading Commission|cftc.gov|CFTC
+International Monetary Fund|imf.org|IMF
+World Bank|worldbank.org|
+Council of Economic Advisers|whitehouse.gov|
+University of Chicago|uchicago.edu|UChicago
+Becker Friedman Institute|bfi.uchicago.edu|BFI
