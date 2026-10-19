@@ -1017,5 +1017,11 @@
       if (page === 'members') membersPage();
       if (page === 'profile') profilePage(user, mine);
     });
+  }).catch(function () {
+    // Say so instead of leaving a blank page when the profile lookup fails
+    var box = $('main .container'), note = document.createElement('p');
+    note.className = 'auth__msg';
+    say(note, 'We couldn’t load your account. Please refresh, or try again in a few minutes.');
+    if (box) box.appendChild(note);
   });
 })();
