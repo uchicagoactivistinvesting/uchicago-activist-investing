@@ -33,10 +33,12 @@
   window.uaicPersonalEmail = personalEmail; // members.js checks profile emails the same way
   function busy(form, on) { form.querySelector('.auth__btn').disabled = on; }
   // Fade out and go where /members would send them anyway, so a first-timer
-  // lands on /onboarding in one move instead of bouncing through the directory
+  // lands on /onboarding in one move instead of bouncing through the directory.
+  // Only a profile that actually loaded counts: if the lookup fails, /onboarding
+  // is the safe guess, since a member without a profile can't use /members anyway
   function enter(user) {
     var where = client.from('profiles').select('id').eq('id', user.id).maybeSingle().then(function (r) {
-      return r.data || r.error ? '/members' : '/onboarding';
+      return r.data ? '/members' : '/onboarding';
     });
     if (window.uaicLeave) window.uaicLeave('/members', where);
     else window.location.href = '/members';
