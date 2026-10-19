@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Info Session Today</title>
+<style>
+  /* Same font files the website loads */
+  @font-face { font-family: 'EB Garamond'; font-style: normal; font-weight: 400 800; src: url('../site/assets/fonts/eb-garamond-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'EB Garamond'; font-style: italic; font-weight: 400 800; src: url('../site/assets/fonts/eb-garamond-italic.woff2') format('woff2'); }
+
+  :root {
+    --white: #ffffff;
+    --rule: rgba(255, 255, 255, 0.35);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; }
+  body {
+    font-family: 'EB Garamond', Garamond, serif;
+    color: var(--white);
+    position: relative;
+    overflow: hidden;
+    background: #6b1714;
+    font-feature-settings: "lnum" 1, "kern" 1;
+  }
+
+  .wrap {
+    position: absolute; inset: 0;
+    padding: 0 130px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center;
+  }
+
+  .lockup { width: 680px; display: block; }
+
+  h1 { margin-top: 150px; font-size: 104px; font-weight: 600; line-height: 1.08; }
+
+  .when {
+    width: 100%; margin-top: 70px; padding: 40px 0;
+    border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  }
+  .time { font-size: 64px; line-height: 1; font-weight: 600; }
+  .date { margin-top: 18px; font-size: 36px; line-height: 1.2; font-weight: 400; }
+
+  .note { margin-top: 64px; font-size: 34px; line-height: 1.4; font-weight: 400; }
+
+  .apply { margin-top: 56px; font-size: 36px; line-height: 1.3; font-weight: 600; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <img class="lockup" src="../site/assets/logo-lockup-white.png" alt="The University of Chicago Activist Investing">
+
+    <h1>Info Session<br>Today</h1>
+
+    <div class="when">
+      <div class="time">4:00 PM CT on Zoom</div>
+      <div class="date">Sunday, October 4</div>
+    </div>
+
+    <p class="note">Meet the team, learn how we work, and ask any<br>questions about the application.</p>
+
+    <p class="apply">Zoom link at<br>www.uchicagoactivistinvesting.com/apply</p>
+  </div>
+</body>
+</html>

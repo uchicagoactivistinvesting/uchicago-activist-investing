@@ -1,0 +1,323 @@
+# Investment banks, boutiques, regional and international dealers
+Academy Securities
+Ackrell Capital
+Agentis Capital
+AGC Partners
+Alantra
+Allen & Company
+Alvarez & Marsal Capital
+Ambrose Advisors
+Arbor Research & Trading
+Ardea Partners
+Armentum Partners
+Avondale Partners
+Baird
+Bank of America Securities
+Barclays Capital
+Benchmark International
+Berenberg
+Berkery Noyes
+Black Diamond Securities
+Blair & Company
+Blue Water Venture Partners
+BMO Capital Markets
+BNP Paribas Securities
+Bourne Partners
+Brean Capital
+Brown Brothers Harriman
+BTIG
+Bucephalus Partners
+Cain Brothers
+Canaccord Genuity
+Cappello Global
+Capital Alliance
+Capstone Headwaters
+Carl Marks Advisors
+Cascadia Capital
+Centerview Partners
+Cheval Capital
+China International Capital Corporation
+CITIC Securities
+CLSA
+Colliers Securities
+Compass Point Research & Trading
+Consensus Advisors
+Cowen and Company
+Craig-Hallum Capital Group
+Credit Suisse First Boston
+Crestview Advisors
+D.A. Davidson
+Daiwa Securities
+Dakota Capital
+DBO Partners
+Deloitte Corporate Finance
+Derby Lane Advisors
+Development Capital Partners
+DH Capital
+Dillon Read
+Dinan & Company
+Drexel Burnham Lambert
+Ducera Partners
+Duff & Phelps Securities
+Edgemont Partners
+Edgewater Partners
+Evercore ISI
+Fairmount Partners
+Falcon Capital Partners
+FBR Capital Markets
+Financial Technology Partners
+FinTech Partners
+First Union
+FirstMark Advisors
+Focus Investment Banking
+Fortis Advisors
+Founders Advisors
+Freeman & Co.
+FT Partners
+G2 Capital Advisors
+Gordian Group
+Greenhill
+Greif & Co.
+Guggenheim Securities
+Haitong Securities
+Hamilton Clark Sustainable Capital
+Harris Williams & Co.
+Headwaters MB
+Hennessy Capital
+HSBC Securities
+Huatai Securities
+Hunt Securities
+Inverness Partners
+Investec
+Itau BBA
+J.P. Morgan Securities
+JMP Securities
+Johnson Rice & Company
+Juniper Advisory
+Keefe, Bruyette & Woods
+KeyBanc Capital Markets
+Kotak Mahindra Capital
+Ladenburg Thalmann
+Landon Capital
+Lazard Middle Market
+Leerink Swann
+Lehman Brothers
+Liberty Associated Partners
+Lincoln Park Capital
+LionTree Advisors
+Livingstone Partners
+Lone Peak Capital
+M&A Securities Group
+MacKenzie Capital
+Madison Park Group
+Marlin & Associates
+Mason Wells
+McColl Partners
+Mediobanca
+Mentor Group
+Merrill Lynch
+Messier Maris & Associes
+MidCap Advisors
+Mirae Asset Securities
+Mizuho Securities
+Montgomery & Co.
+Moelis
+Morgan Keegan
+Morgan Stanley Investment Banking
+MTS Health Partners
+Navidar
+Needham
+Nomura Securities
+Northland Capital Markets
+Numis
+Oak Ridge Financial
+Objective Capital Partners
+Odeon Capital Group
+Oppenheimer
+Panmure Liberum
+Paragon Capital Partners
+Partners Capital
+Peel Hunt
+Petsky Prunier
+Piper Jaffray
+Plante Moran Corporate Finance
+Plexus Capital
+Point Capital Partners
+Princeton Securities
+Progress Partners
+Provident Healthcare Partners
+PwC Corporate Finance
+Quarton Partners
+R.J. O'Brien
+Rand Capital
+Raine Group
+Raymond James Investment Banking
+RBC Dominion Securities
+Renaissance Capital
+Results International
+Robert W. Baird
+Rockefeller Capital
+Roth Capital
+Ryan Beck
+Salomon Brothers
+Sandler O'Neill
+SDR Ventures
+Seale & Associates
+Seven Hills Partners
+Shea & Company
+Sheffield Merchant Banking
+Siebert Financial
+Signal Hill Capital
+SmithBarney
+Societe Generale Corporate & Investment Banking
+Somerset Capital Partners
+Sonenshine Partners
+Spayne Lindsay
+Sperry Mitchell
+Stephens Inc.
+Sterne Agee
+Stout
+Suntrust Robinson Humphrey
+Sutter Securities
+SVB Securities
+Synergy Capital
+Telsey Advisory Group
+The Bank Street Group
+The Benchmark Company
+The Chicago Partnership
+The Jordan Edmiston Group
+The McLean Group
+The Raine Group
+Thomas Weisel Partners
+Tikehau Capital
+TM Capital
+Tobin & Company
+Tri-Artisan Capital Advisors
+Trident Capital
+Triple Tree
+TripleTree
+Truist Securities
+UBS Investment Bank
+Union Square Advisors
+Vaquero Capital
+Vertical Research Partners
+Wachovia Securities
+Wedbush
+Wells Fargo Securities
+Westpark Capital
+William Blair & Company
+Wolfe Research
+Woodside Capital Partners
+Xtreme One Capital
+Young America Capital
+Zelman & Associates
+Ziegler
+Stephens
+Hilltop Securities
+Chardan
+Maxim Group
+EF Hutton
+ThinkEquity
+H.C. Wainwright
+Aegis Capital
+Alliance Global Partners
+Dawson James Securities
+Joseph Gunnar
+Boustead Securities
+Network 1 Financial
+Kingswood Capital Markets
+Spartan Capital Securities
+Univest Securities
+Tigress Financial Partners
+Penserra Securities
+Blaylock Van
+Samuel A. Ramirez & Co.
+Cabrera Capital Markets
+Great Pacific Securities
+Mesirow Financial
+Moors & Cabot
+Hunter Point Capital
+Clarksons Securities
+Pareto Securities
+Fearnley Securities
+DNB Markets
+Nordea Markets
+SEB
+Danske Bank
+Handelsbanken
+Carnegie Investment Bank
+ABG Sundal Collier
+Arctic Securities
+Kepler Cheuvreux
+Oddo BHF
+Bryan Garnier
+Natixis CIB
+Lazard Freres Banque
+Rothschild & Co Redburn
+Jefferies International
+Cavendish Financial
+Shore Capital
+Stifel Europe
+Deutsche Numis
+Zeus Capital
+Singer Capital Markets
+Liberum
+Macquarie Capital
+UBS Australia
+Morgan Stanley Australia
+Ord Minnett
+Euroz Hartleys
+Bell Potter
+Wilsons Advisory
+Canaccord Genuity Australia
+CIMB
+Maybank Investment Bank
+DBS Bank
+OCBC Bank
+UOB
+Kotak Investment Banking
+Axis Capital
+ICICI Securities
+JM Financial
+Avendus Capital
+Edelweiss Financial Services
+SBI Capital Markets
+IIFL Securities
+Ambit Capital
+Equirus Capital
+Samsung Securities
+Korea Investment & Securities
+NH Investment & Securities
+Mirae Asset Daewoo
+SMBC Nikko Securities
+Mitsubishi UFJ Morgan Stanley Securities
+Mizuho Bank
+China Merchants Securities
+Guotai Junan Securities
+GF Securities
+Shenwan Hongyuan
+Haitong International
+BOCI
+CCB International
+ICBC International
+Huatai International
+Itau Unibanco
+Bradesco BBI
+XP Inc.
+Banco BTG Pactual
+Santander Corporate & Investment Banking
+BBVA Corporate & Investment Banking
+Banorte
+Grupo Financiero Inbursa
+Credicorp Capital
+Larrain Vial
+Absa Corporate and Investment Banking
+Standard Bank
+Rand Merchant Bank
+Investec Bank
+Emirates NBD Capital
+First Abu Dhabi Bank
+QNB Capital
+Saudi National Bank
+Al Rajhi Capital
+EFG Hermes

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Fall 2026 Application Timeline (path)</title>
+<style>
+  /* Same font files the website loads */
+  @font-face { font-family: 'EB Garamond'; font-style: normal; font-weight: 400 800; src: url('../site/assets/fonts/eb-garamond-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'EB Garamond'; font-style: italic; font-weight: 400 800; src: url('../site/assets/fonts/eb-garamond-italic.woff2') format('woff2'); }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; }
+  body {
+    font-family: 'EB Garamond', Garamond, serif;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    font-feature-settings: "lnum" 1, "kern" 1;
+    /* Diagonal maroon sheen, like the EC post */
+    background:
+      radial-gradient(70% 55% at 78% 38%, rgba(255,255,255,0.10), transparent 70%),
+      linear-gradient(155deg, #7a0a10 0%, #8e1a1f 45%, #6b0a0f 75%, #53060a 100%);
+  }
+
+  .tag { position: absolute; top: 96px; left: 96px; font-size: 38px; font-weight: 600; }
+  .mark { position: absolute; top: 78px; right: 92px; width: 104px; }
+
+  h1 {
+    position: absolute; top: 196px; left: 0; right: 0;
+    text-align: center;
+    font-size: 112px; font-weight: 500; line-height: 1; letter-spacing: -0.015em;
+  }
+
+  svg.path { position: absolute; inset: 0; }
+
+  .ev { position: absolute; width: 560px; }
+  .ev.l { left: 262px; text-align: left; }
+  .ev.r { right: 232px; text-align: right; }
+  .when { font-size: 36px; font-weight: 600; line-height: 1.1; }
+  .what { margin-top: 6px; font-size: 32px; font-weight: 400; line-height: 1.2; }
+
+  .foot {
+    position: absolute; left: 0; right: 0; bottom: 92px;
+    text-align: center; font-size: 30px; line-height: 1.3;
+  }
+  .foot b { font-weight: 600; }
+
+  .side {
+    position: absolute; right: 30px; bottom: 60px;
+    writing-mode: vertical-rl;
+    font-size: 24px; font-weight: 500;
+  }
+</style>
+</head>
+<body>
+  <div class="tag">F26</div>
+  <img class="mark" src="../site/assets/logo-symbol-white.png" alt="UChicago Activist Investing">
+
+  <h1>Application Timeline</h1>
+
+  <!-- Serpentine: start dot → right loop → left loop → end dot. Lines at y 440 / 760 / 1080, loop radius 160 -->
+  <svg class="path" width="1080" height="1350" viewBox="0 0 1080 1350" fill="none" stroke="#fff" stroke-width="3">
+    <path d="M 262 440 H 848 A 160 160 0 0 1 848 760 H 262 A 160 160 0 0 0 262 1080 H 848" />
+    <circle cx="262" cy="440" r="8" fill="#8e1a1f" />
+    <circle cx="848" cy="1080" r="8" fill="#fff" />
+  </svg>
+
+  <div class="ev l" style="top: 470px;">
+    <div class="when">Monday, September 28</div>
+    <div class="what">Applications open on our website</div>
+  </div>
+  <div class="ev r" style="top: 648px;">
+    <div class="when">4 PM, Sunday, October 4</div>
+    <div class="what">Info Session</div>
+  </div>
+  <div class="ev l" style="top: 790px;">
+    <div class="when">Rolling Admissions</div>
+    <div class="what">First come, first served — apply early</div>
+  </div>
+  <div class="ev r" style="top: 968px;">
+    <div class="when">11:59 PM, Friday, October 9</div>
+    <div class="what">Applications close</div>
+  </div>
+
+  <div class="foot"><b>Apply at</b> uchicagoactivistinvesting.com/apply<br>All times Central</div>
+
+  <div class="side">UCHICAGOACTIVISTINVESTING.COM</div>
+</body>
+</html>

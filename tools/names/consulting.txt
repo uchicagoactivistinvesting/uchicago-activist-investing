@@ -1,0 +1,221 @@
+# Strategy, management, economic, technology, healthcare and accounting/advisory firms
+McKinsey & Company
+Boston Consulting Group
+Bain & Company
+Deloitte Consulting
+PwC Strategy&
+EY-Parthenon
+KPMG Advisory
+Accenture Strategy
+Oliver Wyman
+L.E.K. Consulting
+Kearney
+Roland Berger
+Arthur D. Little
+Booz Allen Hamilton
+Monitor Deloitte
+Alvarez & Marsal
+AlixPartners
+FTI Consulting
+Huron
+Navigant
+Guidehouse
+West Monroe
+Capgemini Invent
+Infosys Consulting
+Wipro Consulting
+Tata Consultancy Services
+Cognizant
+HCLTech
+Tech Mahindra
+EPAM Systems
+Globant
+Thoughtworks
+Slalom
+Publicis Sapient
+IBM Consulting
+CGI
+NTT Data
+Fujitsu
+DXC Technology
+Kyndryl
+Unisys
+Leidos
+SAIC
+CACI
+ManTech
+Perspecta
+ICF International
+Mathematica
+RTI International
+Abt Associates
+Chemonics
+DAI Global
+Westat
+ZS Associates
+Putnam Associates
+Simon-Kucher
+Charles River Associates
+Analysis Group
+Cornerstone Research
+Compass Lexecon
+NERA
+Bates White
+The Brattle Group
+Edgeworth Economics
+Keystone Strategy
+Marakon
+Novantas
+Clarion Healthcare
+Trinity Life Sciences
+Health Advances
+Kaiser Associates
+Altman Solon
+Gartner
+Forrester Research
+IDC
+Teneo
+Chartis Group
+Grant Thornton
+RSM
+BDO
+Crowe
+Baker Tilly
+CohnReznick
+Protiviti
+Mercer
+Willis Towers Watson
+Korn Ferry
+Heidrick & Struggles
+Spencer Stuart
+Egon Zehnder
+Russell Reynolds Associates
+Parthenon Group
+OC&C Strategy Consultants
+Advancy
+Corporate Value Associates
+Candesic
+Q5 Partners
+Elixirr
+Efficio
+Proudfoot
+Kurt Salmon
+A.T. Kearney
+Capco
+Sia Partners
+Wavestone
+BearingPoint
+Horváth & Partners
+Porsche Consulting
+Management Consulting Group
+Mitchell Madison Group
+Monitor Group
+Katzenbach Partners
+Booz & Company
+PA Consulting
+Ernst & Young
+PricewaterhouseCoopers
+Deloitte
+KPMG
+Accenture
+Avanade
+Point B
+North Highland
+Sendero Consulting
+Clearview Healthcare Partners
+Blue Matter
+Back Bay Life Science Advisors
+Bluestar BioAdvisors
+Lumanity
+Syneos Health Consulting
+IQVIA
+Advisory Board
+Kaufman Hall
+ECG Management Consultants
+Manatt Health
+Avalere Health
+Sg2
+Vizient
+Premier Inc.
+The Bridgespan Group
+FSG
+Dalberg
+Ankura Consulting
+Berkeley Research Group
+Stout Risius Ross
+CBIZ
+Marcum
+EisnerAmper
+Moss Adams
+Plante Moran
+Cherry Bekaert
+Withum
+Armanino
+Wipfli
+Eide Bailly
+BKD
+Forvis
+Citrin Cooperman
+UHY
+Mazars
+Forvis Mazars
+Kreston
+Nexia
+PKF
+HLB
+Andersen
+Ryan LLC
+Sikich
+Schneider Downs
+Anchin
+Prager Metis
+Aprio
+Carr Riggs & Ingram
+LBMC
+Dixon Hughes Goodman
+Frazier & Deeter
+CliftonLarsonAllen
+Mathematica Policy Research
+Accenture Federal Services
+Deloitte Government & Public Services
+MITRE
+RAND Corporation
+Noblis
+Aerospace Corporation
+Censeo Consulting
+Cambridge Group
+Prophet
+Interbrand
+Landor
+IDEO
+frog design
+Fjord
+Designit
+McKinsey Digital
+BCG X
+BCG Platinion
+QuantumBlack
+Fractal Analytics
+Mu Sigma
+LatentView Analytics
+Tiger Analytics
+Synechron
+Virtusa
+Persistent Systems
+LTIMindtree
+Mphasis
+Hexaware
+Coforge
+Birlasoft
+Zensar Technologies
+Sonata Software
+Mastek
+Genpact
+EXL Service
+WNS Global Services
+Concentrix
+TaskUs
+TTEC
+Alorica
+Sutherland Global
+Conduent

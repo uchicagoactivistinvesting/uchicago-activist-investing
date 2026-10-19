@@ -99,6 +99,10 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 .nav a:hover::after, .nav a:focus-visible::after, .nav a[aria-current="page"]::after { transform: scaleX(1); }
 .nav a[aria-current="page"]:hover::after { transform-origin: right center; }
+/* The current page's underline (main.js adds it). Named for the page
+   transition, so it glides from the old page's link to the new one. */
+.nav__ink { position: absolute; left: 0; right: 0; bottom: 2px; height: 1px; background: currentColor; view-transition-name: nav-ink; pointer-events: none; }
+.nav a:has(.nav__ink)::after { content: none; }
 .nav .btn::after { content: none; }
 .nav .btn { display: none; }
 .header__cta { flex: 1 1 0; display: flex; justify-content: flex-end; }
@@ -168,6 +172,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
   .nav.open { display: flex; }
   .nav a { font-size: 18px; padding: 12px 0; color: var(--ink); }
   .nav a::after { content: none; }
+  .nav__ink { display: none; }
   .nav .btn { display: inline-flex; margin-top: 16px; color: var(--red); }
   .header--overlay .nav a { color: var(--ink); }
   .header--overlay .nav a:hover, .header--overlay .nav a[aria-current="page"] { color: var(--red); }
@@ -654,9 +659,83 @@ html.js .hero .hero__actions.a-fade.in { animation-duration: 1.1s; }
 /* --------------------------------------------------------------------------
    Page transitions — content cross-fades while the header stays in place
    -------------------------------------------------------------------------- */
-html.js #main, html.js .footer { opacity: 0; }
-html.js.is-ready #main, html.js.is-ready .footer { opacity: 1; transition: opacity 0.45s var(--ease-fade); }
-html.js.is-leaving #main, html.js.is-leaving .footer { opacity: 0; transition: opacity 0.26s var(--ease-fade); }
+/* Browsers with cross-document view transitions keep the old page painted
+   until the new one is ready, then hand over between the two, so there is
+   never a blank frame. The header is its own layer and holds still (or
+   cross-fades, between the home overlay and the solid bar). Reduced-motion
+   readers get an instant swap. */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition { navigation: auto; }
+}
+.header { view-transition-name: site-header; }
+/* A true cross-fade: old and new run the same length on the same curve, and
+   the browser blends the pair additively, so their opacities always sum to 1.
+   Anything identical on both pages (the header, the maroon banner, the white
+   ground) stays solid the whole way through instead of dipping toward blank,
+   and only what actually differs dissolves. Opacity only, so it all runs on
+   the compositor; the new page's own entrances supply the motion. */
+::view-transition-group(*) { animation-duration: 0.38s; animation-timing-function: var(--ease-fade); }
+/* Set explicitly: with custom keyframes the browser falls back to normal
+   blending, which lets the white ground show through at the midpoint. */
+::view-transition-old(*), ::view-transition-new(*) { mix-blend-mode: plus-lighter; }
+::view-transition-old(root), ::view-transition-old(site-header) { animation: vtOut 0.38s var(--ease-fade) both; }
+::view-transition-new(root), ::view-transition-new(site-header) { animation: vtIn 0.38s var(--ease-fade) both; }
+@keyframes vtOut { to { opacity: 0; } }
+@keyframes vtIn { from { opacity: 0; } }
+/* The nav underline slides to the link for the new page. Its two snapshots
+   are just a 1px line, so they stretch with the group rather than scaling. */
+::view-transition-group(nav-ink) { animation-duration: 0.55s; animation-timing-function: var(--ease-reveal); }
+::view-transition-old(nav-ink), ::view-transition-new(nav-ink) { height: 100%; }
+/* Arriving from another page with the banner (page-swap.js sets this): it is
+   already on screen, so it should not zoom or re-shade itself. */
+html.js.banner-hold .page-hero__img, html.js.banner-hold .page-hero__shade { animation: none; }
+
+/* Login <-> Create an Account: instead of the page cross-fade, the shared parts
+   carry over. The heading and rule hold their place, the card frame grows or
+   shrinks to its new height, Email/Password/button glide to their new rows and
+   the access-code line and field fade into the space that opens. main.js sets
+   .auth-swap on both pages only for this hop. */
+html.auth-swap .auth .timeline__heading { view-transition-name: auth-title; }
+html.auth-swap .auth .timeline__rule { view-transition-name: auth-rule; }
+html.auth-swap .auth__card { view-transition-name: auth-card; }
+html.auth-swap .auth__sub--top { view-transition-name: auth-sub; }
+html.auth-swap .auth__field:has([name="email"]) { view-transition-name: auth-email; }
+html.auth-swap .auth__field:has([name="password"]) { view-transition-name: auth-pass; }
+html.auth-swap .auth__field:has([name="code"]) { view-transition-name: auth-code; }
+html.auth-swap .auth__msg { view-transition-name: auth-msg; }
+html.auth-swap .auth__btn { view-transition-name: auth-btn; }
+html.auth-swap .auth__switch { view-transition-name: auth-switch; }
+html.auth-swap .footer { view-transition-name: site-footer; }
+html.auth-swap::view-transition-group(*) { animation-duration: 0.6s; animation-timing-function: var(--ease-reveal); }
+/* Old and new on the same curve, so anything identical on both pages (header,
+   rule, labels) stays solid through the cross-fade instead of dimming */
+html.auth-swap::view-transition-old(*) { animation: authOut 0.4s var(--ease-fade) both; }
+html.auth-swap::view-transition-new(*) { animation: authIn 0.4s var(--ease-fade) both; }
+html.auth-swap::view-transition-new(auth-sub), html.auth-swap::view-transition-new(auth-code) { animation: authIn 0.45s var(--ease-fade) 0.25s both; }
+html.auth-swap::view-transition-old(auth-sub), html.auth-swap::view-transition-old(auth-code) { animation-duration: 0.18s; }
+/* The frame snapshot is just the white box and its rules: stretch it with the group */
+html.auth-swap::view-transition-old(auth-card), html.auth-swap::view-transition-new(auth-card) { height: 100%; }
+@keyframes authOut { to { opacity: 0; } }
+@keyframes authIn { from { opacity: 0; } }
+
+/* Fallback (no view transitions): main.js fades the content out before
+   navigating and back in on arrival. */
+html.js:not(.vt) #main, html.js:not(.vt) .footer { opacity: 0; }
+html.js:not(.vt) #main { transform: translateY(14px); }
+html.js.is-ready:not(.vt) #main, html.js.is-ready:not(.vt) .footer { opacity: 1; transform: none; transition: opacity 0.5s var(--ease-fade), transform 0.6s var(--ease-reveal); }
+html.js.is-leaving:not(.vt) #main, html.js.is-leaving:not(.vt) .footer { opacity: 0; transform: translateY(-6px); transition: opacity 0.2s var(--ease-fade), transform 0.2s var(--ease-fade); }
+
+/* Signing in or out: the page eases away while Supabase answers (uaicLeave in
+   main.js), so the click gets a response at once and the cross-fade that
+   follows only has to bring the next page in. In every browser, since this
+   navigation comes from script rather than a link. */
+html.js.is-signing #main, html.js.is-signing .footer, html.js.is-signing .acct {
+  opacity: 0; transform: translateY(-6px); pointer-events: none;
+  transition: opacity 0.32s var(--ease-fade), transform 0.32s var(--ease-fade);
+}
+html.js.is-signing .acct { transform: none; }
+/* The account corner fills in once the session is known: fade it in, not pop */
+html.js .acct:not([hidden]) { animation: fadeIn 0.4s var(--ease-fade) backwards; }
 
 /* --------------------------------------------------------------------------
    Motion — reveal on scroll (matches the reference's Wix motion presets)
@@ -673,6 +752,11 @@ html.js .a-reveal { clip-path: inset(100% -0.3em -0.35em -0.3em); }
 html.js .a-reveal.in { animation: revealIn var(--dur) var(--ease-reveal) both; animation-delay: var(--d, 0s); }
 html.js .a-fade.in { animation: fadeIn var(--dur) var(--ease-fade) both; animation-delay: var(--d, 0s); }
 html.js .a-reveal.done, html.js .a-fade.done { animation: none; clip-path: none; opacity: 1; transform: none; }
+/* Rules draw out from the centre */
+@keyframes expandIn { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+html.js .a-expand { transform: scaleX(0); }
+html.js .a-expand.in { animation: expandIn var(--dur) var(--ease-reveal) both; animation-delay: var(--d, 0s); }
+html.js .a-expand.done { animation: none; transform: none; }
 
 
 /* --------------------------------------------------------------------------
@@ -738,6 +822,9 @@ html.js .footer__icon:hover { transform: translateY(-2px); }
   html { scroll-behavior: auto; }
   html.js .a-reveal, html.js .a-fade { opacity: 1; clip-path: none; animation: none; }
   html.js #main, html.js .footer { opacity: 1; transition: none; }
+  html.js.is-signing #main, html.js.is-signing .footer, html.js.is-signing .acct { opacity: 1; transform: none; transition: none; }
+  html.js .acct:not([hidden]) { animation: none; }
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; }
   .nav a::after { transition: none; }
   .header--overlay { transition: none; }
   .hero__img, .hero__shade { animation: none; }
@@ -764,3 +851,485 @@ html.js .footer__icon:hover { transform: translateY(-2px); }
 
 /* Placeholder pages (Member Login): heading sits centered in the space between header and footer */
 .soon { min-height: calc(100vh - 260px); display: flex; align-items: center; justify-content: center; }
+
+/* Member Login — sign-in card in the .track treatment (white panel, hairline border,
+   maroon top rule). Create an Account (/signup) uses the same card */
+.auth__card {
+  max-width: 440px; margin: clamp(26px, 3vw, 40px) auto 0; padding: clamp(26px, 2.6vw, 36px) clamp(22px, 2.6vw, 36px);
+  background: var(--white); border: 1px solid var(--line); border-top: 3px solid var(--red); text-align: left;
+}
+.auth__sub { margin: 6px 0 4px; font-size: clamp(14px, 1.05vw, 16px); line-height: 1.45; color: var(--ink-soft); text-align: center; }
+.auth__field { display: block; margin-top: 18px; }
+.auth__field:first-child { margin-top: 0; }
+.auth__sub--top { margin: 0 0 22px; }
+.auth__card[hidden], .auth__field[hidden] { display: none; }
+.auth__note { margin: -8px 0 22px; text-align: center; font-size: clamp(15px, 1.1vw, 17px); line-height: 1.5; color: var(--ink); }
+.auth__who { font-weight: 600; color: var(--ink); }
+.auth__btn:disabled { opacity: 0.6; cursor: default; }
+.auth__label { display: block; margin-bottom: 6px; font-size: clamp(15px, 1.1vw, 17px); font-weight: 600; color: var(--ink); }
+.auth__input {
+  display: block; width: 100%; height: 44px; padding: 0 12px; font-size: 16px;
+  background: var(--white); border: 1px solid var(--line); border-radius: 0; outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.auth__input::placeholder { color: #b5b5b5; opacity: 1; }
+.auth__input:focus { border-color: var(--red); box-shadow: 0 0 0 3px rgba(119, 8, 14, 0.1); }
+.auth__msg { min-height: 1.5em; margin-top: 14px; font-size: clamp(14px, 1.05vw, 16px); line-height: 1.45; color: var(--red); }
+.auth__msg.is-ok { color: var(--ink); }
+.auth__btn { width: 100%; height: 46px; margin-top: 6px; font-size: 16px; background: var(--red); color: var(--white); }
+.auth__btn:hover, .auth__btn:focus-visible { background: var(--red-deep); border-color: var(--red-deep); }
+.auth__switch { margin-top: 22px; font-size: clamp(15px, 1.1vw, 17px); color: var(--ink); }
+.auth__link {
+  display: inline; padding: 0; background: none; border: 0; cursor: pointer; color: var(--red);
+  text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(119, 8, 14, 0.35);
+  transition: text-decoration-color 0.25s ease;
+}
+.auth__link:hover, .auth__link:focus-visible { text-decoration-color: var(--red); }
+
+/* Onboarding (/onboarding) and editing on My Profile (/profile): the same card, wider,
+   holding the profile fields and a list of roles */
+.auth__card--wide { max-width: 640px; }
+.form__row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
+.form__row > .auth__field { margin-top: 18px; }
+.wiz__lede + .form__row > .auth__field,
+.wiz__title + .form__row > .auth__field { margin-top: 0; }
+.wiz__count { margin: 0 0 6px; font-size: clamp(14px, 1.05vw, 16px); color: var(--ink-soft); }
+.wiz__title { margin: 0; font-size: clamp(22px, 1.8vw, 26px); line-height: 1.2; font-weight: 700; color: var(--red); }
+.wiz__title--gap { margin-top: 34px; }
+.wiz__lede { margin: 6px 0 22px; font-size: clamp(15px, 1.1vw, 17px); line-height: 1.5; color: var(--ink-soft); }
+#me-edit > .wiz__title:first-child { margin-bottom: 18px; }
+.wiz__step[hidden], .wiz__nav [hidden] { display: none; }
+.wiz__nav { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.wiz__nav .auth__link { font-size: 16px; }
+.wiz__next { width: auto; min-width: 160px; margin-left: auto; }
+.wiz__step .person { margin-bottom: 4px; }
+
+.roles { display: grid; gap: 16px; margin-top: 16px; }
+.wiz__lede + .roles { margin-top: 0; }
+.role { min-width: 0; padding: 18px 18px 16px; border: 1px solid var(--line); background: var(--white); }
+.role__top { display: flex; align-items: baseline; justify-content: space-between; }
+.role__title { font-size: 17px; font-weight: 700; color: var(--ink); }
+.role__remove { font-size: 15px; }
+.role .auth__field, .role .form__row > .auth__field { margin-top: 14px; }
+.role__present { display: flex; align-items: center; gap: 8px; margin-top: 12px; font-size: 15px; color: var(--ink-soft); cursor: pointer; }
+.role__present input { width: 16px; height: 16px; accent-color: var(--red); }
+.auth__input:disabled { background: var(--paper); color: var(--ink-soft); }
+.roles__add { margin: 14px 0 4px; font-size: 16px; }
+
+/* Member directory (/members): cards in the Events speaker-card treatment */
+.dir { max-width: 1100px; margin: clamp(26px, 3vw, 40px) auto 0; text-align: left; }
+.dir[hidden] { display: none; }
+/* Member pages: account menu in the header corner (avatar, name, Gmail) opening
+   a dropdown in the card treatment — hairline border, maroon top rule */
+.acct { position: relative; flex: none; }
+.acct[hidden] { display: none; }
+.acct__btn {
+  display: flex; align-items: center; gap: 12px; padding: 6px 12px 6px 6px; cursor: pointer;
+  font: inherit; text-align: left; background: var(--white); border: 1px solid var(--line); border-radius: 0;
+  transition: border-color 0.2s ease;
+}
+.acct__btn:hover, .acct__btn[aria-expanded="true"] { border-color: var(--red); }
+.acct__btn:focus-visible { outline: none; border-color: var(--red); box-shadow: 0 0 0 3px rgba(119, 8, 14, 0.12); }
+.acct__avatar {
+  flex: none; display: inline-flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; border-radius: 0; background: var(--red); color: var(--white);
+  font-size: 16px; font-weight: 600; letter-spacing: 0.04em;
+}
+.acct__avatar--lg { width: 50px; height: 50px; font-size: 19px; }
+.acct__id { display: flex; flex-direction: column; min-width: 0; line-height: 1.2; }
+.acct__name { font-size: 17px; font-weight: 600; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.acct__email { font-size: 14px; color: var(--ink-soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.acct__btn .acct__id { max-width: 220px; }
+.acct__chev { width: 18px; height: 18px; color: var(--ink-soft); transition: transform 0.25s ease; }
+.acct__btn[aria-expanded="true"] .acct__chev { transform: rotate(180deg); }
+.acct__menu {
+  position: absolute; right: 0; top: calc(100% + 10px); width: min(310px, calc(100vw - 32px)); z-index: 60;
+  background: var(--white); border: 1px solid var(--line); border-top: 3px solid var(--red);
+  box-shadow: 0 12px 28px rgba(31, 16, 16, 0.08);
+}
+.acct__menu[hidden] { display: none; }
+.acct__head { display: flex; align-items: center; gap: 14px; padding: 18px; }
+.acct__head:has(+ .acct__current:not([hidden])) { padding-bottom: 0; }
+/* The trigger already shows the initials, so the menu header is text only:
+   name, Gmail and current role in one column */
+.acct__head .acct__avatar { display: none; }
+.acct__current { margin: 0; padding: 8px 18px 18px; font-size: 14px; line-height: 1.4; color: var(--ink-soft); }
+.acct__current[hidden] { display: none; }
+.acct__group { padding: 8px; border-top: 1px solid var(--line); }
+.acct__label { margin: 0; padding: 6px 10px 2px; font-size: 14px; color: var(--ink-soft); }
+.acct__item {
+  display: flex; align-items: center; gap: 12px; width: 100%; padding: 9px 10px; cursor: pointer;
+  font: inherit; font-size: 17px; color: var(--ink); text-align: left; background: none; border: 0;
+  border-left: 2px solid transparent; transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.acct__item:hover, .acct__item:focus-visible { background: var(--paper); color: var(--red); outline: none; }
+.acct__item[aria-current="page"] { color: var(--red); font-weight: 600; border-left-color: var(--red); }
+.acct__icon { flex: none; width: 20px; height: 20px; color: var(--ink-soft); }
+.acct__item:hover .acct__icon, .acct__item:focus-visible .acct__icon, .acct__item[aria-current="page"] .acct__icon { color: var(--red); }
+@media (max-width: 600px) {
+  .acct__btn { padding: 4px 8px 4px 4px; gap: 6px; }
+  .acct__btn .acct__id { display: none; }
+}
+
+/* Directory side panel: opens from a member's name */
+.person__open {
+  padding: 0; font: inherit; color: inherit; text-align: left; background: none; border: 0; cursor: pointer;
+  text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 4px; text-decoration-thickness: 1px;
+  transition: text-decoration-color 0.25s ease;
+}
+.person__open:hover, .person__open:focus-visible { text-decoration-color: rgba(119, 8, 14, 0.5); outline: none; }
+html.drawer-lock { overflow: hidden; }
+.drawer { position: fixed; inset: 0; z-index: 100; }
+.drawer[hidden] { display: none; }
+.drawer__scrim { position: absolute; inset: 0; background: rgba(31, 16, 16, 0.28); opacity: 0; transition: opacity 0.3s ease; }
+.drawer__panel {
+  position: absolute; top: 0; right: 0; bottom: 0; width: min(460px, 100vw); overflow-y: auto;
+  background: var(--white); border-left: 1px solid var(--line); box-shadow: -18px 0 40px rgba(31, 16, 16, 0.12);
+  transform: translateX(100%); transition: transform 0.32s var(--ease-reveal);
+}
+.drawer.is-open .drawer__scrim { opacity: 1; }
+.drawer.is-open .drawer__panel { transform: none; }
+.drawer__bar {
+  position: sticky; top: 0; z-index: 1; display: flex; align-items: center; gap: 12px;
+  padding: 14px 18px; background: var(--white); border-bottom: 1px solid var(--line); border-top: 3px solid var(--red);
+}
+.drawer__firm { flex: 1; min-width: 0; font-size: 18px; font-weight: 600; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.drawer__close { display: inline-flex; padding: 6px; color: var(--ink-soft); background: none; border: 0; cursor: pointer; transition: color 0.2s ease; }
+.drawer__close svg { width: 22px; height: 22px; }
+.drawer__close:hover, .drawer__close:focus-visible { color: var(--red); outline: none; }
+.drawer__tile {
+  flex: none; display: inline-flex; align-items: center; justify-content: center; width: 46px; height: 46px;
+  font-size: 16px; font-weight: 700; color: var(--red); background: var(--paper); border: 1px solid var(--line);
+}
+.drawer__tile--sm { width: 36px; height: 36px; font-size: 14px; }
+.drawer__hero { display: flex; align-items: center; gap: 16px; padding: 22px 18px; border-bottom: 1px solid var(--line); }
+.drawer__avatar {
+  flex: none; display: inline-flex; align-items: center; justify-content: center; width: 64px; height: 64px; border-radius: 50%;
+  background: var(--red); color: var(--white); font-size: 24px; font-weight: 600;
+}
+.drawer__who { flex: 1; min-width: 0; }
+.drawer__name { margin: 0; font-size: clamp(26px, 2.2vw, 30px); line-height: 1.1; font-weight: 700; color: var(--red); }
+.drawer__title { margin: 4px 0 0; font-size: 16px; color: var(--ink-soft); }
+.drawer__class { margin: 2px 0 0; font-size: 14px; font-weight: 600; color: var(--red); }
+.drawer__in { flex: none; align-self: flex-start; display: inline-flex; width: 28px; height: 28px; color: var(--red); transition: color 0.2s ease, transform 0.2s ease; }
+.drawer__in svg { width: 100%; height: 100%; }
+.drawer__in:hover, .drawer__in:focus-visible { color: var(--red-deep); transform: scale(1.08); }
+.drawer__section { padding: 20px 18px 4px; }
+.drawer__section:last-child { padding-bottom: 28px; }
+.drawer__heading { margin: 0 0 12px; font-size: 20px; font-weight: 700; color: var(--ink); }
+.drawer__box { border: 1px solid var(--line); }
+.drawer__row { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 16px; border-top: 1px solid var(--line); }
+.drawer__row:first-child, .drawer__job:first-child { border-top: 0; }
+.drawer__key { flex: none; font-size: 16px; color: var(--ink-soft); }
+.drawer__val { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px; min-width: 0; font-size: 16px; text-align: right; word-break: break-word; }
+.drawer__pill { display: inline-block; padding: 3px 12px; font-size: 15px; color: var(--red); background: rgba(119, 8, 14, 0.06); border: 1px solid rgba(119, 8, 14, 0.25); border-radius: 999px; }
+.drawer__muted { font-size: 15px; font-style: italic; color: var(--ink-soft); }
+.drawer__job { display: flex; align-items: center; gap: 14px; padding: 14px 16px; border-top: 1px solid var(--line); }
+.drawer__jobtitle { margin: 0; font-size: 17px; font-weight: 600; line-height: 1.3; color: var(--ink); }
+.drawer__jobmeta { margin: 2px 0 0; font-size: 15px; color: var(--ink-soft); }
+@media (prefers-reduced-motion: reduce) { .drawer__panel, .drawer__scrim { transition: none; } }
+
+/* My Profile (/profile): your own directory card */
+.me { max-width: 640px; margin: clamp(26px, 3vw, 40px) auto 0; text-align: left; }
+.me[hidden] { display: none; }
+.me__email { margin: 16px 0 22px; font-size: clamp(15px, 1.1vw, 17px); color: var(--ink-soft); }
+.me__edit { display: flex; }
+.me .auth__msg { margin: -8px 0 14px; }
+.me .auth__msg:empty { display: none; }
+.me__cancel { margin: 14px 0 0; text-align: center; font-size: clamp(15px, 1.1vw, 17px); }
+.dir__search { margin: 0 0 24px; }
+.dir__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }
+.dir__empty { margin-top: 10px; text-align: center; color: var(--ink-soft); }
+.person { padding: 22px 24px 24px; background: var(--white); border: 1px solid var(--line); border-top: 3px solid var(--red); text-align: left; }
+.person__head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.person__name { margin: 0; font-size: clamp(22px, 1.8vw, 26px); line-height: 1.15; font-weight: 700; color: var(--red); }
+.person__class { margin: 4px 0 0; font-size: 15px; color: var(--ink-soft); }
+.person__in { flex: none; display: inline-flex; width: 26px; height: 26px; color: var(--red); transition: color 0.2s ease, transform 0.2s ease; }
+.person__in svg { width: 100%; height: 100%; }
+.person__in:hover, .person__in:focus-visible { color: var(--red-deep); transform: scale(1.08); }
+.person__roles { list-style: none; margin: 14px 0 0; padding: 0; }
+.person__roles li { padding-top: 12px; margin-top: 12px; border-top: 1px solid var(--line); }
+.person__roles li:first-child { padding-top: 0; margin-top: 0; border-top: 0; }
+.person__role { display: block; font-size: clamp(16px, 1.15vw, 18px); font-weight: 600; color: var(--ink); line-height: 1.35; }
+.person__meta { display: block; margin-top: 2px; font-size: clamp(14px, 1.05vw, 16px); color: var(--ink-soft); }
+.person__none { margin: 14px 0 0; font-size: 15px; font-style: italic; color: var(--ink-soft); }
+
+@media (max-width: 560px) {
+  .form__row { grid-template-columns: 1fr; }
+  .form__row > .auth__field + .auth__field { margin-top: 18px; }
+  .role .form__row > .auth__field + .auth__field { margin-top: 14px; }
+  .dir__grid { grid-template-columns: 1fr; }
+}
+
+/* Member pages (body[data-page]: onboarding, directory, profile) run at a
+   tighter, app-like scale than the public site */
+body[data-page] { --header-h: 68px; }
+body[data-page] .brand__mark { height: 44px; }
+body[data-page] .timeline { padding: 32px 0 48px; }
+body[data-page] .timeline__heading { font-size: 22px; }
+body[data-page] .timeline__rule { margin-top: 12px; width: 36px; }
+body[data-page] .auth__card { max-width: 400px; margin-top: 24px; padding: 22px 24px; }
+body[data-page] .auth__card--wide { max-width: 520px; }
+body[data-page] .auth__field { margin-top: 12px; }
+body[data-page] .form__row > .auth__field { margin-top: 12px; }
+body[data-page] .wiz__lede + .form__row > .auth__field,
+body[data-page] .wiz__title + .form__row > .auth__field { margin-top: 0; }
+body[data-page] .auth__label { margin-bottom: 4px; font-size: 14px; }
+body[data-page] .auth__input { height: 36px; padding: 0 10px; font-size: 15px; }
+body[data-page] .auth__msg { margin-top: 10px; font-size: 14px; }
+body[data-page] .auth__btn { height: 38px; font-size: 15px; }
+body[data-page] .wiz__next { min-width: 120px; }
+body[data-page] .wiz__count { margin-bottom: 2px; font-size: 13px; }
+body[data-page] .wiz__title { font-size: 19px; }
+body[data-page] .wiz__title--gap { margin-top: 24px; }
+body[data-page] .wiz__lede { margin: 4px 0 16px; font-size: 14px; }
+body[data-page] .wiz__nav .auth__link, body[data-page] .roles__add { font-size: 14px; }
+body[data-page] .roles { gap: 12px; margin-top: 12px; }
+body[data-page] .role { padding: 14px 14px 12px; }
+body[data-page] .role__title { font-size: 15px; }
+body[data-page] .role__remove { font-size: 13px; }
+body[data-page] .role .auth__field, body[data-page] .role .form__row > .auth__field { margin-top: 10px; }
+body[data-page] .role__present { margin-top: 10px; font-size: 14px; }
+body[data-page] .auth__switch { margin-top: 16px; font-size: 14px; }
+
+body[data-page] .acct__btn { gap: 8px; padding: 4px 10px 4px 4px; }
+body[data-page] .acct__avatar { width: 30px; height: 30px; font-size: 13px; }
+body[data-page] .acct__avatar--lg { width: 40px; height: 40px; font-size: 15px; }
+body[data-page] .acct__name { font-size: 14px; }
+body[data-page] .acct__email { font-size: 12px; }
+body[data-page] .acct__chev { width: 15px; height: 15px; }
+body[data-page] .acct__menu { width: min(260px, calc(100vw - 32px)); top: calc(100% + 8px); }
+body[data-page] .acct__head { padding: 16px; }
+body[data-page] .acct__head .acct__name { font-size: 16px; }
+body[data-page] .acct__current { padding: 6px 16px 16px; font-size: 13px; }
+body[data-page] .acct__group { padding: 6px 0; }
+body[data-page] .acct__label { padding: 4px 8px 0; font-size: 12px; }
+body[data-page] .acct__item { gap: 10px; padding: 8px 14px 8px 12px; font-size: 15px; }
+body[data-page] .acct__icon { width: 17px; height: 17px; }
+
+body[data-page] .dir { max-width: 1000px; margin-top: 24px; }
+/* Directory: a Filters card (dropdown row + Reset) above a results card
+   (title, match count, search, grid), both in the site's card treatment */
+.dir__panel { background: var(--white); border: 1px solid var(--line); border-top: 3px solid var(--red); padding: 14px 18px 18px; }
+.dir__panel + .dir__panel { margin-top: 16px; }
+.dir__title { margin: 0 0 12px; font-size: 17px; font-weight: 700; color: var(--ink); }
+.dir__filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)) auto; gap: 10px; }
+.combo--select::after {
+  content: ''; position: absolute; right: 13px; top: 50%; width: 7px; height: 7px; margin-top: -6px;
+  border-right: 1.5px solid var(--ink-soft); border-bottom: 1.5px solid var(--ink-soft); transform: rotate(45deg); pointer-events: none;
+}
+.combo--select .auth__input { padding-right: 32px; cursor: pointer; text-overflow: ellipsis; }
+.combo--select .auth__input::placeholder { color: var(--ink); }
+/* Class Year in the sign-up and profile forms: a dropdown, but its placeholder is only a hint */
+.auth__field .combo--select .auth__input::placeholder { color: #b5b5b5; }
+.combo--select .auth__input.is-set { border-color: var(--red); color: var(--red); font-weight: 600; }
+.dir__reset {
+  display: inline-flex; align-items: center; gap: 7px; height: 36px; padding: 0 14px; font-size: 15px; color: var(--ink);
+  background: var(--white); border: 1px solid var(--line); cursor: pointer;
+}
+.dir__reset svg { width: 15px; height: 15px; }
+.dir__reset:hover:not(:disabled) { border-color: var(--red); color: var(--red); }
+.dir__reset:disabled { color: var(--ink-soft); cursor: default; opacity: .6; }
+.dir__head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.dir__head .dir__title { margin: 0; }
+.dir__count { margin: 0; padding: 3px 12px; font-size: 14px; color: var(--ink-soft); border: 1px solid var(--line); }
+.dir__count strong { color: var(--red); font-weight: 700; }
+.dir__searchwrap { position: relative; margin-bottom: 16px; }
+.dir__searchicon { position: absolute; left: 11px; top: 50%; width: 17px; height: 17px; transform: translateY(-50%); color: var(--ink-soft); pointer-events: none; }
+body[data-page] .dir__search { margin: 0; padding-left: 36px; }
+.dir__panel--results .dir__empty { margin: 6px 0 4px; }
+@media (max-width: 860px) { .dir__filters { grid-template-columns: 1fr 1fr; } .dir__reset { justify-content: center; } }
+@media (max-width: 480px) { .dir__filters { grid-template-columns: 1fr; } }
+body[data-page] .dir__grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+body[data-page] .person { padding: 16px 18px 18px; }
+body[data-page] .person__name { font-size: 19px; }
+body[data-page] .person__in { width: 20px; height: 20px; }
+body[data-page] .person__class { margin-top: 2px; font-size: 13px; }
+body[data-page] .person__roles { margin-top: 10px; }
+body[data-page] .person__roles li { padding-top: 9px; margin-top: 9px; }
+body[data-page] .person__role { font-size: 15px; }
+body[data-page] .person__meta { font-size: 13px; }
+body[data-page] .person__none { margin-top: 10px; font-size: 14px; }
+body[data-page] .me { max-width: 520px; margin-top: 24px; }
+body[data-page] .me__email { margin: 12px 0 16px; font-size: 14px; }
+
+body[data-page] .drawer__panel { width: min(400px, 100vw); }
+body[data-page] .drawer__bar { gap: 10px; padding: 10px 14px; }
+body[data-page] .drawer__firm { font-size: 15px; }
+body[data-page] .drawer__close svg { width: 18px; height: 18px; }
+body[data-page] .drawer__tile { width: 36px; height: 36px; font-size: 13px; }
+body[data-page] .drawer__tile--sm { width: 28px; height: 28px; font-size: 11px; }
+body[data-page] .drawer__hero { gap: 12px; padding: 16px 14px; }
+body[data-page] .drawer__avatar { width: 48px; height: 48px; font-size: 18px; }
+body[data-page] .drawer__name { font-size: 22px; }
+body[data-page] .drawer__title { font-size: 14px; }
+body[data-page] .drawer__in { width: 22px; height: 22px; }
+body[data-page] .drawer__section { padding: 16px 14px 2px; }
+body[data-page] .drawer__heading { margin-bottom: 8px; font-size: 16px; }
+body[data-page] .drawer__row { padding: 9px 12px; }
+body[data-page] .drawer__key, body[data-page] .drawer__val { font-size: 14px; }
+body[data-page] .drawer__pill { padding: 2px 10px; font-size: 13px; }
+body[data-page] .drawer__muted { font-size: 13px; }
+body[data-page] .drawer__job { gap: 12px; padding: 10px 12px; }
+body[data-page] .drawer__jobtitle { font-size: 15px; }
+body[data-page] .drawer__jobmeta { font-size: 13px; }
+
+/* Roles fold to a one-line summary when another is added or opened */
+.role__top { align-items: center; gap: 16px; }
+.role__toggle { flex: 1; min-width: 0; display: flex; align-items: center; gap: 12px; padding: 0; font: inherit; text-align: left; background: none; border: 0; cursor: pointer; }
+.role__top .auth__link { flex: none; }
+.role__edit { font-size: 15px; }
+.role:not(.is-collapsed) { border-color: rgba(119, 8, 14, 0.35); box-shadow: inset 3px 0 0 var(--red); }
+.role.is-collapsed .role__body, .role.is-collapsed .role__title { display: none; }
+.role__sum { display: none; }
+.role.is-collapsed .role__sum { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.role.is-collapsed { padding: 12px 14px; transition: border-color 0.2s ease; }
+.role.is-collapsed:hover { border-color: rgba(119, 8, 14, 0.35); }
+.role__tile {
+  flex: none; display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px;
+  font-size: 13px; font-weight: 700; color: var(--red); background: var(--paper); border: 1px solid var(--line);
+}
+.role__tile.has-logo { padding: 4px; background: var(--white); }
+.role__tile.has-logo img { width: 100%; height: 100%; object-fit: contain; }
+.role__sumtext { display: flex; flex-direction: column; min-width: 0; line-height: 1.3; }
+.role__sumhead, .role__summeta { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.role__sumhead { font-size: 15px; font-weight: 600; color: var(--ink); }
+.role__summeta { font-size: 13px; color: var(--ink-soft); }
+body[data-page] .role__edit { font-size: 13px; }
+body[data-page] .role.is-collapsed { padding: 10px 14px; }
+@media (max-width: 480px) {
+  .role__top { gap: 12px; }
+  .role__sumhead, .role__summeta { white-space: normal; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+}
+body[data-page] .auth__card--wide { max-width: 680px; }
+
+/* Month picker (site-styled stand-in for the browser's month input) */
+.mpick { position: relative; }
+.mpick__btn { display: flex; align-items: center; justify-content: space-between; gap: 8px; font: inherit; color: var(--ink); text-align: left; cursor: pointer; }
+.mpick__btn:disabled { background: var(--paper); color: var(--ink-soft); cursor: default; }
+.mpick__btn:disabled .mpick__ph { color: var(--ink-soft); opacity: 0.6; }
+.mpick__ph { color: #b5b5b5; }
+.mpick__icon { flex: none; width: 15px; height: 15px; color: var(--ink-soft); }
+.mpick__pop {
+  position: absolute; left: 0; top: calc(100% + 4px); z-index: 20; width: 260px; padding: 10px 12px 8px;
+  background: var(--white); border: 1px solid var(--line); border-top: 2px solid var(--red);
+  box-shadow: 0 14px 30px rgba(31, 16, 16, 0.12);
+}
+.mpick__pop[hidden] { display: none; }
+.mpick__head { display: flex; align-items: center; justify-content: space-between; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.mpick__year { font-size: 16px; font-weight: 600; color: var(--red); }
+.mpick__nav { width: 28px; height: 28px; padding: 0; font: inherit; font-size: 20px; line-height: 1; color: var(--ink-soft); background: none; border: 0; cursor: pointer; }
+.mpick__nav:hover { color: var(--red); background: var(--paper); }
+.mpick__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; padding: 10px 0; }
+.mpick__m { height: 34px; padding: 0; font: inherit; font-size: 15px; color: var(--ink); background: none; border: 1px solid transparent; cursor: pointer; }
+.mpick__m:hover, .mpick__m:focus-visible { background: var(--paper); color: var(--red); outline: none; }
+.mpick__m.is-now { border-color: var(--line); }
+.mpick__m.is-sel, .mpick__m.is-sel:hover { background: var(--red); border-color: var(--red); color: var(--white); font-weight: 600; }
+.mpick__foot { display: flex; justify-content: space-between; padding-top: 8px; border-top: 1px solid var(--line); }
+.mpick__foot .auth__link { font-size: 14px; }
+
+/* Industry dropdown (site-styled combobox) */
+.combo { position: relative; }
+.combo__list {
+  position: absolute; left: 0; right: 0; top: calc(100% + 4px); z-index: 20; max-height: 260px; overflow-y: auto;
+  padding: 4px 0; background: var(--white); border: 1px solid var(--line); border-top: 2px solid var(--red);
+  box-shadow: 0 14px 30px rgba(31, 16, 16, 0.12);
+}
+.combo__list[hidden] { display: none; }
+.combo__group { margin: 0; padding: 8px 12px 3px; font-size: 13px; color: var(--ink-soft); }
+.combo__group:not(:first-child) { margin-top: 4px; border-top: 1px solid var(--line); padding-top: 10px; }
+.combo__opt { padding: 6px 12px 6px 20px; font-size: 15px; color: var(--ink); cursor: pointer; }
+.combo__opt:hover, .combo__opt.is-active { background: var(--paper); color: var(--red); }
+.combo__opt[aria-selected="true"] { color: var(--red); font-weight: 600; }
+.combo__add { font-style: italic; }
+/* Directory filters: several picks per filter, ticked in the list, cleared with the × */
+.combo--multi .combo__opt { position: relative; padding-right: 34px; }
+.combo--multi .combo__opt[aria-selected="true"]::after {
+  content: ''; position: absolute; right: 15px; top: 50%; width: 5px; height: 10px; margin-top: -7px;
+  border-right: 2px solid var(--red); border-bottom: 2px solid var(--red); transform: rotate(45deg);
+}
+.combo--select.has-value::after { display: none; }
+.combo__clear {
+  position: absolute; right: 6px; top: 50%; display: inline-flex; align-items: center; justify-content: center;
+  width: 24px; height: 24px; margin-top: -12px; padding: 0; color: var(--red); background: none; border: 0; cursor: pointer;
+}
+.combo__clear[hidden] { display: none; }
+.combo__clear svg { width: 14px; height: 14px; }
+.combo__clear:hover { background: var(--paper); }
+.combo__empty { margin: 0; padding: 10px 12px; font-size: 14px; font-style: italic; color: var(--ink-soft); }
+
+/* Firm dropdown: logo, name, and the kind of firm */
+.combo__firm { display: flex; align-items: center; gap: 10px; padding-left: 12px; }
+.combo__logo {
+  flex: none; display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px;
+  font-size: 10px; font-weight: 700; color: var(--red); background: var(--white); border: 1px solid var(--line);
+}
+.combo__logo img, .combo__mark { width: 100%; height: 100%; object-fit: contain; }
+.combo__name { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.combo__kind { flex: none; font-size: 12px; color: var(--ink-soft); }
+.combo__opt[aria-selected="true"] .combo__kind { font-weight: 400; }
+.combo__mark { position: absolute; left: 9px; top: 50%; width: 20px; height: 20px; transform: translateY(-50%); pointer-events: none; }
+.combo__mark[hidden] { display: none; }
+.combo--firm.has-logo .auth__input { padding-left: 38px; }
+.drawer__tile.has-logo { padding: 5px; background: var(--white); }
+.drawer__tile.has-logo img { width: 100%; height: 100%; object-fit: contain; }
+@media (max-width: 480px) { .combo__kind { display: none; } }
+
+/* Member pages: a maroon header bar and a warm --paper ground so the white
+   cards lift off it; the site footer closes the page the same way it does publicly */
+body[data-page] { background: var(--paper); }
+body[data-page] .timeline { background: transparent; }
+body[data-page] .header--member { background: var(--maroon); color: var(--white); border-bottom: 0; }
+body[data-page] .header--member .brand__mark--dark { display: none; }
+body[data-page] .header--member .brand__mark--light { display: block; }
+body[data-page] .header--member .acct__btn { background: transparent; border-color: rgba(255, 255, 255, 0.35); }
+body[data-page] .header--member .acct__btn:hover,
+body[data-page] .header--member .acct__btn[aria-expanded="true"] { border-color: var(--white); background: rgba(255, 255, 255, 0.08); }
+body[data-page] .header--member .acct__btn:focus-visible { border-color: var(--white); box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25); }
+body[data-page] .header--member .acct__btn .acct__avatar { background: var(--white); color: var(--maroon); }
+body[data-page] .header--member .acct__btn .acct__name { color: var(--white); }
+body[data-page] .header--member .acct__btn .acct__email,
+body[data-page] .header--member .acct__btn .acct__chev { color: rgba(255, 255, 255, 0.75); }
+body[data-page] .timeline__heading { color: var(--maroon); font-weight: 600; }
+body[data-page] .footer .footer__inner { min-height: 64px; }
+
+/* Directory panels: maroon title bar across the top of each card */
+.dir__panel { padding: 0 0 18px; }
+.dir__panel > .dir__title, .dir__head {
+  margin: 0 0 16px; padding: 10px 18px; background: var(--maroon); color: var(--white);
+}
+.dir__panel > .dir__title { font-size: 17px; }
+.dir__head .dir__title { color: var(--white); }
+.dir__filters, .dir__searchwrap, .dir__grid, .dir__panel--results .dir__empty { margin-inline: 18px; }
+.dir__count { color: rgba(255, 255, 255, 0.85); border-color: rgba(255, 255, 255, 0.4); }
+.dir__count strong { color: var(--white); }
+body[data-page] .person { box-shadow: 0 1px 0 rgba(31, 16, 16, 0.04); transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease; }
+body[data-page] .person:hover { box-shadow: 0 10px 24px rgba(119, 8, 14, 0.1); transform: translateY(-2px); }
+@media (prefers-reduced-motion: reduce) { body[data-page] .person:hover { transform: none; } }
+
+/* Drawer experience: LinkedIn-style entries — logo top-left, bold title, firm,
+   dates with tenure, location, then the industry as a closing note */
+.drawer__job { align-items: flex-start; gap: 16px; padding: 16px; }
+.drawer__job .drawer__tile { width: 52px; height: 52px; border: 0; background: var(--paper); }
+.drawer__jobtitle { font-size: 18px; font-weight: 700; line-height: 1.25; }
+.drawer__jobfirm { margin: 2px 0 0; font-size: 16px; color: var(--ink); }
+.drawer__jobmeta { margin: 1px 0 0; font-size: 15px; color: var(--ink-soft); opacity: .85; }
+body[data-page] .drawer__jobtitle { font-size: 17px; }
+.drawer__job .drawer__tile.has-logo { padding: 0; background: none; }
+
+/* Wider, shorter side panel; directory roles as compact logo + two lines */
+body[data-page] .drawer__panel { width: min(520px, 100vw); }
+.drawer__job { align-items: center; padding: 14px 16px; }
+.drawer__job .drawer__tile { width: 48px; height: 48px; }
+body[data-page] .drawer__jobtitle { font-size: 17px; line-height: 1.25; }
+.drawer__jobfirm { font-size: 15px; }
+.drawer__jobmeta { font-size: 14px; }
+.person__roles li { display: flex; align-items: center; gap: 10px; }
+.person__tile {
+  flex: none; display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px;
+  font-size: 12px; font-weight: 700; color: var(--red); background: var(--paper);
+}
+.person__tile img { width: 100%; height: 100%; object-fit: contain; }
+.person__tile.has-logo { background: none; }
+body[data-page] .person__role { font-size: 15px; line-height: 1.3; }
+body[data-page] .person__meta { margin-top: 1px; font-size: 13px; line-height: 1.35; }

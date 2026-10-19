@@ -15,3 +15,6 @@ site/partners.html
 # Scratch source material: screenshots, downloads and duplicates. The
 # web-ready versions of everything the site uses live in site/assets/.
 photos/
+
+# Office lock files
+~$*

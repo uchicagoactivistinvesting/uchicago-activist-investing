@@ -1,0 +1,364 @@
+# Well-known technology companies and large startups
+Adobe
+Affirm
+Airtable
+Algolia
+Alibaba
+Amplitude
+Anduril Industries
+Ant Group
+Applied Intuition
+AppLovin
+Arista Networks
+Asana
+Atlassian
+Automattic
+Benchling
+Box
+Braze
+Brex
+Canva
+Celonis
+Chainalysis
+Checkout.com
+Chime
+Clari
+ClickUp
+Clubhouse
+Cohere
+Coinbase
+Confluent
+Contentful
+Coupang
+Coursera
+Cruise
+Databricks
+Datadog
+Deel
+DeepMind
+Discord
+DocuSign
+DoorDash
+Dropbox
+Duolingo
+Elastic
+Epic Games
+Etsy
+Faire
+Figma
+Fivetran
+Flexport
+Flock Safety
+Gemini
+GitHub
+GitLab
+Glean
+Gong
+Grammarly
+Gusto
+Harvey
+HashiCorp
+Hinge Health
+HubSpot
+Hugging Face
+Instacart
+Intercom
+Jasper
+Klaviyo
+Lattice
+LaunchDarkly
+Linear
+Lucid Software
+Mercury
+Miro
+Mistral AI
+Monday.com
+Navan
+Netlify
+Nextdoor
+Niantic
+Notion Labs
+Nuro
+Okta
+OpenSea
+Opendoor
+Palantir Technologies
+Patreon
+Perplexity AI
+Plaid
+Postman
+Quora
+Ramp
+Reddit
+Relativity Space
+Replit
+Retool
+Revolut
+Rippling
+Robinhood Markets
+Roblox
+Rubrik
+Samsara
+Scale AI
+SeatGeek
+Sentry
+ServiceTitan
+ShipBob
+Shopify
+Snowflake
+SoFi Technologies
+Squarespace
+Stripe
+Supabase
+Tanium
+Tempus AI
+Thumbtack
+Toast
+Twilio
+UiPath
+Unity Software
+Vanta
+Vercel
+Wealthsimple
+Webflow
+Whatnot
+Wiz
+Workday
+Zapier
+Zendesk
+Zillow
+Zocdoc
+ZoomInfo
+Zoox
+Character.AI
+Cognition
+Anysphere
+ElevenLabs
+Midjourney
+Inflection AI
+Adept
+Safe Superintelligence
+Thinking Machines Lab
+Physical Intelligence
+Figure AI
+Skild AI
+Shield AI
+Helsing
+Saronic
+Hadrian
+Castelion
+Epirus
+Vannevar Labs
+Rebellion Defense
+Mach Industries
+Ironclad
+Clio
+EvenUp
+Abridge
+Ambience Healthcare
+Hippocratic AI
+Ro
+Hims & Hers
+Oscar Health
+Devoted Health
+Cityblock Health
+Spring Health
+Headway
+Lyra Health
+Calm
+Headspace
+Noom
+Whoop
+Oura
+Peloton
+Strava
+AllTrails
+Lime
+Bird
+Rivian
+Lucid Motors
+Waymo
+Aurora Innovation
+Joby Aviation
+Archer Aviation
+Boom Supersonic
+Zipline
+Commonwealth Fusion Systems
+Helion Energy
+TAE Technologies
+Form Energy
+Redwood Materials
+Northvolt
+Sila Nanotechnologies
+QuantumScape
+Climeworks
+Octopus Energy
+Palmetto
+Sunrun
+Varda Space Industries
+Rocket Lab
+Firefly Aerospace
+Astranis
+Planet Labs
+Spire Global
+Axiom Space
+Stoke Space
+ABL Space Systems
+Impulse Space
+True Anomaly
+K2 Space
+Apex Space
+Hermeus
+Hightouch
+dbt Labs
+Airbyte
+Starburst
+ClickHouse
+Pinecone
+Weaviate
+LangChain
+LlamaIndex
+Modal Labs
+Together AI
+Fireworks AI
+Baseten
+Groq
+Cerebras Systems
+SambaNova Systems
+CoreWeave
+Crusoe Energy
+Nebius
+Etched
+Tenstorrent
+Lightmatter
+Ayar Labs
+SiFive
+Rivos
+d-Matrix
+Weights & Biases
+Arize AI
+Labelbox
+Snorkel AI
+Surge AI
+Mercor
+Turing
+Invisible Technologies
+Handshake
+Apollo.io
+Outreach
+Salesloft
+6sense
+Gainsight
+Highspot
+Seismic
+Mindtickle
+Attentive
+Iterable
+Customer.io
+mParticle
+Mixpanel
+PostHog
+FullStory
+Hotjar
+Pendo
+WalkMe
+Sprinklr
+Hootsuite
+Sprout Social
+Loom
+Calendly
+PandaDoc
+Smartsheet
+Wrike
+Coda
+Superhuman
+Shortcut
+CircleCI
+Harness
+JFrog
+Snyk
+Lacework
+Orca Security
+Abnormal Security
+Arctic Wolf
+Cato Networks
+Netskope
+Zscaler
+SentinelOne
+Tenable
+Rapid7
+Qualys
+Varonis
+1Password
+Dashlane
+LastPass
+Bitwarden
+Auth0
+Ping Identity
+SailPoint
+CyberArk
+BeyondTrust
+Drata
+Secureframe
+OneTrust
+TrustArc
+Pulley
+AngelList
+Republic
+Wefunder
+Forge Global
+EquityZen
+Acorns
+Stash
+Public.com
+Webull
+eToro
+Tastytrade
+Kalshi
+Polymarket
+DraftKings
+FanDuel
+PrizePicks
+Underdog Fantasy
+Sleeper
+Fanatics
+StockX
+GOAT
+Depop
+Poshmark
+ThredUp
+The RealReal
+Rent the Runway
+Warby Parker
+Allbirds
+Glossier
+Away
+Casper
+Harry's
+Dollar Shave Club
+Bombas
+Brooklinen
+Parachute
+Chewy
+BarkBox
+Rover
+Wag
+Hopper
+Kayak
+Expedia
+Booking Holdings
+Tripadvisor
+Vacasa
+Sonder
+Turo
+Getaround
+Gopuff
+Weee!
+Misfits Market
+Imperfect Foods
+Daily Harvest
+HelloFresh
+Blue Apron
+Sweetgreen
+Cava
+Dutch Bros

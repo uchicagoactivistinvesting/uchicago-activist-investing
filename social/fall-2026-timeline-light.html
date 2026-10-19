@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Fall 2026 Application Timeline (light)</title>
+<style>
+  /* Same font files the website loads */
+  @font-face { font-family: 'EB Garamond'; font-style: normal; font-weight: 400 800; src: url('../site/assets/fonts/eb-garamond-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'EB Garamond'; font-style: italic; font-weight: 400 800; src: url('../site/assets/fonts/eb-garamond-italic.woff2') format('woff2'); }
+
+  :root { --maroon: #77080e; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; }
+  body {
+    font-family: 'EB Garamond', Garamond, serif;
+    color: var(--maroon);
+    position: relative;
+    overflow: hidden;
+    background: #f5f4f1;
+    font-feature-settings: "lnum" 1, "kern" 1;
+  }
+
+  /* Campus photo washed almost to paper, so it reads as atmosphere behind maroon type */
+  .photo {
+    position: absolute; inset: -20px;
+    background: url('../site/assets/hero-1800.jpg') center 35% / cover no-repeat;
+    filter: blur(5px) saturate(0.7);
+  }
+  .wash { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(248,246,242,0.80) 0%, rgba(248,246,242,0.86) 50%, rgba(248,246,242,0.90) 100%); }
+
+  .wrap {
+    position: absolute; inset: 0;
+    padding: 0 130px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+  }
+
+  /* White lockup file, recoloured to maroon via mask so every mark is one colour */
+  .lockup {
+    width: 600px; aspect-ratio: 1431 / 240;
+    background: var(--maroon);
+    -webkit-mask: url('../site/assets/logo-lockup-white.png') center / contain no-repeat;
+            mask: url('../site/assets/logo-lockup-white.png') center / contain no-repeat;
+  }
+
+  .season { margin-top: 64px; font-size: 44px; font-style: italic; font-weight: 500; line-height: 1; }
+  h1 { margin-top: 8px; font-size: 92px; font-weight: 600; line-height: 1; letter-spacing: -0.01em; }
+
+  /* Vertical rail with a dot per date */
+  .rail { position: relative; width: fit-content; margin-top: 64px; padding-left: 64px; }
+  .rail::before { content: ""; position: absolute; left: 11px; top: 30px; bottom: 74px; width: 3px; background: var(--maroon); }
+  .item { position: relative; display: grid; grid-template-columns: 150px 1fr; align-items: baseline; }
+  .item + .item { margin-top: 44px; }
+  .item::before {
+    content: ""; position: absolute; left: -64px; top: 18px;
+    width: 25px; height: 25px; border-radius: 50%;
+    background: var(--maroon); box-shadow: 0 0 0 7px rgba(248,246,242,0.95);
+  }
+  .date { font-size: 52px; font-weight: 600; line-height: 1; }
+  .what { font-size: 52px; font-style: italic; font-weight: 600; line-height: 1; }
+  .detail { margin-top: 10px; font-size: 32px; font-weight: 400; line-height: 1.2; }
+
+  .note { margin-top: 72px; font-size: 32px; line-height: 1.35; text-align: center; }
+  .apply { margin-top: 32px; font-size: 36px; line-height: 1.25; font-weight: 600; text-align: center; }
+</style>
+</head>
+<body>
+  <div class="photo"></div>
+  <div class="wash"></div>
+
+  <div class="wrap">
+    <div class="lockup" role="img" aria-label="The University of Chicago Activist Investing"></div>
+
+    <div class="season">Fall 2026</div>
+    <h1>Application Timeline</h1>
+
+    <div class="rail">
+      <div class="item">
+        <div class="date">9/28</div>
+        <div><div class="what">Applications Open</div><div class="detail">Monday, on our website</div></div>
+      </div>
+      <div class="item">
+        <div class="date">10/4</div>
+        <div><div class="what">Info Session</div><div class="detail">Sunday, 4:00 PM CT</div></div>
+      </div>
+      <div class="item">
+        <div class="date">10/9</div>
+        <div><div class="what">Applications Close</div><div class="detail">Friday, 11:59 PM CT</div></div>
+      </div>
+    </div>
+
+    <p class="note">Applications are rolling, so we encourage you to apply early.</p>
+    <p class="apply">Apply at<br>www.uchicagoactivistinvesting.com/apply</p>
+  </div>
+</body>
+</html>
